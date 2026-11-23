@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aktionsjäger</title>
+<meta name="theme-color" content="#0f766e">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="top-row">
+  <div class="brand"><span class="logo">🎯</span> <span id="appName">Aktionsjäger</span></div>
+</div></header>
+
+<main>
+  <!-- EINKAUFEN (Home) -->
+  <section class="view" id="view-einkaufen">
+    <div class="home-bar">
+      <div class="view-title">Einkaufen</div>
+      <button class="region-chip" id="regionChip" type="button">📍 Standort wählen</button>
+    </div>
+    <div class="sample-note" id="sampleBanner"><span>⚠️</span><span>Beispielpreise (Stand <span id="standDate"></span>), noch keine Live-Daten der Läden.</span><button type="button" id="hideNote" aria-label="Hinweis ausblenden">✕</button></div>
+    <div id="alarm"></div>
+    <div id="planSummary"></div>
+    <div id="planGroups"></div>
+    <div id="planOptions" hidden>
+      <div class="seg-label">Wie viele Läden willst du besuchen?</div>
+      <div class="seg" id="maxStores">
+        <button type="button" data-v="1">1</button><button type="button" data-v="2">bis 2</button><button type="button" data-v="3">bis 3</button><button type="button" data-v="99">egal</button>
+      </div>
+      <button class="btn primary block" id="finishBtn" type="button">✓ Einkauf abschliessen</button>
+      <p class="muted small center">Speichert, was du ausgegeben und gespart hast, und nimmt die gekauften Artikel von der Liste.</p>
+    </div>
+    <div id="monthCard"></div>
+  </section>
+
+  <!-- EINKAUFSLISTE -->
+  <section class="view" id="view-liste" hidden>
+    <div class="view-title">Einkaufsliste</div>
+    <p class="view-sub">Schreib auf, was du brauchst. Unter „Einkaufen“ siehst du dann, wo du es am günstigsten bekommst.</p>
+    <form class="add-row" id="addForm" autocomplete="off">
+      <div class="add-input-wrap">
+        <input id="addInput" type="text" placeholder="z.B. 500 g Pouletbrust, 6 l Milch …" aria-label="Produkt hinzufügen">
+        <ul class="suggest" id="suggest" hidden></ul>
+      </div>
+      <button class="btn primary" type="submit">OK</button>
+    </form>
+    <div id="favRow"></div>
+    <div id="listEmpty" class="empty"><span class="big">📝</span>Deine Liste ist leer.<br>Tipp oben ein Produkt ein, z.B. Pouletbrust.</div>
+    <div id="itemList"></div>
+    <div class="list-actions" id="listActions" hidden>
+      <button class="btn ghost" id="clearList" type="button">Liste leeren</button>
+      <button class="btn primary" id="toPlan" type="button">Zum Einkaufen →</button>
+    </div>
+  </section>
+
+  <!-- AKTIONEN -->
+  <section class="view" id="view-aktionen" hidden>
+    <div class="view-title">Aktionen</div>
+    <p class="view-sub" id="dealsSub">Die besten Rabatte in deinen Läden diese Woche.</p>
+    <div id="favDeals"></div>
+    <div class="chips" id="dealFilter"></div>
+    <div id="dealList"></div>
+  </section>
+
+  <!-- VERLAUF (Unterseite vom Home) -->
+  <section class="view" id="view-verlauf" hidden>
+    <button class="back" type="button" data-go="einkaufen">← Zurück</button>
+    <div class="view-title">Ausgaben &amp; Ersparnis</div>
+    <p class="view-sub">Pro Monat: was du ausgegeben und was du dank Aktionen und Preisvergleich gespart hast.</p>
+    <div id="historyBox"></div>
+  </section>
+
+  <!-- STANDORT (Unterseite vom Home) -->
+  <section class="view" id="view-region" hidden>
+    <button class="back" id="regionBack" type="button">← Zurück</button>
+    <div class="view-title">Standort</div>
+    <p class="view-sub">Verglichen werden nur Läden, die es in deiner Nähe gibt.</p>
+    <div class="region-card">
+    <form class="region-form" id="regionForm">
+      <input id="plzInput" type="text" inputmode="text" placeholder="PLZ oder Ort, z.B. 8400" aria-label="PLZ oder Ort">
+      <select id="radiusInput" aria-label="Umkreis">
+        <option value="2000">2 km</option>
+        <option value="5000" selected>5 km</option>
+        <option value="10000">10 km</option>
+        <option value="20000">20 km</option>
+      </select>
+      <button class="btn primary" type="submit">Läden suchen</button>
+    </form>
+    <button class="btn ghost small geo" id="geoBtn" type="button">📍 Meinen Standort verwenden</button>
+    </div>
+    <p class="status" id="regionStatus"></p>
+    <h3>Läden, die verglichen werden</h3>
+    <p class="muted small">Automatisch aus OpenStreetMap gesetzt. Tippen zum An- und Abwählen.</p>
+    <ul class="store-toggles" id="storeToggles"></ul>
+    <details class="found" id="foundDetails" hidden>
+      <summary>Gefundene Filialen anzeigen</summary>
+      <ul id="foundList"></ul>
+    </details>
+  </section>
+</main>
+
+<nav class="tabs">
+  <button data-view="einkaufen" class="active" type="button"><span>🛒</span>Einkaufen</button>
+  <button data-view="liste" type="button"><span>📝</span>Einkaufsliste<b class="count" id="tabCount" hidden></b></button>
+  <button data-view="aktionen" type="button"><span>🏷️</span>Aktionen</button>
+</nav>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
