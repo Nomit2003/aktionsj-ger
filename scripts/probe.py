@@ -1,27 +1,21 @@
-"""Testlauf 2: Datenformat von Denner ansehen, Aktionslinks von Lidl/Spar/Volg/Aldi finden, Migros-Skripte finden."""
-import re, urllib.request, json
+"""Testlauf 3: Beispiel-Ausschnitte der Aktionsseiten, um die Leser (Parser) zu schreiben."""
+import re, urllib.request
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 def get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "de-CH,de", "Accept": "text/html,application/json"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.status, r.url, r.read().decode("utf-8", "replace")
-# Denner: Struktur der eingebetteten Daten
-try:
-    st, u, b = get("https://www.denner.ch/de/aktionen/aktuelle-aktionen")
-    for m in re.findall(r'<script type="application/ld\+json"[^>]*>(.*?)</script>', b, re.S): print("DENNER LD:", m[:600])
-    i = b.find("__NUXT"); print("DENNER NUXT:", b[i:i+1500].replace("\n", " "))
-    for kw in ["Fr.", "CHF", "statt", "%", "price", "Preis"]:
-        j = b.find(kw); print(f"DENNER kw {kw!r}:", b[max(0,j-200):j+200].replace("\n"," ") if j >= 0 else "-")
-except Exception as e: print("DENNER FEHLER", e)
-for name, url in {"lidl": "https://www.lidl.ch/", "spar": "https://www.spar.ch/", "volg": "https://www.volg.ch/", "aldi": "https://www.aldi-suisse.ch/de/"}.items():
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "de-CH,de"})
+    with urllib.request.urlopen(req, timeout=30) as r: return r.status, r.url, r.read().decode("utf-8", "replace")
+def clean(s): return re.sub(r'\s+', ' ', re.sub(r'data-v-[0-9a-f]+', '', s))
+PAGES = {"DENNER": ("https://www.denner.ch/de/aktionen/aktuelle-aktionen", "price-tag__final-price"),
+         "LIDL": ("https://www.lidl.ch/c/de-CH/store/wochenaktion/a10107043", "statt"),
+         "SPAR": ("https://www.spar.ch/aktuelles/angebote", "statt"),
+         "VOLG": ("https://www.volg.ch/sortiment/wochenaktionen/", "statt")}
+for name, (url, kw) in PAGES.items():
     try:
         st, u, b = get(url)
-        links = sorted(set(l for l in re.findall(r'href="([^"]+)"', b) if re.search(r"aktion|angebot|promo|prospekt|flugblatt|deal", l, re.I)))
-        print(f"{name.upper()} {st} {u} links:", links[:25])
-    except Exception as e: print(name.upper(), "FEHLER", e)
-try:
-    st, u, b = get("https://www.migros.ch/de/offers/home")
-    print("MIGROS scripts:", re.findall(r'<script[^>]+src="([^"]+)"', b)[:15])
-    for kw in ["api", "graphql", "onesearch", "product-display"]:
-        print("MIGROS kw", kw, b.count(kw))
-except Exception as e: print("MIGROS FEHLER", e)
+        idx = [m.start() for m in re.finditer(re.escape(kw), b)]
+        print(f"{name} {st} {u} len={len(b)} hits={len(idx)} gueltig={re.findall(r'(?:gültig|Gültig|bis)[^<]{0,60}', b)[:3]}")
+        print(f"{name} jsonhints:", re.findall(r'"(?:price|fullTitle|title|name|validFrom|startDate|endDate)"\s*:', b)[:10], "ld:", b.count('ld+json'))
+        for k, i in enumerate(idx[:3]): print(f"{name} SNIP{k}:", clean(b[max(0, i - 1500):i + 400]))
+        if not idx:
+            i = b.find("<main"); print(f"{name} MAIN:", clean(b[i:i + 3000]))
+    except Exception as e: print(name, "FEHLER", e)
