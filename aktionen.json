@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T23:08+01:00",
+ "updated": "2026-11-23T23:11+01:00",
  "stores": {
   "volg": {
    "ok": true,
@@ -28,7 +28,8 @@
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
    "image": "https://www.volg.ch/fileadmin/_processed_/8/7/csm_promo_77879_de_43224573d3.jpg",
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -40,7 +41,8 @@
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
    "image": "https://www.volg.ch/fileadmin/_processed_/d/7/csm_promo_77876_de_b3dd57ee9a.jpg",
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -52,7 +54,8 @@
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
    "image": "https://www.volg.ch/fileadmin/_processed_/d/d/csm_promo_77844_de_728b0280c1.jpg",
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -64,7 +67,8 @@
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
    "image": "https://www.volg.ch/fileadmin/_processed_/6/d/csm_promo_77895_de_2f38e155bb.jpg",
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -76,7 +80,8 @@
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
    "image": "https://www.volg.ch/fileadmin/_processed_/0/1/csm_promo_77890_de_23dfd70040.jpg",
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -88,7 +93,8 @@
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
    "image": "https://www.volg.ch/fileadmin/_processed_/6/a/csm_promo_77833_de_149a79a01c.jpg",
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -100,7 +106,8 @@
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
    "image": "https://www.volg.ch/fileadmin/_processed_/5/1/csm_promo_77830_de_cc3b521918.jpg",
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -112,7 +119,8 @@
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
    "image": "https://www.volg.ch/fileadmin/_processed_/3/1/csm_promo_77825_de_c35d9873a0.jpg",
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -124,7 +132,8 @@
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
    "image": "https://www.volg.ch/fileadmin/_processed_/8/2/csm_promo_77810_de_2dd469bace.jpg",
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -136,7 +145,8 @@
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
    "image": "https://www.volg.ch/fileadmin/_processed_/b/5/csm_promo_78097_de_b15fffa568.jpg",
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -148,7 +158,8 @@
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
    "image": "https://www.volg.ch/fileadmin/_processed_/b/c/csm_promo_77796_de_4fdfe6bbbf.jpg",
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -160,7 +171,8 @@
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
    "image": "https://www.volg.ch/fileadmin/_processed_/c/9/csm_promo_77785_de_27baa881db.jpg",
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -172,7 +184,8 @@
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
    "image": "https://www.volg.ch/fileadmin/_processed_/8/4/csm_promo_77788_de_49ba1a8988.jpg",
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -184,7 +197,8 @@
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
    "image": "https://www.volg.ch/fileadmin/_processed_/d/b/csm_promo_77792_de_0bcc77ff54.jpg",
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -196,7 +210,8 @@
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
    "image": "https://www.volg.ch/fileadmin/_processed_/1/3/csm_promo_77889_de_15a59696c5.jpg",
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -208,7 +223,8 @@
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
    "image": "https://www.volg.ch/fileadmin/_processed_/2/2/csm_promo_77762_de_a384eebd0f.jpg",
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -220,7 +236,8 @@
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
    "image": "https://www.volg.ch/fileadmin/_processed_/0/5/csm_promo_77781_de_cddf9dbd1c.jpg",
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -232,7 +249,8 @@
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
    "image": null,
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -244,7 +262,8 @@
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
    "image": null,
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -256,7 +275,8 @@
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
    "image": null,
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -268,7 +288,8 @@
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
    "image": null,
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -280,7 +301,8 @@
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
    "image": null,
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -292,7 +314,8 @@
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
    "image": null,
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -304,7 +327,8 @@
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
    "image": null,
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "volg",
@@ -316,7 +340,8 @@
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
    "image": "https://www.volg.ch/_assets/9936fbff2fa9683e2f00411c767453f4/Images/logo-footer.svg",
-   "url": "https://www.volg.ch/sortiment/wochenaktionen/"
+   "url": "https://www.volg.ch/sortiment/wochenaktionen/",
+   "cat": null
   },
   {
    "store": "denner",
@@ -328,7 +353,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/916a9fb1-28fa-4849-9d87-7a4df552b6f1/web/803822_25_09_29_KISTE.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/esskastanien~p1142739?variant=598abbf9-4c46-4980-9e78-e06dd429bbae"
+   "url": "https://www.denner.ch/de/aktionen/esskastanien~p1142739?variant=598abbf9-4c46-4980-9e78-e06dd429bbae",
+   "cat": null
   },
   {
    "store": "denner",
@@ -340,7 +366,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/99b7bf91-cd62-44b0-9275-e64e99eacdaa/web/904429_25_03_26.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/grischuna-calanda-moeckli~p1008912?variant=e0b8ae17-541b-4505-a4c2-c0c29a6f8046"
+   "url": "https://www.denner.ch/de/aktionen/grischuna-calanda-moeckli~p1008912?variant=e0b8ae17-541b-4505-a4c2-c0c29a6f8046",
+   "cat": null
   },
   {
    "store": "denner",
@@ -352,7 +379,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/6b7bc205-44eb-406f-8aea-37f471e28be4/web/900337_25_09_17.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/danone-danonino-fruchtzwerge~p1008056?variant=691cc948-22d6-455e-9e8f-adaf377b6b6d"
+   "url": "https://www.denner.ch/de/aktionen/danone-danonino-fruchtzwerge~p1008056?variant=691cc948-22d6-455e-9e8f-adaf377b6b6d",
+   "cat": null
   },
   {
    "store": "denner",
@@ -364,7 +392,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/745b08ff-3f39-4b5a-9d5d-ea497cd3078d/web/665966_26_01_21.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/schokobroetchen~p1105260?variant=d2de7aa6-1895-4c36-998c-72e2a43bad16"
+   "url": "https://www.denner.ch/de/aktionen/schokobroetchen~p1105260?variant=d2de7aa6-1895-4c36-998c-72e2a43bad16",
+   "cat": null
   },
   {
    "store": "denner",
@@ -376,7 +405,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/6f8765bb-3ad2-4db0-ba06-02bd8ed87e84/web/803318_25_04_15_OFFEN.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/schoggigipfel~p1100296?variant=20303a27-55ff-4ff5-b73f-b3e0e0ec196d"
+   "url": "https://www.denner.ch/de/aktionen/schoggigipfel~p1100296?variant=20303a27-55ff-4ff5-b73f-b3e0e0ec196d",
+   "cat": null
   },
   {
    "store": "denner",
@@ -388,7 +418,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/25419d5e-e119-4d7d-9b64-f6545adaf94a/web/020121_23_01_31.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/moevenpick-kaffee-espresso~p1020144?variant=bc8a1afc-a6e5-46dc-bfeb-96f7098e643a"
+   "url": "https://www.denner.ch/de/aktionen/moevenpick-kaffee-espresso~p1020144?variant=bc8a1afc-a6e5-46dc-bfeb-96f7098e643a",
+   "cat": null
   },
   {
    "store": "denner",
@@ -400,7 +431,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/33be0a6d-bc3e-4b38-9ec6-32192cad64b5/web/020479_23_01_31.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/moevenpick-caffe-crema~p1020251?variant=abcb4073-5e1f-4d4c-be71-ee8c7de5710f"
+   "url": "https://www.denner.ch/de/aktionen/moevenpick-caffe-crema~p1020251?variant=abcb4073-5e1f-4d4c-be71-ee8c7de5710f",
+   "cat": null
   },
   {
    "store": "denner",
@@ -412,7 +444,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/50841145-96c9-433c-8292-bfa984c0ff73/web/020123_23_01_31.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/moevenpick-kaffee-der-himmlische~p1020147?variant=7c898628-bd06-42ef-bff8-b285d0bb2890"
+   "url": "https://www.denner.ch/de/aktionen/moevenpick-kaffee-der-himmlische~p1020147?variant=7c898628-bd06-42ef-bff8-b285d0bb2890",
+   "cat": null
   },
   {
    "store": "denner",
@@ -424,7 +457,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/eadf38f3-950c-4570-a5ff-8f9edfc008fc/web/661106_26_10_02_kombi.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/denner-schweinsnierstueck~p1100499?variant=db320fdd-40b4-4b71-b43b-e3dcb17e8ce3"
+   "url": "https://www.denner.ch/de/aktionen/denner-schweinsnierstueck~p1100499?variant=db320fdd-40b4-4b71-b43b-e3dcb17e8ce3",
+   "cat": null
   },
   {
    "store": "denner",
@@ -436,7 +470,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/ad7c635c-2177-476d-9772-09d7038ad599/web/950177_26_11_04_kombi.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/prime-black-angus-rindsentrecote-florentino-s~p1139954?variant=cffae142-1e2f-49d1-a471-be660ffd7028"
+   "url": "https://www.denner.ch/de/aktionen/prime-black-angus-rindsentrecote-florentino-s~p1139954?variant=cffae142-1e2f-49d1-a471-be660ffd7028",
+   "cat": null
   },
   {
    "store": "denner",
@@ -448,7 +483,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/75e384d4-9ea9-4fc9-97fd-896ae58274f6/web/950346_26_10_20.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/cailler-collection-pralines~p1144561?variant=1334c120-c004-4213-8173-dda9165c8394"
+   "url": "https://www.denner.ch/de/aktionen/cailler-collection-pralines~p1144561?variant=1334c120-c004-4213-8173-dda9165c8394",
+   "cat": null
   },
   {
    "store": "denner",
@@ -460,7 +496,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/4fe9872a-ce01-41f3-8d77-4eaff83c02d1/web/050441_Y2024_25_09_24_PACK_ITEM.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/trivento-malbec-reserve~p1026633?variant=c109b5c2-de4b-4b4d-a4fb-abea848fc9cf"
+   "url": "https://www.denner.ch/de/aktionen/trivento-malbec-reserve~p1026633?variant=c109b5c2-de4b-4b4d-a4fb-abea848fc9cf",
+   "cat": null
   },
   {
    "store": "denner",
@@ -472,7 +509,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/dac4d3f8-026b-458a-af6a-b649cba8abe9/web/058064_26_04_27_PACK_ITEM.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/evian-mineralwasser~p1028367?variant=ddcce98f-3a32-4467-a191-7b42306bbb17"
+   "url": "https://www.denner.ch/de/aktionen/evian-mineralwasser~p1028367?variant=ddcce98f-3a32-4467-a191-7b42306bbb17",
+   "cat": null
   },
   {
    "store": "denner",
@@ -484,7 +522,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/c5db4af6-4377-4c04-8aec-1e933cf95e21/web/801547_25_10_13_TOP.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/adventskranz~p1006137?variant=029034f3-cfeb-4713-8f42-7ac94dd9ddac"
+   "url": "https://www.denner.ch/de/aktionen/adventskranz~p1006137?variant=029034f3-cfeb-4713-8f42-7ac94dd9ddac",
+   "cat": null
   },
   {
    "store": "denner",
@@ -496,7 +535,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/16f577ee-866d-4b5f-b71d-e5ed1dc6a728/web/801073_25_06_16_OFFEN.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/broccoli~p1006161?variant=540a78d4-4e32-4c11-826b-02c19c72117c"
+   "url": "https://www.denner.ch/de/aktionen/broccoli~p1006161?variant=540a78d4-4e32-4c11-826b-02c19c72117c",
+   "cat": null
   },
   {
    "store": "denner",
@@ -508,7 +548,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/67c7297a-ce6b-4027-ae59-8dd79fc870c4/web/802322_25_11_10_OFFEN.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/datteln-medjoul~p1006061?variant=e409d8aa-3074-4442-a7d6-75a99208d3ca"
+   "url": "https://www.denner.ch/de/aktionen/datteln-medjoul~p1006061?variant=e409d8aa-3074-4442-a7d6-75a99208d3ca",
+   "cat": null
   },
   {
    "store": "denner",
@@ -520,7 +561,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/3f03c02c-48a1-4d57-8602-7ed70f324252/web/800081_25_09_22_OFFEN.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/kaki~p1006234?variant=55a2c86c-6524-4b4f-8599-63509893c864"
+   "url": "https://www.denner.ch/de/aktionen/kaki~p1006234?variant=55a2c86c-6524-4b4f-8599-63509893c864",
+   "cat": null
   },
   {
    "store": "denner",
@@ -532,7 +574,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/9d3f78e0-31ea-4a15-b15a-c59d124a475f/web/661266_23_12_21.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/mini-weihnachtsbaum~p1100659?variant=0a8bdf14-8d8e-4905-a0b9-0c16edda82ca"
+   "url": "https://www.denner.ch/de/aktionen/mini-weihnachtsbaum~p1100659?variant=0a8bdf14-8d8e-4905-a0b9-0c16edda82ca",
+   "cat": null
   },
   {
    "store": "denner",
@@ -544,7 +587,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/2183b8c3-1f2e-44d8-bacd-ef48b5987996/web/661716_25_04_03.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/mmmh-nuesslisalat~p1101109?variant=a15c76bf-8cf6-47bb-86d6-47b3fdff271a"
+   "url": "https://www.denner.ch/de/aktionen/mmmh-nuesslisalat~p1101109?variant=a15c76bf-8cf6-47bb-86d6-47b3fdff271a",
+   "cat": null
   },
   {
    "store": "denner",
@@ -556,7 +600,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/33002d2e-00ec-4595-addf-03b7b257b941/web/904713_23_06_01.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/citterio-salame-strafino~p1009215?variant=2973a814-e532-4646-a021-92ee3c7f36fc"
+   "url": "https://www.denner.ch/de/aktionen/citterio-salame-strafino~p1009215?variant=2973a814-e532-4646-a021-92ee3c7f36fc",
+   "cat": null
   },
   {
    "store": "denner",
@@ -568,7 +613,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/eb91ba80-a517-46cb-8420-ca9f1f398c9c/web/661905_25_06_18_PACK_03.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/denner-fruehstuecksspeck~p1101295?variant=e3744e45-e637-4087-94e1-11f5b21f9342"
+   "url": "https://www.denner.ch/de/aktionen/denner-fruehstuecksspeck~p1101295?variant=e3744e45-e637-4087-94e1-11f5b21f9342",
+   "cat": null
   },
   {
    "store": "denner",
@@ -580,7 +626,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/8cbecd8f-0444-407b-abc8-62b2e7e9327c/web/901775_25_09_03_kombi.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/denner-kaiserbraten~p1003181?variant=c1a0cc71-18dc-4d74-b7d9-2e7857fb4388"
+   "url": "https://www.denner.ch/de/aktionen/denner-kaiserbraten~p1003181?variant=c1a0cc71-18dc-4d74-b7d9-2e7857fb4388",
+   "cat": null
   },
   {
    "store": "denner",
@@ -592,7 +639,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/23603458-3101-4a8a-89af-b95126f59902/web/900114_25_10_29_kombi.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/denner-lammhuft~p1002792?variant=9b54608f-3b40-43a6-a108-6f6c80c28678"
+   "url": "https://www.denner.ch/de/aktionen/denner-lammhuft~p1002792?variant=9b54608f-3b40-43a6-a108-6f6c80c28678",
+   "cat": null
   },
   {
    "store": "denner",
@@ -604,7 +652,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/d10c4bc9-7d2b-4a00-b281-6bfb96caf748/web/904398_26_03_24_kombi.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/denner-rindsvoressen~p1003869?variant=40497f58-037d-411d-9528-4078752cfd48"
+   "url": "https://www.denner.ch/de/aktionen/denner-rindsvoressen~p1003869?variant=40497f58-037d-411d-9528-4078752cfd48",
+   "cat": null
   },
   {
    "store": "denner",
@@ -616,7 +665,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/edb4d62f-4de8-434c-b39e-01744b046c6d/web/661763_25_01_24_PACK_02.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/menatti-bresaola-della-valtellina-i.g.p~p1101156?variant=964de7ca-cab4-44ce-bb64-9ab2e036cf84"
+   "url": "https://www.denner.ch/de/aktionen/menatti-bresaola-della-valtellina-i.g.p~p1101156?variant=964de7ca-cab4-44ce-bb64-9ab2e036cf84",
+   "cat": null
   },
   {
    "store": "denner",
@@ -628,7 +678,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/9e92109a-8735-431d-a962-f17152d66f43/web/902437_20_08_14.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/mmmh-poulet-delice~p1002910?variant=929c5fdb-18f5-472f-af44-8505bf8fa2b8"
+   "url": "https://www.denner.ch/de/aktionen/mmmh-poulet-delice~p1002910?variant=929c5fdb-18f5-472f-af44-8505bf8fa2b8",
+   "cat": null
   },
   {
    "store": "denner",
@@ -640,7 +691,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/a52ca922-c27e-4e3b-81b9-ae586b1cbe9d/web/903321_2_c_K.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/gourmet-fisheries-pangasius-knusperli~p1003771?variant=9b97f549-ec32-4713-8155-28b44ddfb7fd"
+   "url": "https://www.denner.ch/de/aktionen/gourmet-fisheries-pangasius-knusperli~p1003771?variant=9b97f549-ec32-4713-8155-28b44ddfb7fd",
+   "cat": null
   },
   {
    "store": "denner",
@@ -652,7 +704,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/5d55a053-e060-4a2b-b313-3927176bb7f0/web/661936_25_05_23.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/rapelli-hinterschinken-puccini~p1101326?variant=9ccaa205-1bd4-4c0c-992f-d89f5c9b67b9"
+   "url": "https://www.denner.ch/de/aktionen/rapelli-hinterschinken-puccini~p1101326?variant=9ccaa205-1bd4-4c0c-992f-d89f5c9b67b9",
+   "cat": null
   },
   {
    "store": "denner",
@@ -664,7 +717,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/6b8c6489-6525-460e-92f2-48c2c291ada6/web/904577_24_02_09.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/schwarzwaelderschinken~p1009083?variant=50310a57-3447-40bf-a6ff-eb6199019834"
+   "url": "https://www.denner.ch/de/aktionen/schwarzwaelderschinken~p1009083?variant=50310a57-3447-40bf-a6ff-eb6199019834",
+   "cat": null
   },
   {
    "store": "denner",
@@ -676,7 +730,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/83be51ae-a9de-4ab8-b61c-2f6ddae5336e/web/904525_25_07_04.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/ancora-alaska-wildlachs~p1009058?variant=958940a9-0779-4b74-bbdb-bbff43d64190"
+   "url": "https://www.denner.ch/de/aktionen/ancora-alaska-wildlachs~p1009058?variant=958940a9-0779-4b74-bbdb-bbff43d64190",
+   "cat": null
   },
   {
    "store": "denner",
@@ -688,7 +743,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/8936e3e2-8f49-4379-beac-eac5080bd070/web/904732_23_08_11.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/el-pozo-tapas-mix~p1009176?variant=1cfc87e2-fe0e-427e-b50d-4d6554ae5852"
+   "url": "https://www.denner.ch/de/aktionen/el-pozo-tapas-mix~p1009176?variant=1cfc87e2-fe0e-427e-b50d-4d6554ae5852",
+   "cat": null
   },
   {
    "store": "denner",
@@ -700,7 +756,8 @@
    "validFrom": "2026-11-17",
    "validTo": "2026-11-23",
    "image": "https://denner.imgix.net/assets/1ce9651e-4d5d-4a66-a5fa-e55382a7a686/web/691575_26_07_21.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/cremo-fondue-moitie-moitie~p1130546?variant=20dff36d-dde5-4e7b-9bec-60e9f4c26f5f"
+   "url": "https://www.denner.ch/de/aktionen/cremo-fondue-moitie-moitie~p1130546?variant=20dff36d-dde5-4e7b-9bec-60e9f4c26f5f",
+   "cat": null
   },
   {
    "store": "lidl",
@@ -712,7 +769,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/3zwPuShs10OOehuc6MSd8snSlsRLS8s4CrjeIJtXBik/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS80OTdERTQ1N0MyMDkyNEQ1REJCRDBDM0Q/5QkIzODcxRDc3RTQ0RDYwQTJENjZBQUEyMjg1OUNBMERENDQzQkU2LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/orangen/p10062212"
+   "url": "https://www.lidl.ch/p/de-CH/orangen/p10062212",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -724,7 +782,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/rPnZg8dcZZyQXeKJyWs8q76wtDB-z9s0cmgNtgKI_ww/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9DNUEwQjUxRjcxNjVDOEFFMUMyQjRFN0Q/zNzZFNEQ3MjhGMjM3NTVBRDM1QkQyREVBM0Q0QjlEMEIwQjVDRTc0LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/clementinen-xxl/p10062213"
+   "url": "https://www.lidl.ch/p/de-CH/clementinen-xxl/p10062213",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -736,7 +795,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/Upk7YNTPa-LUznBbvpJyAJWcyRkjFjMGmt1DLs5SH0g/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9ERDQxQjlCNzg2NjQ2Mjg2RjYwOUE2OUY/yNTBEODdERTE0M0Q1RDVBNjY3NzA0MjgyRjYxOUYwMjVCRDk2RTczLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/lauchzwiebeln/p10062215"
+   "url": "https://www.lidl.ch/p/de-CH/lauchzwiebeln/p10062215",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -748,7 +808,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/992_CunY44cXxH-Vn_E182iDEAYZSk-W4VBkXZBi2AQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wREEyMzQ5MTEwRDI2QjQ2RTBEQzAwQTA/zRDI4RDM3RTIxODY3MURGNkNEOUU4OTcwM0M4MjVCOTNCMTY0RTkyLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-schweizer-spinat/p10062216"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-schweizer-spinat/p10062216",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -760,7 +821,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/lZykCysmo4D5yUR_JxptkCmZR_PqMFYHlVyv64gJSYA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS84RTMzQ0E3RjU0QTNGQjExQ0UzM0EzNzQ/3QzRDOUY3QzBGNUEwNDBBOEQ1RjE1OTQ0NTZDQkQzMDg0RDc2MDg1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/gurken/p10062217"
+   "url": "https://www.lidl.ch/p/de-CH/gurken/p10062217",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -772,7 +834,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/x9WL6aWi9Ad2jtTrhUM4XXA2z9kRcHhCRt0aAy5rVJA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS82QTdBQTZCRjY4RDk5RDU1REM2N0RDOUJ/CMTQ3NUY3Nzc5NzY1OEE4RjU2RjVEQzg1MzdBQzJCODRGNjQzOThDLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-schweizer-kartoffeln-festkochend/p10062218"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-schweizer-kartoffeln-festkochend/p10062218",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -784,7 +847,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/0Um7NM4UwqRr4577slmPRT52WU07eQsgP41wrpNBV0s/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zM0FBNzI1MzU1NTY3RkUzRjE5QjAyQzZ/BNkJDRTcwRjkyQ0NEQzRDQTAwMUFFQzUwRUJCMkNBMjlCOUYyNkVDLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-schweizer-apfel-rot/p10062219"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-schweizer-apfel-rot/p10062219",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -796,7 +860,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/ujYx4cvRNg-KyujQnjbKPkPC0Wv3w2PPLro4h7WiMv8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zNUQ1ODE3RkRGNEE5Nzg4RjhEQjQ2NEI/3QzM5MEE2MEM2NjhFQTQ0RUMzNTk3QUVFMUM4RkZCNDlFQ0Q0ODVGLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/poulet-wienerli-im-teig-mit-senf/p10062228"
+   "url": "https://www.lidl.ch/p/de-CH/poulet-wienerli-im-teig-mit-senf/p10062228",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -808,7 +873,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/GxsPe9oXFtUdfOSp0N2NoOA1sAfW1d6bzI2301qpu3k/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9EQTUzMUE0OUE5N0Y2N0IzMTRGQ0YyNDF/BRUE3REREODVCM0ZDMENFMkVGQ0RCRDY1QUQzMDZCQTk5QTAxM0I5LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/zimtschnecke-mit-schokolade/p10062229"
+   "url": "https://www.lidl.ch/p/de-CH/zimtschnecke-mit-schokolade/p10062229",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -820,7 +886,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/yCBIVGtB5mtiKO4BqWO1rTQkvbpqg8D92kuftqv-MLY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9CMTEzREZBMzJBRkM0OEREMDA1Q0QwNTN/GODY3MzQ0NEZGNUEwNTVGMzAwQkNCOUEyMjRDRDU0NTY3QjdGNTczLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-terra-natura-tessinerbrot-aktion-nur-im-tessin-gueltig/p10062230"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-terra-natura-tessinerbrot-aktion-nur-im-tessin-gueltig/p10062230",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -832,7 +899,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/8dm1frcMHWbpw4S_bsEJApWbevr-7_RGi4h3hhRbcJ0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wQzE3QUM0NEE1ODg5MzRDQUNFNzM2MkZ/FM0NDOUMxMEFENEMyRkFEQ0QzMjE2Njc4OTQ2QjBFRURGNUUxMzkyLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/fisher-s-choice-asc-dorade-royal/p10062231"
+   "url": "https://www.lidl.ch/p/de-CH/fisher-s-choice-asc-dorade-royal/p10062231",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -844,7 +912,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/nJWG2tJ66foaxpVCL8PYbrSZs-FY24eG_6P4S8d6qug/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS85N0FBNDlEOTk4MTE1QkIyQTc4QjY3QzN/DN0VBNEI5MzIwODU4MURCMDNBNjVBMTc4QTU2NTM4MzhEMTNDOTE3LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/fisher-s-choice-msc-pazifisches-schollenfilet/p10062232"
+   "url": "https://www.lidl.ch/p/de-CH/fisher-s-choice-msc-pazifisches-schollenfilet/p10062232",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -856,7 +925,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/Jy9OrHoX3z55QRsw8VmupOfINX_-CNtWxvvF6s7FWw8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zRUJFMzUxQTZBOTVDRkU5OTdEQkU4RDc/1NTQwNjZGNkFDQzAyNEIzQTk0NzkzQjk2MjZBOUEyRTUzMzJBMDE4LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/msc-thunfisch-creme/p10062233"
+   "url": "https://www.lidl.ch/p/de-CH/msc-thunfisch-creme/p10062233",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -868,7 +938,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/cPJ2gNJg0Fhk66837dBHGqUkrbgST8MrXdF7zefXvSI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8yMzc4NTY3NkVDNjMzMzU2MEI3NDg1OTQ/2NUM5Mjk1RUI1Qzc3Q0MxMzZCNzg4MUQ0QTMzMEM3QUFEMEU5NUJELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/select-go-asc-msc-sushi-box-tokyo-style/p10062234"
+   "url": "https://www.lidl.ch/p/de-CH/select-go-asc-msc-sushi-box-tokyo-style/p10062234",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -880,7 +951,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/QVcSUW4jFu5s8A1HuFwZRrqiwaPKCDfMkXNebH09R0E/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8yRkJCNTA0RUJGNzFEQUM0OUFDN0VBN0Y/5ODJFNUQ3QUJCMzY4MDY3ODkxNzYxOEQ3RDU3MkM4NTcxQ0M2QjA4LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-rindshackfleisch-light-duopack-xxl/p10062339"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-rindshackfleisch-light-duopack-xxl/p10062339",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -892,7 +964,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/quurKiJQuv4AV8vIOkMoEACVtv30VOkrA79LuDmgsVk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS80OEYyNjE1MkVENTYwQkM1NEYwQjNBRkI/2NkQ5QjczRkU0RDU4NEZFRTMyMzY4MDIwNkFFRjEyMDBEQUEwOERFLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/carnesi-reh-keule/p10062236"
+   "url": "https://www.lidl.ch/p/de-CH/carnesi-reh-keule/p10062236",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -904,7 +977,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/FyncHlrPOinNQABMURvjsWJsPepDLUE-S1bVyMCsM5o/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BNjJFQUNERkUyM0IxQkUxRjY2MkE1QkI/1NEZCRjIzQUVFNzk5NzU4MERBRkNBN0Q3MEI1OTI2MDE1MzVDQjJDLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-bio-weiderind-winzer-steak-gewuerzt/p10062239"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-bio-weiderind-winzer-steak-gewuerzt/p10062239",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -916,7 +990,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/Mac1dq3BZcf6mwgqhSL2OpzP9xuuNs7ECk4jH6pAstI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS84M0ZGRTRBOEM4OTNDQ0QwQTM1RjkyM0M/zQ0M1NjNDQThCODRFRTQyRDVENDdCMDczOTUwNUM5MjIwMThGQ0ZBLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/carnesi-black-angus-rumpsteak-am-stueck/p10062237"
+   "url": "https://www.lidl.ch/p/de-CH/carnesi-black-angus-rumpsteak-am-stueck/p10062237",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -928,7 +1003,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/SUJ41eb8PaSucusux8zNV3pF3Xz5gMmKVJm3xIfHIH0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xRUJDRUVCMTA2NEQyNDU5RTlEOEZFMjV/CREU2RjE3RDYwQjlBQTM1ODg3Rjk0REY3MkM4NTE3QzdCM0Q2RjlDLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/carnesi-pouletbrust/p10062238"
+   "url": "https://www.lidl.ch/p/de-CH/carnesi-pouletbrust/p10062238",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -940,7 +1016,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/5BKzfuBDxKxXyoV4cUs4y2rRMr_vtaDGJLkMz0J52Ho/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9DMDI1NjcyMDFEQkFBODU4RDExRkU2NUM/3ODRDNzdDMDYyODREOEU1MUJFNkY1QUQ4MzdEQkVBMjE5NUI0RkEwLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-schweinsragout-aktion-nur-im-tessin-gueltig/p10062240"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-schweinsragout-aktion-nur-im-tessin-gueltig/p10062240",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -952,7 +1029,8 @@
    "validFrom": "2026-11-09",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/yfmO-1oYHX8jV4c1KMvP8Tu2hX2Knhk9cFwaMdsliOM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wQUI2MTREREI5NjAxM0UyRTZFNjc2MTB/EMUZERERBQTJCNTVCQUY4QzRGRTA4RjVBMzQ0MEFFRUNEMTJGOTg2LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/amorana-adventskalender/p10061815"
+   "url": "https://www.lidl.ch/p/de-CH/amorana-adventskalender/p10061815",
+   "cat": "Non Food"
   },
   {
    "store": "lidl",
@@ -964,7 +1042,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/DHvtfRUdfPMrOHpusm-RJ7aUc0IecRekdGVvYGqoa7Y/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9DQzA1QzBEM0M5MURGNjYzMTMzREUzRTg/4MDlDRDQyNkVCNDUxMTg3QThGRDNENjIyNzAwOUFBRUUzNzJGODQyLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/deluxe-jamon-iberico-24-monate-gereift/p10062252"
+   "url": "https://www.lidl.ch/p/de-CH/deluxe-jamon-iberico-24-monate-gereift/p10062252",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -976,7 +1055,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/H5ptwgZlvKlpInj7A9xSrr8tJ5MP8Ga3L64lxQ2BHpI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS85MTU3QkQyQUFBMDgyMjk2QzIyNjY1RTU/zQUYyNTVENzBCRkI3NTlFNEMyOEJCRjExNDk3RUYwRTJBQUYyMTYyLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-kochspeck-geraeuchert/p10062320"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-kochspeck-geraeuchert/p10062320",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -988,7 +1068,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/22VtD7XVDHfLZ3iMHhyI-qT6x2yB3GjaXRCoIqw7lzw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS85NEY2QkQyQzdCMjg3MjY0RkNGNzk0RTR/GNjY3ODZGQkE3QjhDQkZDODdGMEVGODU0MDk5MTc2QTQzMEY2ODAxLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/deluxe-mortadella-mit-pistazien-aktion-nur-im-tessin-gueltig/p10062333"
+   "url": "https://www.lidl.ch/p/de-CH/deluxe-mortadella-mit-pistazien-aktion-nur-im-tessin-gueltig/p10062333",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1000,7 +1081,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/midZu3NC-15EWMfgyiykd58gWs9VBf0XE8-sFanFNk0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS84M0EwNkQ5ODM0OTcwQzdFNzI3RUYxQkJ/ERjAxMzk1QzkzNEM2MjU4MDMxNUE0RkMzNzc0MUMzOEZFMjI4QkUwLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-buendnerfleisch-aktion-nur-in-der-westschweiz-gueltig/p10062335"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-buendnerfleisch-aktion-nur-in-der-westschweiz-gueltig/p10062335",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1012,7 +1094,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/0VdyMVIs02Brk2ja14hPaxfYSGA88oi08VvkYFa80D0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS84RTJGMkNDRURDNDY4QTJCQUJDMTIxRDk/xODk2NzAxMTYwNDNDNUI5NjM1QTIxMTU3QzUxMDI4ODI0NDQ3NzlELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-raclette-bloeckli/p10062242"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-raclette-bloeckli/p10062242",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1024,7 +1107,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/Np2EjkiLS5EdB2DRR76K4BVu5umE41TUCuVCn8to4rU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wRkE0QTdEODI5REU1NEU1MjQ0RDE2RTg/1RjdGODNCQ0NCQ0QyRTdGOThGQ0Q2OTk3MjdBOUE5N0Y0MzJGMjAzLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-toggenburger-bergkaese/p10062243"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-toggenburger-bergkaese/p10062243",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1036,7 +1120,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/WlkA0tEoenKcU19YHxLpCEXoJjVgjmll7UzTEjLBAT0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wM0JDQTQ0NDVDNTQ3NjVEMTU1QkU5NUJ/BOEQ0NERFQ0Y5MDYyNDQwQzA4MUEyNzZCN0FGQjU2RkEzRTJFNzk1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/zueger-mozzarella/p10062241"
+   "url": "https://www.lidl.ch/p/de-CH/zueger-mozzarella/p10062241",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1048,7 +1133,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/BlLZEzdVRNJwUpVzs4PRx882ObpPbZGppKA7wet5AeQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS84NUI0QTM0QTAzRERGQzdDRjk3MkU5RTI/wRDFDODMwMDYzQTUyRjY4NUNFMENDNzVBMDdFNjI4MjI5MzFBMzc5LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/la-vache-qui-rit-pik-croq/p10062323"
+   "url": "https://www.lidl.ch/p/de-CH/la-vache-qui-rit-pik-croq/p10062323",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1060,7 +1146,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/CtwNn9mv8fkK1-MSvc2efKrMOrR_-lWvbVrMm-6SvTI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9DMTIwQUUwRTg0NTg5Q0FBRDFDQTM4RUQ/yOUM4RDlCREVDMkNFNEIxODcxQ0ZFODQ3RDYwRTJBQzJERTY5MTY2LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/la-vache-qui-rit-schmelzkaeseecken/p10062315"
+   "url": "https://www.lidl.ch/p/de-CH/la-vache-qui-rit-schmelzkaeseecken/p10062315",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1072,7 +1159,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/1uR6gXgMFIXRoeaCEmqzz5I4_DfaS-ds4c0_hR45mOY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9DN0MxQ0UxQ0U1QjFBMUVEODk2MTk1RDB/ENkVDNjVCNTUzRkM5OEQ0MUNDNkY0QzU0QkNERkE0RjJBN0Y1ODZFLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/chavroux-ziegenkaese/p10062316"
+   "url": "https://www.lidl.ch/p/de-CH/chavroux-ziegenkaese/p10062316",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1084,7 +1172,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/dgSXnwN-4A8Nn78uhx7bXZ6oj9Czm26guf_K82kSc2w/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9ERENDRDA0QzZGQTAzQjlDQzBCNEY4MjA/1MzY4RjlBRjQ4QzAyQkFDMEY4NUIzQzYxMDM0NUE2RDdFNEFCOTZBLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/italiamo-parmigiano-reggiano-dop-aktion-nur-im-tessin-gueltig/p10062334"
+   "url": "https://www.lidl.ch/p/de-CH/italiamo-parmigiano-reggiano-dop-aktion-nur-im-tessin-gueltig/p10062334",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1096,7 +1185,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/wocT4ZM3l-yATIwMg6HJyWAsoRz2uOsQlDA4oX92lDk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9FMTBBNTdCRkQ5MzcyMDk2QUMwRDdDRDQ/xMDM1RDk5REIzQjQxMURGNjBCNkJCRTMzRTc1RUEyNDQzOEExMUMzLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/italiamo-asiago-kaese-dop-aktion-nur-im-tessin-gueltig/p10062332"
+   "url": "https://www.lidl.ch/p/de-CH/italiamo-asiago-kaese-dop-aktion-nur-im-tessin-gueltig/p10062332",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1108,7 +1198,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/0n-6-ijfEYnQQY-EaVAzqRxVeaX9YR9dnaTj6npbsvI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9DQ0VDQkY4M0ExMjAzMzAxMzQyMjIyNjE/0OTQwNzEwRDdBRjMwREVGNUU5RUUwMUFGOEJBNzZCNDMzNzNBMzg1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/roestigraben-fondue/p10062245"
+   "url": "https://www.lidl.ch/p/de-CH/roestigraben-fondue/p10062245",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1120,7 +1211,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/Qy1zr78SlK-hPjrYRwI_fTTcfTdt9r_cyyA1cggDJf8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS83NjU1Q0IzMEYzQjVBMzE1MjBDMEI2MEY/zRDUyOEE5REYwMTk2MUEyQ0ZCQkY1NDE1NTYzMzEyOEEzQUVDNjFBLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/findus-fish-chips-filet/p10062310"
+   "url": "https://www.lidl.ch/p/de-CH/findus-fish-chips-filet/p10062310",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1132,7 +1224,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/sd2UiRTPTRJDCeaTclELky2gpbAse1Xu4Iwb9pq1YDk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS81QUMxNTg1NTlDNzhFQkM2NkU3NzhFRUY/0NDA1RDNFRjI1MTdGQ0M4NzI4NDc0RTUxMjdDM0U0QkYyMjE3NDJELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/findus-schlemmerfilet-bordelaise-msc/p10062314"
+   "url": "https://www.lidl.ch/p/de-CH/findus-schlemmerfilet-bordelaise-msc/p10062314",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1144,7 +1237,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/ejajPSlaFQJP8eEyseLTfDPJ-W7gF6Ovd2hFmBmFoHM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS80REFCNzlDMDJGRjhEOTA2QkZGREE0OTB/CRTI2MTFCMDEyOThCN0E0OTE5QTgxOTYwOURDMTU4NThBMTlGNUNBLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/ocean-sea-asc-black-tiger-crevetten/p10062258"
+   "url": "https://www.lidl.ch/p/de-CH/ocean-sea-asc-black-tiger-crevetten/p10062258",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1156,7 +1250,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/MU7Yyyxts72-UuYrD2aN8jpA60bXeioCvRs0D_owoF8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BRTE3MEZFQ0FDQjk2ODRCRUJDQ0Y4QzE/5MTUyNTY2N0NGMjYxMzdDMjY0MTMwRTNDNzUwQTYzNjc5QzMyRjM1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/harvest-basket-roesti-original/p10062255"
+   "url": "https://www.lidl.ch/p/de-CH/harvest-basket-roesti-original/p10062255",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1168,7 +1263,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/TgkhHc0vArs4rTTW3jeBSsEfAcgIA6kdeCQZBagtwjI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS83REVCQjYxQzE0NDE2QzZFODg5QkM4QUJ/ENzlFMkZGM0I5QTAyNjNFNzZDMTNDRUQ5Qzg5MDUyMDc2RjJDQUQwLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/findus-plaetzli-chili-kaese/p10062313"
+   "url": "https://www.lidl.ch/p/de-CH/findus-plaetzli-chili-kaese/p10062313",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1180,7 +1276,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/bkTt3YpCM0BTXfmjVdgmbdv8EVl2HoVbpCeB8p4qRXU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS82QjE5QzA1N0RDQzRFODRCRjMxMjA1NDc/4MzczQjBEQTNFNEFCNTUzNTRCQjRCMDdCNzIyMEZBNTdFNTJGMDYwLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/harvest-basket-potato-wedges/p10062256"
+   "url": "https://www.lidl.ch/p/de-CH/harvest-basket-potato-wedges/p10062256",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1192,7 +1289,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/pbbRrtxhUbhgtjR-YvoNzzA-G2izFhgUQ3_eGkg1c4E/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9FNjVGN0Q2QUQ2NzkyMjY3NTNBREVEMTg/yNDZDOEJFRTNCQjI4OUYyNkYxQjE5MEQ1NjEzMkNBMEJBRTk5ODIzLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/findus-ofengemuese/p10062311"
+   "url": "https://www.lidl.ch/p/de-CH/findus-ofengemuese/p10062311",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1204,7 +1302,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/QswSxm5CGWbhNLofXtu-XMfJo0V3iFko0KXyKLF9O4A/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9FMjQwNTlEMEVGMUMxRDVGOTEwOUExNTA/zMzFDN0Y3MDY3NkNBODZDOEJDNkMyQjlCM0VBMUIyRDM2QjlFQTI3LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/die-kochbutter/p10062340"
+   "url": "https://www.lidl.ch/p/de-CH/die-kochbutter/p10062340",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1216,7 +1315,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/sX_ZGcQWBGG-QRXE7TRiUjcasljqdHSN0JabxcPbu9k/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS84REI5NDlDN0JCQUZFMzQyNDkzMkE2QUN/GRDMxMTBEMUM4RTVENzUyMDNDODAwM0I5RThCMEE2QzY4MDYxMjkxLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/chef-select-hummus/p10062324"
+   "url": "https://www.lidl.ch/p/de-CH/chef-select-hummus/p10062324",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1228,7 +1328,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/I77aPeP-_p3ok9EWTKKrMpDntg_vYJv0EQCqqCZ48cg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS84QTJFMDcxQjM4MTlERDBERkU2RkFBQjQ/xMTFDQTMxOUY2QTRFNzY5MzVFQUM3OEU4OTAwMUUxMjZCOTA1ODUzLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/certossa-weizentoast-ohne-rand-aktion-nur-in-der-westschweiz-gueltig/p10062336"
+   "url": "https://www.lidl.ch/p/de-CH/certossa-weizentoast-ohne-rand-aktion-nur-in-der-westschweiz-gueltig/p10062336",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1240,7 +1341,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/zLE_TuaP5CNSu7nIXXBHIIjXPJb3-99GJ9db-lkDI8c/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zODRENzYzNTU5NTJFREMwRkQwRjU5MEN/GMTQ1QjMwMEQ2RkU4RTA5NkQ3RERFODY1MEExQ0Q5RDMyQTY0NjczLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/golden-sun-fairtrade-basmati-reis/p10062264"
+   "url": "https://www.lidl.ch/p/de-CH/golden-sun-fairtrade-basmati-reis/p10062264",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1252,7 +1354,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/kOQhiJtqaxGkAP_L4Ja8y_gO4O8mzHCAEzw70JLOLmk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS80NTlEODMzNDQ0RjhFNTlGODUyQzMwN0V/CQjhEQzcyQ0I1NTdGRDY4QkE1QkZCMkRBRkIwNTNBQzdDRDBENDQ3LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/freshona-kokosnussmilch/p10062263"
+   "url": "https://www.lidl.ch/p/de-CH/freshona-kokosnussmilch/p10062263",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1264,7 +1367,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/Rks97nRN8F9y0NhIqpz4r06lQNnGSJPzgTyqbcVXv1g/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9EOTE3NTQ4NjM4NTA1NjEyMkEzRUNFMEF/EODQzQzc2NkIzNEE2QTA0QUI2MTBENDREOTcyMDA3QUI5MzE0NzhDLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/barilla-la-collezione-farfalle/p10062296"
+   "url": "https://www.lidl.ch/p/de-CH/barilla-la-collezione-farfalle/p10062296",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1276,7 +1380,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/yXxlvLh8Okfi4HubkseQQYUHbKZO4m1tn1xdeluUbnM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS82NkRFNzM1RUY1NkI0M0M3QzRFNjZBNTE/4Mzc4NzIzNDFDQkFCN0EyQzI4RTVEQUNGNTMyNDYzMkQ3RDJDQ0M5LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/barilla-la-collezione-mezze-penne/p10062297"
+   "url": "https://www.lidl.ch/p/de-CH/barilla-la-collezione-mezze-penne/p10062297",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1288,7 +1393,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/ctbYo8qcro1stb7UR1kHe3njygaF5M5JZuH8U_mtkOQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9DRTVBRDNBNTg0NDZFQjI2MEE4OUQyQzY/yRDI2RUI3ODMzMzZDODgyMUM3MjFEMDVFODU1NjFENDkxNzhDMDZBLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/barilla-la-collezione-conchiglie-rigate/p10062298"
+   "url": "https://www.lidl.ch/p/de-CH/barilla-la-collezione-conchiglie-rigate/p10062298",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1300,7 +1406,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/nLUGKb7c6T43ey5i5UKtAZwSX7qOo1gL2evbQR1EBYk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BNTlFOUU5NkI0MzZBNjU4NzU1Q0MwMzN/GNzY3NTVEMUZCMEEzRTMzNzA3NDU2QUExQjY5QjI0NkVGOTNCN0RFLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/barilla-la-collezione-treccine/p10062299"
+   "url": "https://www.lidl.ch/p/de-CH/barilla-la-collezione-treccine/p10062299",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1312,7 +1419,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/xzP4kxWmpmlxk-ozZM4Sz2SPZY42iRz-uZCpZjghzv8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wMTc3NjU0QjdFRTcwNDU0MjFFN0E5MjI/wNkU4MjBCRkRDMERFQjJGNDU2QkZGMkRDN0Q4MkI5Mzk4RDU5REIzLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/barilla-napoletana-sauce/p10062291"
+   "url": "https://www.lidl.ch/p/de-CH/barilla-napoletana-sauce/p10062291",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1324,7 +1432,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/ycfTU0B7iXqF7CHAN2Vddb49ain4XNMXVnyaWMqD6wc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9CMDVEMzAwNTQ4QUY5MjhDQTk4QkMyNDZ/ENkMzREFFQjhEOTNCQ0EwRjA1RDMyODI2RDk5RjEzMUJBNzJDOTU0LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/barilla-arrabbiata-sauce/p10062292"
+   "url": "https://www.lidl.ch/p/de-CH/barilla-arrabbiata-sauce/p10062292",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1336,7 +1445,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/Y4M52UysKf6vdzbSH-K7SP9pb-dFXFfJHNptDUVkAm8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BQTA0MTQ4RUEzQjk4RTkxQ0U3MDcyRjA/3M0M4RjVBN0UwRjc2M0M3RDFGMzBBM0Y4OTRCNUI5MTNBQkJERDI4LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/barilla-basilico-sauce/p10062293"
+   "url": "https://www.lidl.ch/p/de-CH/barilla-basilico-sauce/p10062293",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1348,7 +1458,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/OCuARUicMbLzUhK7kvZlry-4sWiYhE2NWEzDnBOrddE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS84OUZGRUM5ODkxMUI1RjFEQkE1QzhCM0N/GNkJDOUJBNDhDMTRFN0IwQzU1NzQ3NTJDNzNCMDhBRTY1ODg5MjM2LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/barilla-pomodoro-sugo/p10062294"
+   "url": "https://www.lidl.ch/p/de-CH/barilla-pomodoro-sugo/p10062294",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1360,7 +1471,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/3-0vsdQLi0N57kYBSVg0i8KIW8P26YYdgALQCU6Z45k/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8yNjA2MDYxQkEyQzAwOUQ1OEQ2OUJFNTQ/yNDg1M0YzODcxNTMwQTJCNzA2QzQ3NzQ5REYzRUY1RDJDQjIwNjg0LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/barilla-sauce-toscana/p10062295"
+   "url": "https://www.lidl.ch/p/de-CH/barilla-sauce-toscana/p10062295",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1372,7 +1484,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/m3eE_ShyhKi6zOTA04cLyigyaDOCuwPyTOvheW5jmOQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9DOTA3OUZFNzA2RDJCNUMzNEVBRTRDREM/5NEI0REUxOTA3RDgyOTU4MzM5NjAwMjNEMUJEQTQ0RDdERUNCNTFFLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/barilla-pizza-sauce/p10062300"
+   "url": "https://www.lidl.ch/p/de-CH/barilla-pizza-sauce/p10062300",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1384,7 +1497,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/qhDwiumEBKBEgdNNLCrqUxlV1zBT5egnUTwkZbEfn9E/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9EODkxQjBDOEQwNTNGOEZFQThCNjM2QTE/zNDFEMjI5NEY3NjAwMjFBNURCNTM3QjczMEE4QTc1QzFBMTMxMDM1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/kania-apfelessig/p10062259"
+   "url": "https://www.lidl.ch/p/de-CH/kania-apfelessig/p10062259",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1396,7 +1510,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/s4Zckiamd51UjBqdnllne8Fvu2HkaQ2k7N-PFJNckMs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xNENDNEQ5QUExNzNGMEIxRjY2MTAyMjl/FOEE0RDA0RjQzRjk5MThEQjNDMDQyODE0QTBDM0JFRkM1NkEwRDQ5LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/heinz-ketchup-top-up/p10062260"
+   "url": "https://www.lidl.ch/p/de-CH/heinz-ketchup-top-up/p10062260",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1408,7 +1523,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/OcRcxPtYFhCQLxpIPyopD3QcFGarc2udRkxrgmApxsc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9EM0Y2NEE5REIyNkUzRkY5QzFGMjBFRTB/BRjg2QUNGMUEwOTdBMzYyRTc5RTBBRTk5MUVBNUU0RjM3MTczRjFFLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/heinz-mayonnaise-top-down/p10062319"
+   "url": "https://www.lidl.ch/p/de-CH/heinz-mayonnaise-top-down/p10062319",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1420,7 +1536,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/sOcTR20m0xyX7lTAtS4wDuL42i_MUuoLFx07sBZJgRQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wQjU5MERCQTlFRjMwRkNCNjFFMzFERUY/5RDQwN0I2RDU4RTAyQ0M1NjE5ODk0NUQ2OEZEMzIyNzMzRDg1NjFCLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/maille-dijon-senf-original-aktion-nur-in-der-westschweiz-gueltig/p10062337"
+   "url": "https://www.lidl.ch/p/de-CH/maille-dijon-senf-original-aktion-nur-in-der-westschweiz-gueltig/p10062337",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1432,7 +1549,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/Od6gcvvvtAm9EkUlSlq8cCnYCVFXazL6OuhUHxft3QI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9EQUVCOTY5QzNGNjAxMTUwODcxODQ4MkQ/yMkY2Q0VCQjg2RjcxRUE2MTA3QzRBOUU3QTI1QUIxRUM4Qzg0QjI1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/freshona-kichererbsen/p10062265"
+   "url": "https://www.lidl.ch/p/de-CH/freshona-kichererbsen/p10062265",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1444,7 +1562,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/pUirEgKw_wkiTPEfITLrw7V-r7G6pP4YgiYReKr21h8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS81QTJDRkZBN0FEM0NDMTAzMUIwRUZFNjU/3QjgwQjQ2Q0M4QkNFQkIwMjJBM0U5RENEQjREOUUwRDI2RkU0ODJELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/gran-pavesi-sfoglie-classic/p10062302"
+   "url": "https://www.lidl.ch/p/de-CH/gran-pavesi-sfoglie-classic/p10062302",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1456,7 +1575,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/T1RnIR4FzfUHWkOjeb0pdlx__TQDooss7H0BlELVFCk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS81QjA3QTlGNDdFNUU4ODA0MEU0QTA5ODI/0MDIyNUU3MTBGNjA3MjZDRjc5QjA5MUM0RTg4NzA3RjFGQzA0MkM0LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/gran-pavesi-sfoglie-crispy-pfeffer-limette/p10062303"
+   "url": "https://www.lidl.ch/p/de-CH/gran-pavesi-sfoglie-crispy-pfeffer-limette/p10062303",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1468,7 +1588,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/G-Y4s7GTx6PhBb5BJcv-4OnkL0fU-QlwijGrAZk4i-U/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zNUQ2RTdGNjk4Q0Y0MDc5N0Y1NjBEQjJ/EM0Y4MEZFNzg0QUYyQUU4NzA5RTUzNTNDOEUzNkNEQjVBMjNGRkZBLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/ritter-sport-nuss-klasse/p10062317"
+   "url": "https://www.lidl.ch/p/de-CH/ritter-sport-nuss-klasse/p10062317",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1480,7 +1601,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/H43Z9rGrrmFOUcXdhpjUigneZrW8LsyilgG_Pzv1VQU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS85MDdDQzVCMUIyNEZDMjQwOTVGQzI4RjR/DOTdEQkEwNDYwRkYyQjVBOTE1NkY5MDk2MzVCNUJCMjQzODkzQ0Q1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/confiserie-firenze-macarons-aktion-nur-in-der-westschweiz-gueltig/p10062338"
+   "url": "https://www.lidl.ch/p/de-CH/confiserie-firenze-macarons-aktion-nur-in-der-westschweiz-gueltig/p10062338",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1492,7 +1614,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/4wHnnFioYp7MHu0GfKfjMgYaG4UNTEf26Q4hhfGljmA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS83OTZBMEQ0QzE2MTUwMkIxNEMwMEU3OUN/DNTc4QTA1QTUxQTIwM0UyMDdCMUZCODAxMkZDRkFENTQ3RUZFMzE3LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/airwaves-cool-cassis/p10062308"
+   "url": "https://www.lidl.ch/p/de-CH/airwaves-cool-cassis/p10062308",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1504,7 +1627,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/OXCPdBACP-jEax-Uqi4NxDTQuCs2JH1GP2qfTEAdQX0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zREYxNTFEMzVBQTdBQ0JDRDI2QkEyQjg/5RTczOTZEMDQ2RTZCMzc4OUMxMzA0RDVCOTYyNEVBQjNCRjE5RjRELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/airwaves-menthol-eucalyptus/p10062309"
+   "url": "https://www.lidl.ch/p/de-CH/airwaves-menthol-eucalyptus/p10062309",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1516,7 +1640,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/4g4mvgeqL8HN77wqK5pQPWyWeyNZAQTk9OON6EVWApQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xQjQ1MjZEOUE3MDgzRjI5OTg1MEVFNzh/EMzc3RTYzQ0VFN0E3RkI2NDZERTc2NjE5MThDNTc5MDc5MzMxRDk1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/nescafe-gold-de-luxe/p10062321"
+   "url": "https://www.lidl.ch/p/de-CH/nescafe-gold-de-luxe/p10062321",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1528,7 +1653,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/GxdcxecDCt0cxBHZbmbgwVFXnUfN72dcYDKDnLL4cIs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wODEyOUUwMTk0MzcwRTg2QUIwRDg2QzM/wRDMzOTJFQzQ1M0VDMTcyMUM3Q0U4Qjg1NEE0REE1MTE3MTMxMkUzLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/nescafe-gold/p10062322"
+   "url": "https://www.lidl.ch/p/de-CH/nescafe-gold/p10062322",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1540,7 +1666,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/otFia1My1I0b3reHcKiuPnSEAQMp9fZXy0yNg4g0RWM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9EQ0I0QTUwMkE2QTk0RkEzRkJFQTM0RjQ/wRUE5Qjc4QTYwOEQ5NkZGQzhGODhEMjg5NTlFQzIwQzZEM0VBMzA2LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/red-bull-edition-energy-drink/p10062269"
+   "url": "https://www.lidl.ch/p/de-CH/red-bull-edition-energy-drink/p10062269",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1552,7 +1679,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/uOdjGkJFbZkST1oMaasfRnK_JAXd3DUbfKpWyS1gVN4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BOUU2NUJGMzVCQkQxRDI5RUVFRTJDRTJ/CRjVBN0YzQTBBNTc0OEIyRTkwOUU0NTAyNEZFQkExNDJENEJBOTI4LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/red-bull-energy-drink/p10062270"
+   "url": "https://www.lidl.ch/p/de-CH/red-bull-energy-drink/p10062270",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1564,7 +1692,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/5ZyojrSBqhE9sEMn--CiJuW4T93HWm2tQuuGF6ePeFI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS82QTg2ODQwMTVGQ0Y5RTM0Mjg2QkVDMTA/yQkUzNDgyNjEyMjNBRkI3OTc4RDdDRTg5RTZBNTBBMTAwMEExQjVBLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/coca-cola/p10062341"
+   "url": "https://www.lidl.ch/p/de-CH/coca-cola/p10062341",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1576,7 +1705,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/o79n8wAeN7v0_O5EZjPMQt9Aq4-wruwGC0FB7cBLF-Q/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS84NkM4NzQ5NzBFNDFEQUNDODFGM0MzNDQ/yNjQxRjc3ODY0RDc5QTgzMjVFN0VFMjRDNDZCRjc4QzdCNjdGQjM1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/leffe-blonde/p10062304"
+   "url": "https://www.lidl.ch/p/de-CH/leffe-blonde/p10062304",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1588,7 +1718,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/5WdhR88NA_PQ8FidZf9Qrgj8Zvq9n3AgxzHtkCPPOVQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GODU0NEMwNEE0NDQyRTQ4NjYxQkYxOUE/0OTEwRDVDMjA5NUU5RTMwRjVDRkEwRTQ5ODlDRUJBQjgwNUNFMjUyLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/leffe-brune/p10062305"
+   "url": "https://www.lidl.ch/p/de-CH/leffe-brune/p10062305",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1600,7 +1731,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/AUSMhG2LDeuu8UC2uSw6tH0attxtJdyhXCDK6qgDXjQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS82ODRBNUQ3NjQ3QUExMEJDNzNGQ0NCRTE/yNEExMTQ3MURBMzdGQThFQjg2M0FFOEZFREYwRkIzMUYyMUQ4QjNGLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/gamellon-crianza/p10062271"
+   "url": "https://www.lidl.ch/p/de-CH/gamellon-crianza/p10062271",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1612,7 +1744,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/L5kM9k-oKWx86qDDS9Y1K84fe64N_v5zal_dVYahVmU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xMTgyQjU3QjZFMzMzMjQxOTU1ODQyNzA/wRkU5QUE5N0FCNjY1OTY3MkQ2N0REN0Y3Mjc5Mzc5MTZEMDg4QzJDLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/hallau-blauburgunder/p10062273"
+   "url": "https://www.lidl.ch/p/de-CH/hallau-blauburgunder/p10062273",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1624,7 +1757,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/gcqweu0oz-TLkZelg8vn819MnltPy_Hg9ms1E8eZQhY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9CRkI1NDY2OTk1NUMzN0ExRUVERjIyNzY/xRTgzQkMwREJDRDNGNDJBMTdEREFCOTlDODlFMEY4NkRERURDMzg2LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/chasselas-lavaux-aoc/p10062274"
+   "url": "https://www.lidl.ch/p/de-CH/chasselas-lavaux-aoc/p10062274",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1636,7 +1770,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/L5kM9k-oKWx86qDDS9Y1K84fe64N_v5zal_dVYahVmU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xMTgyQjU3QjZFMzMzMjQxOTU1ODQyNzA/wRkU5QUE5N0FCNjY1OTY3MkQ2N0REN0Y3Mjc5Mzc5MTZEMDg4QzJDLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/hallau-blauburgunder/p10062301"
+   "url": "https://www.lidl.ch/p/de-CH/hallau-blauburgunder/p10062301",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1648,7 +1783,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/WRrH6ye33z9lIN-4UwZKoThi581lwSnD1JZdGgZzMSQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GNTAyNzJEQTI0MzIyRjJFNTM4QjM3MUZ/CMTk2MUVCQ0VDOUNBNzRGRUZBNkIyNEY2Mzg1QUNDMTIxOTVBMDQxLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/lenor-fluessigwaschmittel/p10062275"
+   "url": "https://www.lidl.ch/p/de-CH/lenor-fluessigwaschmittel/p10062275",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1660,7 +1796,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/CAAJWeMk4MfHNV8CBulkxgvW3_zOzTUmso1e7TE-JXg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS85MTM1NURBMTI3MTc5NzZFNzA2RDNBRjg/yQkQ4N0M4OTQ3RTQ0RDgyMUJGMUU0M0I3QTQwRTY0MTUzOEYwOTVFLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/lenor-unstoppables-waescheparfuem/p10062284"
+   "url": "https://www.lidl.ch/p/de-CH/lenor-unstoppables-waescheparfuem/p10062284",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1672,7 +1809,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/TZ4iLDG0pkH9_tmgbqIRidhi1Pf68IALFLhlPdDfa2o/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS80N0IwNDA3MzY1RUYyNThFMDg3MUIzNDc/2QkVDQkY1MUI5NDU2QzkwNzE1MzYwQzBCOEUxREVDNzZBQzZEOENELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/dettol-fluessigseife-no-touch/p10062285"
+   "url": "https://www.lidl.ch/p/de-CH/dettol-fluessigseife-no-touch/p10062285",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1684,7 +1822,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/aWrt_p9MuEm6DHZ06ilK4DYNO_71GtGWiZ58lg9nPh8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GMEUxRTFFOEM4RkQ4MTMyNzI2Q0E5QTR/DMjE3RkQ2QjE3NDU0QUUwRkVDNzIwQUUxQkQ5QjkzMDYyMEI1MjNELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/dettol-fluessigseife-no-touch/p10062286"
+   "url": "https://www.lidl.ch/p/de-CH/dettol-fluessigseife-no-touch/p10062286",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1696,7 +1835,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/OkP3KLDsvB9evscBqhIDIRw7dwXoOkFihrtFAwV8eA4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wMTM4RDNFNDk2NERGMjhGQzYyMEU3NEM/4OTI0Q0M0QjA2Mzg2QUZGRTQ5Q0VCOThBNjlDRjczNDA5Rjc0RTEzLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/dettol-fluessigseife-no-touch/p10062287"
+   "url": "https://www.lidl.ch/p/de-CH/dettol-fluessigseife-no-touch/p10062287",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1708,7 +1848,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/QX1K1LajC5XdBY1CeuwUiSH_27o7S_0O0J1Yp_zUHJ0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9ERkY4QUMxMEFGQUFCREIxQTVGNDk4MER/DODNFNkEwRENEMDdCQkZGQzNGOTVCOTRCRUE2ODU2OTZEN0ZCRDNELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/dettol-fluessigseife-no-touch/p10062261"
+   "url": "https://www.lidl.ch/p/de-CH/dettol-fluessigseife-no-touch/p10062261",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1720,7 +1861,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/9dG8EPfdt_iEXFu7PZVKJgTqs8SKBMIwrSimDYwu5EA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS83N0NFQTBEMDdDOTY1Q0FFQkJDQzQ1RDE/wMEI4NUVFODlFRjlGMUVGNTc1Njg4MUI0NUIwNTQ4NUMyMUFFNUNGLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/durgol-forte-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062288"
+   "url": "https://www.lidl.ch/p/de-CH/durgol-forte-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062288",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1732,7 +1874,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/PreL3hPS1FgG__MXw0fiG5K8gdl6SNrPSLhSu7LzEnw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9CRTJBNjhGQzA5Nzg2RDlEQjg2Qjc3Njl/CQTA4N0IyQTYxNzRFRTYwMTg3MTg3RDFGNDIwOUI3Mzc5OUYzOEJGLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/durgol-express-xl-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062289"
+   "url": "https://www.lidl.ch/p/de-CH/durgol-express-xl-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062289",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1744,7 +1887,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/VYwB1BeYP0-1XUTmzL5T3R_fJFn6iLAx2azNlJSlM8w/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GM0ZFN0UwRTRCNDU0MTA4NUE0ODdERkR/ERDA0MzM5NjJFMkQzMTZEQkIyMkEyNTAyRUZBNzFFMERCNjc2QjJDLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/durgol-kuechenreiniger-duo-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062290"
+   "url": "https://www.lidl.ch/p/de-CH/durgol-kuechenreiniger-duo-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062290",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1756,7 +1900,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/wR5dM-M42smpTT3X4m4-SY4_uNlJvlP7lTkaTOC8Ufk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9FRUVDNjFBN0ZCQzMzNjkzNkEzMzI4RTY/3Njc0RThCNDU4QTBGQjgwQjZFNzFDMkFFM0U0RTZENDdCNzVFODdDLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/tela-badentkalker-duo-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062277"
+   "url": "https://www.lidl.ch/p/de-CH/tela-badentkalker-duo-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062277",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1768,7 +1913,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/gkULfmKv8tVPTpIfh_BKk1KbRTrUzfRFpdFW2BEBlRQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9ENEZFRDZENzA1MjA4ODlERThEOEZBNzZ/CQzU1QTVDOUZBMjI1RkZGRDhCOThBQUY2Njk3NDQwN0VEMTFGQTEwLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/hakle-toilettenpapier/p10062266"
+   "url": "https://www.lidl.ch/p/de-CH/hakle-toilettenpapier/p10062266",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1780,7 +1926,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/Q2RwTBKernblB55Fnf5u2xEljTMIsUWFY2BGmi16xhs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BODM1QjYxQTY2MkEyREE3NDE4MTYyMTB/CQTg4OTkxMzU1RUY1MkFFRjNEMDFFNUJCQUMwQTZBQTczQjYzMUYzLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/hakle-toilettenpapier/p10062267"
+   "url": "https://www.lidl.ch/p/de-CH/hakle-toilettenpapier/p10062267",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1792,7 +1939,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/sFpCavkvzFtvlkJSz-1AweH3A-uU90l1HdvgrGjrWcg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xRUREMDQxNjQ1RkU4Njk5MTA1Njg3Mjk/0QjU1OEJEMjdEQTY1M0EyRkNENUIwRDlGN0U1RUYwN0IwRTk2Q0VDLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/tela-haushaltspapier-casa/p10062276"
+   "url": "https://www.lidl.ch/p/de-CH/tela-haushaltspapier-casa/p10062276",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1804,7 +1952,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/8eAXw7S7GmrzRCG0UbR5hJllR86ToseP2qoJZv6VC7w/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9FQTU0NkM1RURFRUYyQThFMzFGRjQ3MEU/wOTdDMTE0N0ExRjEyN0JFMEJCRjMzRUM5RDVEOTA4REVDRDQwNjVCLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/doussy-weichspueler-spa-moments/p10062330"
+   "url": "https://www.lidl.ch/p/de-CH/doussy-weichspueler-spa-moments/p10062330",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1816,7 +1965,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/ZitQxcN_ZoG02onqnAkJ-kE0Vc_YYB47uo_UJpbIIbc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zQjg5OTg0NjMwNUU3MkQ4QzYyRjVDMTV/DMDkwNDUwOUM2NzRCNkM0NjMwNDM5NzFBRTczNEY4MUJENzc1NkM0LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/lenor-all-in-1-pods-aprilfrisch/p10062283"
+   "url": "https://www.lidl.ch/p/de-CH/lenor-all-in-1-pods-aprilfrisch/p10062283",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1828,7 +1978,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/HePiDvqY7rcFYcEbJ3JGqhRJyrYI7YK8KAFuyQ4WC9I/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GRDhGNkFGNUIyRDlEREEwODJDRUU0MDA/4OTU2OEUzRkFBM0E3QjAyN0Y2Q0IyQjc1QUY4MkQ5OTk0NjI0RjdFLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/lenor-all-in-1-pods-bluetentraum/p10062282"
+   "url": "https://www.lidl.ch/p/de-CH/lenor-all-in-1-pods-bluetentraum/p10062282",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1840,7 +1991,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/W8w8wHbMwDfrrQiKDn8f20eoBCYfv6AHXT4amSbnjRo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BMzJERDBGODVDMjRBODE4M0JEMjY4Mjk/5NEMyRTE5OTQ3QkMwREMwRkExREM2OUJGQzU1QTE5MDI1RDU1NEZCLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/jumbo-candle/p10062329"
+   "url": "https://www.lidl.ch/p/de-CH/jumbo-candle/p10062329",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1852,7 +2004,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/h4EgtIq8fhp1TfLu_sjF-BTeRvwvYETG8G7KNLGb3D4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9FNTk0NzVGQjFGQkU0NzA1OTA0NDEwNzE/zMDk3QjcwNzU1OTRCQjIyQkIwNTA2QThGMzA5OUM1NDk1NTk4NTI1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/jumbo-candle/p10062328"
+   "url": "https://www.lidl.ch/p/de-CH/jumbo-candle/p10062328",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1864,7 +2017,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/fDVcfOz_a6dLj5kqsyD4zPfP7hCystwf_3IX7OoBso8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zNTg0OUNCNTAwQ0RBQjY2NzYzQ0IwODY/3RTY0RkMwOEQyQzM5QjMzOENFRkFFNUQzODhCMEVGODI3QUM4RUYwLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/jumbo-candle/p10062325"
+   "url": "https://www.lidl.ch/p/de-CH/jumbo-candle/p10062325",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1876,7 +2030,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/S5r2SteIu_5CTdjmfKu5mzOqWq4JFv7C4s0lAprwYrU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9DRUY5NUI5RDgxMzAzNUY4MTY0MjZENUY/zQjJCRkFBQzI4RkU3NjZCODdDNzZDRDJBREY0RTkwMzQyRjk5MDVBLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/jumbo-candle/p10062326"
+   "url": "https://www.lidl.ch/p/de-CH/jumbo-candle/p10062326",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1888,7 +2043,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/Hf8c0OkeM_EGcd7o9cMoaNcjYp2r8j2YmovG9TIqDH4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GRjdCMEE3NzgzQjc0NzJEMUY0MDYzOEU/3QzY4QTk3MTU1Q0VEQkFDNTA0MEUzMTQ4OEEwMzYzNjkyRTRENTY1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/jumbo-candle/p10062327"
+   "url": "https://www.lidl.ch/p/de-CH/jumbo-candle/p10062327",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1900,7 +2056,8 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "image": "https://imgproxy-retcat.assets.schwarz/A7V1DqgEEwCbFtkYTbUNGw4P45IJNd7dJY_vqAAsMbc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS83RjJBQjA2QzI1MzFCODAwMDA3RDU5Mjg/2RjJGNkFBRDQxNzRERTAwOThCRjI3QjFEOUI5OTMxQTA0RTU2RjY1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/gourmet-perle-katzennahrung-in-sauce/p10062268"
+   "url": "https://www.lidl.ch/p/de-CH/gourmet-perle-katzennahrung-in-sauce/p10062268",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1912,7 +2069,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/mqjEFULN9NIfRjJ6MvuLiobeoAaFYQSaAn0uopahN_k/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS82NEYxNDVEQTIzQ0I5QkIwMTJENDhGQUM/1QUYzNjQ0NzU2QTM3RTc4MEYxMTZFNDczNTZGNjAwRTJFMjBERUJELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/purina-one-katzentrockenfutter/p10062307"
+   "url": "https://www.lidl.ch/p/de-CH/purina-one-katzentrockenfutter/p10062307",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1924,7 +2082,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/5KaEGmaKgn85uX8pIVH5XcwbxWrFZfJBXGGA5M3GgRk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8yRUIxODAyMDVEMDE1NzcyQzEyNkRDOTE/wMjU5RDJGQUI1QzgwMTMxRDU5MTEyMzkxNkE3MDQyNTREMUE2MTBCLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/mila-s-world-katzen-schleck-snack-msc/p10062278"
+   "url": "https://www.lidl.ch/p/de-CH/mila-s-world-katzen-schleck-snack-msc/p10062278",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1936,7 +2095,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/5Dz42V-VaVH1nBqwCVj37XyeHi0XReWTXzYAFUp6uxI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zNTk2NTg3RDM2NTVDMTc2RDdFMkI0NkQ/1QkNBMkFGQTcyODRDQkY3MTk3NDk3OTBFRUM0MTFCMEIwQzZEREUyLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/max-s-world-xxl-hundesnack-filet/p10062279"
+   "url": "https://www.lidl.ch/p/de-CH/max-s-world-xxl-hundesnack-filet/p10062279",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1948,7 +2108,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/nZWj-6MPkSuoxig15ltSqxcStwOC8cM8FtNvZ6SulmM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9DNzY2M0JENzMxNzYxNjE1MjRBRThDNDg/3RUQxOEMxRkIzRkJFMTNFNjZBQUNERERDQTlFODdCRDYyRDhGOTRGLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/max-s-world-gulasch-baellchen-hundesnack/p10062280"
+   "url": "https://www.lidl.ch/p/de-CH/max-s-world-gulasch-baellchen-hundesnack/p10062280",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1960,7 +2121,8 @@
    "validFrom": "2026-11-19",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/FEyZXticuNzf5ZTPQJjTO1a19Z6QZ94rGhx5Z8zstYw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS80MDgzOTBBRDMxQTVDNThCRjQ0NEU0MEF/FNEREMTQwOUY3MTJENkJDOTdFMkEwODgyNzQ5Q0NENzVBNzVBRDM0LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/mila-s-world-katzenstreu-weiss-ultra-xxl/p10062281"
+   "url": "https://www.lidl.ch/p/de-CH/mila-s-world-katzenstreu-weiss-ultra-xxl/p10062281",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1972,7 +2134,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/o8uJkkdCuGC6iyE4whZdn_Q3559NPTP0g6JmCpEs-8U/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9ENjFFOTE4Qjg2MkU4QTc0NzMzMTNEQTU/zODI0RkE5REI2QkM3NzAxRTExMjg3Q0Q5QjA4NkUyRTZGNEYwQTU4LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/kaki/p10062477"
+   "url": "https://www.lidl.ch/p/de-CH/kaki/p10062477",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1984,7 +2147,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/phSFjs5GoHRv0XvtuxhhIwBT8BFyWRSdJZO4RiJuDpI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS81MkI0ODJBNThDRjBFMUI3M0Q2OEZENkJ/DMkU0MUE2RjM1MzhFMEUzNEU0RDVCMzA5MUQ2NTY1RUFBNTY4NEI1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/honigpomelo/p10062479"
+   "url": "https://www.lidl.ch/p/de-CH/honigpomelo/p10062479",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -1996,7 +2160,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/klyjUhXZS1qqLAHufniMt3d8tDkDAx6r1Kix69obD2E/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9FODYxQkVGOThDNTI4MzREMjdCMEY4NTV/CQTJEN0U4Q0Q4M0I5RjY2QUUxMjJDRDhFMUU2QUVDQkRBNkIwMjRELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/clementinen-mit-blatt/p10062481"
+   "url": "https://www.lidl.ch/p/de-CH/clementinen-mit-blatt/p10062481",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2008,7 +2173,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/kmBo-Z1qlJTW-yz8wmOTlcIWBaB92ROtxHXyXE9v6z4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BMjlCM0VCRDlEOERDQzMwMjRGRDEzMUI/5NzUzNDk3MjRFMjE3NUIzNDdFNDBGQzhFRDU2QTEzMjY3RTU3RUNCLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/schweizer-aepfel-gruen/p10062483"
+   "url": "https://www.lidl.ch/p/de-CH/schweizer-aepfel-gruen/p10062483",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2020,7 +2186,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/0us4GPNUhn2sHxp3jXRRxiMaPYH-2MT-VGr999_fEeg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS83NENENEIzNDFGQTNENTA3RUMyRUU4MUE/4QUQyMUI4NUIwQjIzOUEwRDU3QkM0OTY2Q0E1MzYwODRDMjVGN0U1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-schweizer-birnen/p10062484"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-schweizer-birnen/p10062484",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2032,7 +2199,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/37H6sSbQqi6SspOEu08zQjf6UgCUtx-3CJLv_jj9ahI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BMjZGQkJDQzU0QUUyRjQ4QkU4RjQ3MDc/4REM3MjEwNjNGQThCQ0FDMDM3Nzc0MzQ2MkUyRkVGRjMzMjU4MjhCLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/orangen/p10062485"
+   "url": "https://www.lidl.ch/p/de-CH/orangen/p10062485",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2044,7 +2212,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/OXDZnzmHcqsXcOVpOND5hOZ9sMmkspi4Dp0Bvfv3Eos/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS84RjEzQkJDNjRFQTRDOERBM0U4QkVEOTQ/3MkRERDBCMDM3QjM1ODVFRDAwNzA3RjRCQ0VDNjhCQzkyQjI2M0EyLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/avocado/p10062486"
+   "url": "https://www.lidl.ch/p/de-CH/avocado/p10062486",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2056,7 +2225,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/KxGXelS2ZFUv8jbQOcB_WQMu7LApcTQJcml6xxJCO-U/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9FQkJEODdEQjdDQUMwQzg2NjE3NTA3MDZ/EQTFCQjdBMUVFRTQ1NTVBNjE2MTUzREI2MTcyODhERTlEOTEwMEM1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/laugentessiner/p10062487"
+   "url": "https://www.lidl.ch/p/de-CH/laugentessiner/p10062487",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2068,7 +2238,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/zkltL76Pfu0_NvZLAz8JClgeAysKtOMgtLrGnmj4D1w/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zNTJEQzlDNTFBMjgwRjcyRkI3MkRFNzU/1NzZDMUNBODYwREMxQ0QyRTlDMkQyNkI5QUEyQ0U1NEU2OUQ0QTE3LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/baileys-cube-2er/p10062488"
+   "url": "https://www.lidl.ch/p/de-CH/baileys-cube-2er/p10062488",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2080,7 +2251,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/s0IgIlAT6by4f55OmE7iwm4sB_aol9_vlQgPr7VD7Bc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS80RDdBMUMwMTMyMTM4OUQzQjIwQTVFMEY/4Nzg2RTVDNDY1OUFEMUFDNDQ3QkZCOTAxRkFGNDlGMTM4OTAyMUYyLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/gefuellter-mini-pizza-donut/p10062489"
+   "url": "https://www.lidl.ch/p/de-CH/gefuellter-mini-pizza-donut/p10062489",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2092,7 +2264,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/g1opPr9zbsaFBEcqj7q7qqxXK-Rcst7UTw3PpEMAiXM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xMzMxMjQxNjU0NDY1OEUyNzQ2N0FFNjQ/3RTFGNzk5RTRBOThGNjhCNzFDREYyMEFDNTI4NEUxNTk1QTg1ODU4LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/kuerbiskern-broetli/p10062490"
+   "url": "https://www.lidl.ch/p/de-CH/kuerbiskern-broetli/p10062490",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2104,7 +2277,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/QpySEzgXCxXHkeqWtouGM5rR2sjQym7RxqL9lll_DZI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS82MTE1QjEyMjE0MjdGN0M3ODE1QkFGQkV/DQ0Q1QjFBRTUzODlGOEM2MTY0OUNBQUM3ODFCNTZGNURENkQ0MUJELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/mini-ciabatta-aktion-nur-im-tessin-gueltig/p10062492"
+   "url": "https://www.lidl.ch/p/de-CH/mini-ciabatta-aktion-nur-im-tessin-gueltig/p10062492",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2116,7 +2290,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/Fzz1eyg5Qx_92_q1c1vzggWvOvS0Kj-lZBFv9tkTMXk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GMTc0NEI2NDZDMTk5QkI5OTcwRkY0NUY/4M0Q2NkRDMzRCNEQxOUU0QzRBM0Q2NTQ0MTRFQUIwMEI2QzgzNDhGLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/deluxe-pulpotentakel/p10062493"
+   "url": "https://www.lidl.ch/p/de-CH/deluxe-pulpotentakel/p10062493",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2128,7 +2303,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/Msd7oPlwtRX0__iLOU8j4URTvKe6F-Rd3SUPDKJL_Ys/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xNDMxQUU4QTNCMkJCMTU4MzBDNDc3MzB/BRkY2ODJDRTgyQ0I4MzlDMzY0OTVDQjM1QkM3RTRERUNDNjczMDYyLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/fisher-s-choice-felchen-knusperli/p10062494"
+   "url": "https://www.lidl.ch/p/de-CH/fisher-s-choice-felchen-knusperli/p10062494",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2140,7 +2316,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/Ha-Jq_sHSL7VMRWy4zKQRPimfTjpBmBUQ9wG4p0CurA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS84NkY1MTU3MTczNTc3OTVFMjExMjgzMTI/4NkE2Q0QzMkFFNTc0QkU4RTIxQ0M3MUEyRUQxMzFENjdDQjA1QjFELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/deluxe-delikatess-nussschinkli/p10062495"
+   "url": "https://www.lidl.ch/p/de-CH/deluxe-delikatess-nussschinkli/p10062495",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2152,7 +2329,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/YoQT6PuxCbMKHs8J15DvSH2LVIxQeK9HaS_oA4mzmBs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS83MDAwQTdGRDY0RDE2OTIzMjI3RkE0MER/FQzJFQjc3OTUyMjcwQjA0RkUyODYzMURCNjA4MEVCREVCQjA3QUFBLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-schweinshals-am-stueck/p10062496"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-schweinshals-am-stueck/p10062496",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2164,7 +2342,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/o5ZKGrgmyABk9NmjpWE3VC4_5UJKkZBQNT4MOSd4bWE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9COERENTI2NDU3OUNCMzc5RDJFMzk0ODB/GRjdBOTZFRDkzQUJDODcwRTYxQjdFMkUzREVDM0U4MEU0OUY3QkZBLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/carnesi-pouletbrust/p10062498"
+   "url": "https://www.lidl.ch/p/de-CH/carnesi-pouletbrust/p10062498",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2176,7 +2355,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/wwkVfeLGaRKdVw0LBlFcw7EhLCl_TZuI-tiUchrgSPo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GRjFBRTk4RjM2NDgxQjJDRDVGNzU1QUV/BOUMwQjAxQjcxQTI2OTRFNUQ0Q0NEQ0UzMTI1MkUyNjNFQzc2RTExLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-bio-weiderind-rindshuft-am-stueck/p10062499"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-bio-weiderind-rindshuft-am-stueck/p10062499",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2188,7 +2368,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/IM-CcAY9dc2xUlKvrGLn1i0NHW9if8CNqbJvjXPd_UA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GQTVCQUZFOEM1NzQ2OTQwQ0E2M0JGRTd/COUE5MTlGQzYxM0VGNTRFNzU0QjQxQkM0NEVCQ0FBOTVDREY1QkQ0LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-pouletschlegeli-xxl/p10062500"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-pouletschlegeli-xxl/p10062500",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2200,7 +2381,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/orATo-clbD8cpe-wTmttrRqHR8DwYZfKNpmP0S4MRWw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9FNEUwRTBDRThGMEVEN0YzOENCN0Q3QkQ/1MEU0MEFCQTkwMzNEMkQyNjU5RjMxODgyODUzN0I0MTBBMDE1ODc5LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-rindshackfleisch-light-family-aktion-nur-im-tessin-gueltig/p10062501"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-rindshackfleisch-light-family-aktion-nur-im-tessin-gueltig/p10062501",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2212,7 +2394,8 @@
    "validFrom": "2026-12-01",
    "validTo": "2026-12-01",
    "image": "https://imgproxy-retcat.assets.schwarz/msEWGVCbObTAfkedsYHYw0VR51HOUCet4mF8uL6K49c/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wNDY4MEUwMDU4QUUwNEMzN0VBRTU3NUY/2QUIxNzY5MDczQ0Q0QzU4OUU3MEM2MDc0NDUxQUVDNUJGMkI5MDQ1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/autobahnvignette-2027/p10062507"
+   "url": "https://www.lidl.ch/p/de-CH/autobahnvignette-2027/p10062507",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2224,7 +2407,8 @@
    "validFrom": "2026-12-02",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/msEWGVCbObTAfkedsYHYw0VR51HOUCet4mF8uL6K49c/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wNDY4MEUwMDU4QUUwNEMzN0VBRTU3NUY/2QUIxNzY5MDczQ0Q0QzU4OUU3MEM2MDc0NDUxQUVDNUJGMkI5MDQ1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/autobahnvignette-2027/p10062509"
+   "url": "https://www.lidl.ch/p/de-CH/autobahnvignette-2027/p10062509",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2236,7 +2420,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/Mj36Q95A35hCtHyNN5VZQMbP8dDMrvNr0PDTT7yoTaI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS83RUI4MzMzNEFBQ0I5Njk4MkVGMzdCRjF/BNDNBNzc4QzEzQzdENzlEQTk0NEJGNUFDNjZGOUNFNUIwMzA5RjQwLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/fisher-s-choice-xxl-lachsfilet/p10062618"
+   "url": "https://www.lidl.ch/p/de-CH/fisher-s-choice-xxl-lachsfilet/p10062618",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2248,7 +2433,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/1Rd4j-NcsiNvKafSdur19KVVLyFJprIf4TQbtx9Ag2g/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GRjc0MkNBQjJGQ0ExOUIyNkZFOUM2ODZ/CRTJFODcyOTg1NzY1NEFDMTY5MDM2QUE1QTYzQjVDQURGQ0M5RjFDLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-bio-weiderind-hackfleisch-light/p10062516"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-bio-weiderind-hackfleisch-light/p10062516",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2260,7 +2446,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/sG1SqtWCb-G6qFTYl9pRPplP-qvpoJkyD-yxGD0e5j8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8yQkQ5M0RERkRFNkMxODRGMzUyMUJCRTE/yMjcxODZGQzA2NDlFMjNGRTA0MjI1RjQwOERDQTkzNEE4MjQyQzJGLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-gefluegellyoner-am-stueck-aktion-nur-in-der-westschweiz-gueltig/p10062628"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-gefluegellyoner-am-stueck-aktion-nur-in-der-westschweiz-gueltig/p10062628",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2272,7 +2459,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/-_DU35taT7XLrHGleowKwuaI-64FNLEDDi1hVZlogmo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GRTgzMkIwNTRCN0E2QzlEMDZBOTEwODJ/DODBENUEyQkE2NUNFNUFCREQ2MDNCMkNERTdGNEJFMzAxOUVBRTU3LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-raclette-1-4-laib/p10062511"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-raclette-1-4-laib/p10062511",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2284,7 +2472,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/JuTR4h0HNlA6pHCcdA15sLiGCGIC1zyBQbi2e8rxsyQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BRUREOUNFNTBBM0RDNzUxNzA5MjNDREJ/FMTFGODVFODE2NEI5MkEzMkM2QzlDMkQzRTY5M0YwQUU3N0U2RkQ2LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/milbona-brie-spitze-aktion-nur-in-der-westschweiz-gueltig/p10062625"
+   "url": "https://www.lidl.ch/p/de-CH/milbona-brie-spitze-aktion-nur-in-der-westschweiz-gueltig/p10062625",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2296,7 +2485,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/hfjcztPnzio9fC1vw6dxWETQqGHK9I7nOeXu1VvrDQg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS83RjFCNzQwMjM5MDA3N0Y1MjFEMTk3QzU/yQjExNDgzNzAxQ0YxQjRDNDhGMjdGNzFGQTc0Qjc5Q0QwQTdEMzVDLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-vacherin-fribourgeois-aop-aktion-nur-in-der-westschweiz-gueltig/p10062624"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-vacherin-fribourgeois-aop-aktion-nur-in-der-westschweiz-gueltig/p10062624",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2308,7 +2498,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/NRMgBOEeuFDZbNZFUuZZoaDpubQow3IhJ5jiPtLGmWU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS80QUUyRjE2NkMyRTA4NThBOUM2MzUwQkI/zNjNCQ0Q5RUQyMzc2REQ5N0E0RDlEQzYzQzAyMzc3RDcxRjI0RjZDLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-raclette-scheiben/p10062613"
+   "url": "https://www.lidl.ch/p/de-CH/qualite-suisse-raclette-scheiben/p10062613",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2320,7 +2511,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/NCP-h1diIJddWWoFRw-uUCeUsG-UqR-1R-jYRMjLUVc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GNENERDBBNzk4NzI2RjI3NUFBRDFFM0Z/BODVBQjk2NUVDNjNCMTQ0QkVGQjhBN0EwNDUwNjlEQkFCOTlGQjU1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/emmi-raclette-classic/p10062543"
+   "url": "https://www.lidl.ch/p/de-CH/emmi-raclette-classic/p10062543",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2332,7 +2524,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/x2vz_RNrBbneS8nmoacaztomA2UpzlHUk1gRXOhXFe4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS82RENERUM4NTk5Q0E1NEI0OEZBOTcyQzR/DRTc5RDYzOUY3MzU2REFDOEI5QUZCNzE1RUQ4NUYwOTQwQjc3OEMwLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/gerber-fondue-l-original/p10062544"
+   "url": "https://www.lidl.ch/p/de-CH/gerber-fondue-l-original/p10062544",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2344,7 +2537,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/lhJhQ8SthtJTIHJzothvsvBcCe0EDc2bPi0sXiWSRYg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BNDFERjJGRUVCNjM4QURDRUU0OEMzOUE/xRTNGMjlCMUQzMzJBNDI5OTRFQzA1MzhFMTJCNzVDRjc0QTQyNjAxLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/mini-brie-gefuellt/p10062520"
+   "url": "https://www.lidl.ch/p/de-CH/mini-brie-gefuellt/p10062520",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2356,7 +2550,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/9oRQ_5N9DdCS5DTzbU-f7UOFgcOLKrsRav87lVHcOJ4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zOTIxQTg1N0Y5MUVDMDQwMkQ2NDM5NTM/xMDU4NDg1OTdBRkNCNjBCQ0UwMkM5QTRCRTI2ODUzRUY5OTIzOEYyLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/emmi-mozzarella-triopack/p10062546"
+   "url": "https://www.lidl.ch/p/de-CH/emmi-mozzarella-triopack/p10062546",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2368,7 +2563,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/MfC6ineu5ggVR0pKC47IlORqy3KeFngLgIxV3nm8nAQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BRTY0MkJGM0RCRTEzMjU2NTMwNDY4ODE/wMEQxNTJFRjEwMjVBMTM0NTIyQ0M5MERDMUNCNTM3RERCNjU5MTY4LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/emmi-luzerner-rahmkaese/p10062545"
+   "url": "https://www.lidl.ch/p/de-CH/emmi-luzerner-rahmkaese/p10062545",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2380,7 +2576,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/Ztqylkm38QX1B38je3_9qeoiGCdCyIhZXr-nsiHhaXo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wOTMwQTU0MUEyN0NGNDRFQkJDNjdBREZ/ENjE0NTEzQ0E2RjkyNUM2NUFGNzBEOEZFM0RDNDJCMDQ2MkIwMDJELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/italiamo-ricotta-aktion-nur-im-tessin-gueltig/p10062623"
+   "url": "https://www.lidl.ch/p/de-CH/italiamo-ricotta-aktion-nur-im-tessin-gueltig/p10062623",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2392,7 +2589,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/8PqvIwd4jz5PcOUiywMaAgqEftpbnZKq6n-owrOyBZM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xRjI4ODdCMEEyNTM1QUFDNjM1MzkzQkI/0NzdENzZCODU2REIxOTQ3NURCMjk2OEUwRDk1NEI3RjU4MjBGRDRFLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/tartare-frischkaese/p10062569"
+   "url": "https://www.lidl.ch/p/de-CH/tartare-frischkaese/p10062569",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2404,7 +2602,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/o__OhbG5DlTo2U0z17VSoLWhdIQ3Pg0kSXDVYD7TFgg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xODEwQTVCNEIzNUM1NEVFQ0U2NEEwNUY/3OUJDRjQ4Njk3MjJGRjdGRkFCNkY0QUJCRTA3RjBEM0FGRTJBMTlGLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/nixe-msc-thunfisch-in-eigenem-saft/p10062528"
+   "url": "https://www.lidl.ch/p/de-CH/nixe-msc-thunfisch-in-eigenem-saft/p10062528",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2416,7 +2615,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/Mu-r2mKPgNUVVU-7ziyollkPZ_wMiAUYzCgIxlXwJVw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS81MDUwMjQ2NzA4Rjc4RTkwNzM0MjlBOUV/CMjk1NUM3NzhBODczMjJDNkUzQjZFNjIwMzQxMEMzOTYzMjg0MTBELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/nixe-msc-thunfisch-in-sonnenblumenoel/p10062529"
+   "url": "https://www.lidl.ch/p/de-CH/nixe-msc-thunfisch-in-sonnenblumenoel/p10062529",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2428,7 +2628,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/N_-x89eGhj7Jlk-Dx8RRRQ1wpokTaKS3o_jnRG3hKCU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS80RTAxNjE2NkM5RUQ4NUZFRTI0QjhFNzd/ERjg4MjcyRUJBQ0REREYyNEIzMjM2NTNGMDRGRDRFQjYzRTAyQUEzLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/findus-lasagne-cannelloni/p10062512"
+   "url": "https://www.lidl.ch/p/de-CH/findus-lasagne-cannelloni/p10062512",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2440,7 +2641,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/-hOsQPT4-ivpbyV1ROkOz64hpx-g80cCXUW5gin0Iu4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BMzA2NDQ1QUY5RjQzREZCRkI5RDA3QTE/0NDEwNkUxNUQwQzhDMzJFNDczMUEwQkRFQzZBRTE3RDExRkNENEY3LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/findus-crispy-chicken/p10062513"
+   "url": "https://www.lidl.ch/p/de-CH/findus-crispy-chicken/p10062513",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2452,7 +2654,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/fd_w4tYIpJiIdJq7i1I2rmLwZ0HPAhbFF1TnFXLrVbE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS84NEUyRUE4NDcyNkFDMjMyNEUwNDlGODU/5RjRCNUQxNEQ4NDNDRUY0MDIxNDNEOTNEQUUxRDY5NDM1MUJDRTNDLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/trattoria-alfredo-steinofen-pizza-salami-aktion-nur-im-tessin-gueltig/p10062622"
+   "url": "https://www.lidl.ch/p/de-CH/trattoria-alfredo-steinofen-pizza-salami-aktion-nur-im-tessin-gueltig/p10062622",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2464,7 +2667,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/uLZZxQ4MyFQc3JOXkyPWTa4UJ5cK8IlYdfqxy0Fh51M/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9DNTZGMDY0NTNFNDAyMEE4ODkwQTQyMDl/GRThDNTNBQzEyNkNEREI3RTg5MUNBQkREODM0NzBGRDI0NjBBMkE5LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/findus-cannelloni-fiorentina/p10062580"
+   "url": "https://www.lidl.ch/p/de-CH/findus-cannelloni-fiorentina/p10062580",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2476,7 +2680,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/sH7YA8fJTDA-ljJWiloS4r0bFBKuNuG57bVzFi4KUPI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS81QjcxRDc1ODQyQUZERTI2RTVFQjBBNUV/ERENEOEI2Nzk1MkZDMEJFQjJGOTEyMTQ3NTVDNDMzNjBBOTRCNUNELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/chef-select-flammkuchenteig-aktion-nur-in-der-westschweiz-gueltig/p10062627"
+   "url": "https://www.lidl.ch/p/de-CH/chef-select-flammkuchenteig-aktion-nur-in-der-westschweiz-gueltig/p10062627",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2488,7 +2693,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/NQzvCTwARtfl_XinCCqRy0tQq9fbHjbAUQOtbkJUTQo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS82RTY3ODVBMjg3QUMzMjM3MDcwQkIyMkZ/FQTUyQUUxRkNBMkVBOUIyMEE3REM1RjQzMkFGRjQyODhDNTU1MkMwLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/bon-gelati-glace-am-stiel-erdbeer-crisp/p10062612"
+   "url": "https://www.lidl.ch/p/de-CH/bon-gelati-glace-am-stiel-erdbeer-crisp/p10062612",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2500,7 +2706,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/3S4KTMs8Rdnysrhkti0hRW9e9msc6-Led79TG_mV5O0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9CNEQ4NUUyMDQ1MURCMTA1OEM5MzcxNkE/5MDZFNjg5NzA0MURENzU4OUY2Njk4NkZFNENEM0E5MDY5NjkyMkFFLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/emmi-toni-jogurt/p10062547"
+   "url": "https://www.lidl.ch/p/de-CH/emmi-toni-jogurt/p10062547",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2512,7 +2719,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/coUjXPQTIiWe-FObm50bzpjYj4Kw3sO772eJZC8n5xE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GQjZGRUVDQzVDNERDMkUwNUQ0M0ZFNzQ/3MjgxRjM3MUZGQkJFN0YxREI2QzNBQjYyOTUyREYyMDg4MzQyQUZELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/emmi-aktifit-erdbeer/p10062548"
+   "url": "https://www.lidl.ch/p/de-CH/emmi-aktifit-erdbeer/p10062548",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2524,7 +2732,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/JwPp9ayeqEC3o8yb3ORWIZbVUal6ULRy-nhvIu9b9zU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS82MTU5QTREMUEyMDQ5MzExNTFDMjI3MDg/4QjEzRkMxRjA4OTg5N0E3MUUwMzZGRjkxNDIwMzIxMDE4OUZBRTgxLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/emmi-kefir-joghurt-nature/p10062551"
+   "url": "https://www.lidl.ch/p/de-CH/emmi-kefir-joghurt-nature/p10062551",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2536,7 +2745,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/nBtj2ptQDwUxkNcCbNt42DVXWVYw7OHej3z8oqzMMdw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BOUY0OUE5NjZERDFDREI4RDlDOUJGQkY/zMEQzRTM3RjBFMTFEMEE4MTE5OTE1NkJBMUM1MUNCMTlDRTEwNEY0LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/emmi-kefir-drink-nature/p10062552"
+   "url": "https://www.lidl.ch/p/de-CH/emmi-kefir-drink-nature/p10062552",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2548,7 +2758,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/XfuK-EtYv0nY6S_qEwzL5Uk3j-LmqkiVufaP9ItWGhs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS82OTM3OTAxQ0YwQTFDNjlFMzM1Qjk1MjM/zNTI0QjcyMDlENjI1RkRDOUUyQjU1NzI4NDVCQkM4OUJFMjM0NDk5LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/rama-cremefine-schon-geschlagen/p10062567"
+   "url": "https://www.lidl.ch/p/de-CH/rama-cremefine-schon-geschlagen/p10062567",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2560,7 +2771,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/9IreGbGGr3bToNjQ6X2y1dZdB2H3DpGK7Zf8EBLao1M/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8yNTIyMDIxMkE4MTJGRTRDRUE4MjI3MTN/BNTNFMkMyOTg3MDdBNjNBOEUyNDVBMkI3NTUwMTVEQzUwODFEOUQ4LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/jolly-oats-high-protein-muesli/p10062530"
+   "url": "https://www.lidl.ch/p/de-CH/jolly-oats-high-protein-muesli/p10062530",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2572,7 +2784,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/cEnTadmEFqrA1MVKUC_DcAgv2CPoTOtBrV0ppH1RLQY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS82REE2MUU1OEREMjQyNEM5OUZBQzA1QUV/BNjAxQjgzQTIzRTQ3M0EyMDlCMzU0RkQyMTEzOUNBRDZDMTczNUIyLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/combino-spaghetti/p10062518"
+   "url": "https://www.lidl.ch/p/de-CH/combino-spaghetti/p10062518",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2584,7 +2797,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/Bky1Nj3IwHwBADxV4tUUPgH_hEPDakSfUYEreNe5Q7U/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS81N0M0QTg0QzlGNTNDQ0VEOTIzRjA2NkF/BODExNUE4NDlEQkJDQ0Q1NTczRjYyRjZDMDQ4QTFFMTMxMzc5NzIwLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/la-molisana-penne-rigate/p10062581"
+   "url": "https://www.lidl.ch/p/de-CH/la-molisana-penne-rigate/p10062581",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2596,7 +2810,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/oLO3Isr_hzDM9OL6gseXxNDckihjXOwnyvBmaDstpdw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GNzgwOUNBQTZFMjc0QkRDM0Y3MkU4QjQ/3MUI4MEJFNzFFOTRBM0I3QTkzNDNBM0U5OUNFNEEyRjcyNDU4RUI5LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/la-molisana-orechiette/p10062582"
+   "url": "https://www.lidl.ch/p/de-CH/la-molisana-orechiette/p10062582",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2608,7 +2823,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/su8bo8-64Ki55KoCpsEclWnYoS9ZuqDA3nbru4077hs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zNjU2RDM0MDc4OEFBRTlBODM4MDkwOUY/2MjYxNENGRDNFNDU1RTFCMzAzQzE5Mjk2NTI5OTAxNTg5QUVGQjlBLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/la-molisana-fusilli/p10062583"
+   "url": "https://www.lidl.ch/p/de-CH/la-molisana-fusilli/p10062583",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2620,7 +2836,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/HEwmY9gZKs54GXg3vnnPgh8RxCU6LI-ywMQ1PMT-8MM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9ERTMwRjRDRTQ5NTlENzQ5NTYzQTgwNjA/yMUY3MkM0RDhCNzQ4M0ExQUE2NTFGN0NBNkExMkZFNzk0OTAyOUQyLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/la-molisana-farfalle/p10062584"
+   "url": "https://www.lidl.ch/p/de-CH/la-molisana-farfalle/p10062584",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2632,7 +2849,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/6JshyHNz-AGbAEweKM4cMZPmJx_e202yjIclM8tMdxE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS85MTE5MTU3REUzNjRDMzU4MEI1NEIzMjY/5RTA1QTU4OTM0MjZBNjUxOURFQ0ZDNTgzRjM2MzY5ODMwRkM2QzEwLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/la-molisana-spaghetti/p10062585"
+   "url": "https://www.lidl.ch/p/de-CH/la-molisana-spaghetti/p10062585",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2644,7 +2862,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/9z_qWczvtAS_5ytDbD8PmjRBLQrxF9bsMnWJIBg1Plc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS82MjlGM0JDRkM0N0I5N0Y3MzQyRUE4QTE/zQTlFOTY5ODI5MUM0ODQ4Q0JBQ0I2M0NEMTBCMDI5RTlBMDA0MTY1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/la-molisana-caserecce/p10062586"
+   "url": "https://www.lidl.ch/p/de-CH/la-molisana-caserecce/p10062586",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2656,7 +2875,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/zWdlGa7eHHIQbb-zrBQTTCP3kUjmZu2f4bt0nolGgdg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BNzBBMkIyMjlFRjlEMzExMkJBQkE0ODZ/CRENCREE2NzkzRjEyREU4QTJCMTZCQjAxQzdGMEIwNUU0MjQ4RkNDLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/ben-s-langkorn-reis/p10062568"
+   "url": "https://www.lidl.ch/p/de-CH/ben-s-langkorn-reis/p10062568",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2668,7 +2888,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/OBoJH24QM13ertw8m_Z4TmmjwG0u8Jp39y1zaaIedPc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xMTFFNjc3NDA2NTlGQjRGQzRGRDQ0RUN/FOUE3Qjg5MDkyRjVDM0U3MjFFMDgxRjk5MTg3QkY5MEYxN0VCM0EyLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/baresa-gehackte-tomaten/p10062517"
+   "url": "https://www.lidl.ch/p/de-CH/baresa-gehackte-tomaten/p10062517",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2680,7 +2901,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/udYzQqQ9jetEulXC3dMg2DiWUD1uUmaxrnkSnHRXU9A/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xMTMzMjAzQjg5MjYzNjFBMjA5MDhDQjN/EMUIwMTk0N0NEQTY2NjRFN0Q1MEQ0NDM5MjA3RjE0RUNBRTgwNEVBLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/italiamo-kirschtomatensauce/p10062524"
+   "url": "https://www.lidl.ch/p/de-CH/italiamo-kirschtomatensauce/p10062524",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2692,7 +2914,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/eJt9oT2B4gDiKbcunqn6Uc32vdHFCsuaJoXxFV86DlA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS81MjI3QjMzMEM3QjU0OTMwQUY4NUU3Qjc/0QjZCMDdEQUMzMzBGMjIzNDczQTFGMUJGRDFBMkNCMjQyQzkyQzYwLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/ben-s-original-sauce/p10062527"
+   "url": "https://www.lidl.ch/p/de-CH/ben-s-original-sauce/p10062527",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2704,7 +2927,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/_VeTuFh63meTPy376pu4WCePPr2D4PXXUu6ZcMaofRM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zRkFGNUM1MkM1QzRCMzRGOEMwNzdDNjg/5RkM0MTkzNEFCNzJDRjJGRkJCMzA1NzBGOEU3NENBNDNBMzQ5REY1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/thomy-senf-mild/p10062573"
+   "url": "https://www.lidl.ch/p/de-CH/thomy-senf-mild/p10062573",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2716,7 +2940,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/yBOH0Y3fFu404GHVvpom_pZp7KI_LyPlu0GJz2CzMlE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS81QjcwQzhERkMwNTVBNDdCQkM5RTM4RjR/BOEQxM0U4N0I4NUNGMUE2OEIwNzI4NkIzNzI5MzhDRkQ2MjMxQjBFLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/familia-mueesli/p10062514"
+   "url": "https://www.lidl.ch/p/de-CH/familia-mueesli/p10062514",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2728,7 +2953,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/KNtdbNKXQiVGke8Gn_ECp0QrjVLWenO5qI5bF1xIqfQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8yNDY4QTE3NkIwMDg3NEI2RTM2NkQwRTM/5NzlBNTE4NDY0OTkzNjFFNjY3QzA0MTQ1MDUxNTE0Q0M2RjJFMTE1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/laeckerli-huus-basler-laeckerli/p10062519"
+   "url": "https://www.lidl.ch/p/de-CH/laeckerli-huus-basler-laeckerli/p10062519",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2740,7 +2966,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/vXHaIi_-WH3iZF7fDuDKC7rAJVLAO_ELumxMvTaZ47c/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS84MzI5NDY0NTRCN0U2NjYyQzc0N0JBN0Q/wMTBDNTJCMURDNTI0N0I2NTY0OUU0Q0MwN0I1N0NDREMzNEJBQTI5LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/alesto-pecannusskerne/p10062521"
+   "url": "https://www.lidl.ch/p/de-CH/alesto-pecannusskerne/p10062521",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2752,7 +2979,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/1OaFK2S3FFnx6e21DpWZByx0n6TezI4HfVT0H9qt1L8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8yMEMxNzI1RTE2ODc4OTYzRTlCNzBGMDN/CNEU1ODgyMkRCODYyMDBDNzMwNDEwNUMzOUFBMUFFRkM0NDhGNzQxLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/alesto-nusskernmischung/p10062523"
+   "url": "https://www.lidl.ch/p/de-CH/alesto-nusskernmischung/p10062523",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2764,7 +2992,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/NWyt0uJX9WCIbrIioe1r7UmkN8LwwPosaHDc8V3ZJLU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9EQjUzMzI0RjIzNjY3RTBDNUVGQjUzQzI/zMjRDRjI0MjA2QkIyODU3RkZCNDE2OTM5NkQ5RTYyQzdCNjIwOEU0LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/kania-kuerbiskerne/p10062525"
+   "url": "https://www.lidl.ch/p/de-CH/kania-kuerbiskerne/p10062525",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2776,7 +3005,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/Tl4Gdm4c7GF8sCIV-pZcXnZGohjhhbU9h00MXSttjIU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS82RjRENEExRTAyNkM4NDc2MDAwQjk2MDE/xMURBQzU5QUYwMkE1ODA1MzgzQTk2NUZDODc2QjcyMzI1MkRGN0M1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/alesto-getrocknete-cranberries/p10062526"
+   "url": "https://www.lidl.ch/p/de-CH/alesto-getrocknete-cranberries/p10062526",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2788,7 +3018,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/Bm_oidrnIY4kL_G4WSFj3SHA_gDGG3ZFRatax5TXkT4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS81MkFDNTI1ODIxM0FBMUJERDAzODM0MEY/3MDNCNzgyMDcwNEMzODlDNzBDOTZDRTQxNURBMkZFOUM0RUM2NjNGLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/ammann-s-schaumkuesse-kings-tragebox/p10062577"
+   "url": "https://www.lidl.ch/p/de-CH/ammann-s-schaumkuesse-kings-tragebox/p10062577",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2800,7 +3031,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/cYLjWra2P_OayLu1H05EY4_Z1dusawjbGFzJE6t_EEc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS81MDUxQTJFQkFEODdBRTQyOTI1RDA3QkU/3NDA4RTg2NTdENEUxNjY1QUMwMEJGQzU0OUIzNDVFMDExMjE5NjlFLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/laeckerli-huus-rahmtaefeli/p10062578"
+   "url": "https://www.lidl.ch/p/de-CH/laeckerli-huus-rahmtaefeli/p10062578",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2812,7 +3044,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/IX5ScS4YCKJeb3L4jntb6_96u2tSCWLuEe8_1VguOGk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS80RjFCMjJGOUYzMDVGREEwOTgwNTBFOTk/4MUJGMDhDOTkyQzIyOTA5QTRGODM0OUEzQjg0NDVCNjlCN0Q1QUYzLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/laeckerli-huus-laeckerli-aux-pommes/p10062572"
+   "url": "https://www.lidl.ch/p/de-CH/laeckerli-huus-laeckerli-aux-pommes/p10062572",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2824,7 +3057,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/4Da0BhABA0H81Ti5T3cCp6qkke9soETdvHvubJMFg8U/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS81NTExODJENjExQjEwMjY3MjUzNUZBQ0Z/FQzQyNzJGNzk1QTk4M0YzOEM5NzYxMDM3MjlGNDNDMzgzOEQ0NjI2LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/ferrero-kinder-schokolade/p10062563"
+   "url": "https://www.lidl.ch/p/de-CH/ferrero-kinder-schokolade/p10062563",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2836,7 +3070,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/4J0Gy9w8b_Bp_dUiYX9JpbunQfa_4oKj6XkhSIQfCmg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wNTlEREFGQ0Q1MEU0MTk2MEFGREI1RDM/1QzAxNDkwMjIxRkVFNjI2NTRFQjAwMEVDODQxMkE3NzI2NkQ0OTAxLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/villars-schoko-koepfli-zartbitter-aktion-nur-in-der-westschweiz-gueltig/p10062708"
+   "url": "https://www.lidl.ch/p/de-CH/villars-schoko-koepfli-zartbitter-aktion-nur-in-der-westschweiz-gueltig/p10062708",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2848,7 +3083,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/4CwyuV_0IeA0mNb4wohuMaRId_W7wvwYOfYXrV48xEY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8yN0I3N0E3RDREOTVGRkUxMjcyOTQ3RjR/CQ0FCQTY1MDUwRkIzNzRDMjZGNkRBMENCMkE2RDlCMTkxRDgyNUU1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/vita-d-or-rapsoel-aktion-nur-in-der-westschweiz-gueltig/p10062626"
+   "url": "https://www.lidl.ch/p/de-CH/vita-d-or-rapsoel-aktion-nur-in-der-westschweiz-gueltig/p10062626",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2860,7 +3096,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/u8yYI3U3Mh48AG-_mIiDZjUBw7jTuGfGRKTArA6NR1o/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BRjUxOEM3RUU4QzNBNDY4NEVENzY1Mjk/wNTQyMjUwNTJBMDA4ODZGODVEMzg5OEFGQUMzMTVGMDQzRjlGRjlELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/vita-d-or-air-fryer-spray/p10062621"
+   "url": "https://www.lidl.ch/p/de-CH/vita-d-or-air-fryer-spray/p10062621",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2872,7 +3109,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/cKJCIsbn9FVKWrosLAEMZJZ_lRSrEoXV6ydy5HtVURY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS82Rjc5MTc3OEQyMTlCMTkwM0QzODcxN0U/3RjZDOURDQjUwNTBCNDNGODNBRTFEQTBDNjIwMDVGRkYyMUU4Q0ZDLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/emmi-matcha-latte/p10062553"
+   "url": "https://www.lidl.ch/p/de-CH/emmi-matcha-latte/p10062553",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2884,7 +3122,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/RaGVHGE4LQSiWBsNI-nm3nbrdcMUMZlvPoe0sb9XPYU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BOTczMzA5NDVEMDZBMkJERDE4RkI4NTk/yNzdBRDFBNTA5RURDMDdFQjI0MzQ1MDBFMTBGRTRDNzBCNDUyODFBLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/emmi-energy-milk-high-protein/p10062550"
+   "url": "https://www.lidl.ch/p/de-CH/emmi-energy-milk-high-protein/p10062550",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2896,7 +3135,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/_LWPApLNml6fZZHjs5HtwgyFyv_CkikTsttJsOBeVXY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xNzAwQjBCMzdBODdCRkM4NUVDODM4ODh/DRDlDRUMzQzkyRDhERDVGNkNEOURBNDMzN0E4OTM5QzkyNjFFM0QwLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/emmi-energy-milk-high-protein/p10062549"
+   "url": "https://www.lidl.ch/p/de-CH/emmi-energy-milk-high-protein/p10062549",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2908,7 +3148,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/QqhMDc2Qvpi6S4jQW-jC9SLFIR5NMqKMwLihpyR2218/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS85QjM4NjhCOEQ4REVDNzY3NEMxRkVCM0V/BMzc4RjBGMjg1NzBFN0RENTRBODIzNDVDMUM5NDMyRDlBMjNBNTc0LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/valser-mineralwasser/p10062534"
+   "url": "https://www.lidl.ch/p/de-CH/valser-mineralwasser/p10062534",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2920,7 +3161,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/nubAAY2viRlhcs4sP34XelusP5eFt--ZjxqDd6L7FnQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zMEQ2MTBDODUwRUJFNjY1MUYyMjVGN0J/GNkM0MTQwNUY5MDgxQUJFRDdFNjQzQTlEOTE4MDcwREU4NDdCMEUxLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/eve-litchi-alkoholfrei-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062565"
+   "url": "https://www.lidl.ch/p/de-CH/eve-litchi-alkoholfrei-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062565",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2932,7 +3174,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/NfCdLo8ojAXF1608KNLmyQuOAvPts98z4sUFeFOR2qU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS81REY0RjM5ODY5QkY4NEREMEJGRTIzQkJ/EQzRBNzY2RkI5RTVERUQzNTJGNzlFRTVCOUU5QzFCQUM4N0Y1MUMzLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/freeway-cola/p10062536"
+   "url": "https://www.lidl.ch/p/de-CH/freeway-cola/p10062536",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2944,7 +3187,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/fibSM0iXYOoRPMFUi69MwVPh9z6B75QQ5SlLaA-gA18/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9DMzdGRkNBOTBGRjQ0M0VBRURENjdDMUM/4QThDRkRGQ0VCNzEwMzI0QTQ2ODNDMjYzOUM5QjQzNzBGQkY5OUE3LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/coca-cola/p10062619"
+   "url": "https://www.lidl.ch/p/de-CH/coca-cola/p10062619",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2956,7 +3200,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/ljxKlQjkSIQibFt3cr1sRCZRHQ9kgW5Nsv-iX_XMmdk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GMzI1MkNBMTE3RjJFQkI1ODUwOEZFMTM/1MDg1MEJGM0Y5NTgyQkI2NzAwOTg2RjZGN0VFMDQyNzYwQ0ExMTA1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/eve-litchi/p10062535"
+   "url": "https://www.lidl.ch/p/de-CH/eve-litchi/p10062535",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2968,7 +3213,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/lJkTw_xHYZLF6iFWcPugC7ou1kqVj_u_4pWcCuBYWsM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zNDU4MzQ0RThDNjVFNzMzRjAzNzEyNTM/zRUQ1QkY2ODhGMTlDQzcyODU3OTI5RjIxMzNDNDJENTBBNjFGM0M3LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/eve-strawberry-mojito/p10062611"
+   "url": "https://www.lidl.ch/p/de-CH/eve-strawberry-mojito/p10062611",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2980,7 +3226,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/nYuFdRXTqA63wtttDPq03dYOj_XuxKxGklOyIBd3Kfs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS85M0RCRENEMEI2N0E0RTNGMUE2NTdERjA/wRjI4OTlEMTRFRDgxNzJGOEZBRkE1Q0EwNEM3NUIzM0IxMEU2MjY3LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/eve-pink-mimosa/p10062610"
+   "url": "https://www.lidl.ch/p/de-CH/eve-pink-mimosa/p10062610",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -2992,7 +3239,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/2eB9ZDoHvjfozG-CCqdfd6YSldWjwnG_zj_9icZhg-0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GNzlENzg1NEMxMUUyNUNGRkMwOTVCMDE/zOTg5RDNBMTcwODM3MERENDhFNkE2MUQ1OEYzNEYwRDlGOThGREU5LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/moretti-birra/p10062533"
+   "url": "https://www.lidl.ch/p/de-CH/moretti-birra/p10062533",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3004,7 +3252,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/Ys7EvYFwhkoR1LfI2NqMfxvwX2K1SzdtGnx3EPEsSwg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS84NkZDOUFEMjdBNUVEOEQ3RkY2RUQ4QTg/2NjU0OUI4NTYwOTQ1OUM1MDEzMERCREFDNzZGRDEwOEUzMEQxM0JGLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/freeway-rosso-di-merlot-ticino-doc/p10062538"
+   "url": "https://www.lidl.ch/p/de-CH/freeway-rosso-di-merlot-ticino-doc/p10062538",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3016,7 +3265,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/VCsRKwEL1nT-J5MfEHGG6eUe7k7aZZAQ4Cq0TbroqWs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS83QTZGOTYxNjkxNDBFQkZFRDVDMDExN0Z/EMURENEQ2MUNFRUVFRTM2OThGNDNBRTc4NEY4REM4MkM3MEI0QkY3LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/varta-longlife-batterien-big-box/p10062574"
+   "url": "https://www.lidl.ch/p/de-CH/varta-longlife-batterien-big-box/p10062574",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3028,7 +3278,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/_E1GMbA16FMg-mW2PLpnI0UzG4kymrwbeISBRpAEJvI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS82NkNGNTVEQjAzMTQ1MDBFQzQyMzU0OTk/zQjA1MTUwOTI5MjJGREMyOTQxNkQ5RTVDQUJBM0M1MTgyN0VCNEZELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/dettol-desinfektion-reinigungstuecher-duo-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062554"
+   "url": "https://www.lidl.ch/p/de-CH/dettol-desinfektion-reinigungstuecher-duo-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062554",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3040,7 +3291,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/IV4jXmp-44JuTJ1GNnFJZGSwuWjojYHHtbF55I8zxdc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BQjUwNTBFNkEyNUQ3MjQyMzhGRjQzNEU/3MkE0QTkyMUU3NUVERThDNUQxRUIwOENGQkRCRjlCOTJBQzU1RDM1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/finish-tablettes-geschirrspuelcaps/p10062555"
+   "url": "https://www.lidl.ch/p/de-CH/finish-tablettes-geschirrspuelcaps/p10062555",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3052,7 +3304,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/qAX4ntEJuyH-nistHXn7HG9DcpGHurX1oExIZO8xG_U/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9CRjNDQ0NEMjA1MjE2MjM0RDg2RDdCOEY/yNUI0RjkzRjY2QkU1RDQ5N0M2NEM4MjU4NERDNEE0NTM5OTVCNDk1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/ariel-fluessigwaschmittel/p10062557"
+   "url": "https://www.lidl.ch/p/de-CH/ariel-fluessigwaschmittel/p10062557",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3064,7 +3317,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/p_HDomr0CHF5pZpDdPWxVqRM7KrDyboKVv_u-leFHwQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9CRDY0MTZDNzJGMjkwNERCQjc4NjA2Rjc/wRkQ4NEM2NEFEMzkwRDg5NjhDQ0JDMzMzRjRFMUFGMEZCQjEwMUI5LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/pampers-windeln-premium-protection/p10062558"
+   "url": "https://www.lidl.ch/p/de-CH/pampers-windeln-premium-protection/p10062558",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3076,7 +3330,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/02jiA6oUhdOZJ206jxWheLg9P6PzQrERcmC8IFYdGjA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS80QUJFMEM2RTc1ODM3RkZFMTFFM0JBQkQ/0NTlGNkM4NUFEREY0RjVGMEFDQzczM0I2RDdBODlBMEZGREJGMzQyLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/hakle-toilettenpapier/p10062564"
+   "url": "https://www.lidl.ch/p/de-CH/hakle-toilettenpapier/p10062564",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3088,7 +3343,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/K7yt2lAgXqQe-CzvYdxhS521gESfaoC_ALBfmiFigCY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS85NEM2ODM1NjUyNkI3MDMxMzRFRDM4MUU/xRUVFNjRFQzc4RjZENDY5NjgyNzdEN0IxQkJGRDI2NDk3ODdDRjI1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/ariel-waschmittel-caps-max-power-color/p10062566"
+   "url": "https://www.lidl.ch/p/de-CH/ariel-waschmittel-caps-max-power-color/p10062566",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3100,7 +3356,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/mhTAE_IWr0De9lVdEdZBbdl4RzzYHPd-BuUFlX4gQmo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS81MzJCMUM1QTkyQUE3RDJDOUNBQTc0MkQ/wQTI5NDQ4ODBGOTlEMzJBQjlFQjQyRDQ0Nzk0QTJFNUI1QzY4NjQxLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/tempo-taschentuecher/p10062570"
+   "url": "https://www.lidl.ch/p/de-CH/tempo-taschentuecher/p10062570",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3112,7 +3369,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/41OF2MyNX9Os_dOWNENRsUQrXBfM9_jEN0hFyWizIuc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9EREFGNjBBNTFDQjI5QzY0MjlDODNERUQ/zRjQ2OTk4MzMwNEI3QUQyNTU1RkEyQTkwRTRDMURDMkQ5QkY2NjdGLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/dettol-desinfektionsreiniger-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062571"
+   "url": "https://www.lidl.ch/p/de-CH/dettol-desinfektionsreiniger-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062571",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3124,7 +3382,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/_2Uxm5vbxnXRYGEg5rHhEh_D5FbO6NRYESdTvpJ-YYw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zMTExMjI4RjE0MTk1NkVFQTdCNUQ3MUU/5NDY5NURCNjcyNUFDRjk4MjJFREZEMDI5MjkyQzAxRUZBRTVBQkRGLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/dettol-bad-reiniger-duo-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062575"
+   "url": "https://www.lidl.ch/p/de-CH/dettol-bad-reiniger-duo-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062575",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3136,7 +3395,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/yehRkTqoCdQoEBTK3Jg-FjGyu5oslGRl6wpq3i7pp14/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9FNzQyMTBEQkJCRkYxNkM4OTFDREY0ODc/4QzA4OEE4MDg2NjA2MEM5MTU2NzU0QkEwQkVBQkJFMDAwRjQxMkM2LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/dettol-hygienespueler-duo-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062576"
+   "url": "https://www.lidl.ch/p/de-CH/dettol-hygienespueler-duo-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062576",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3148,7 +3408,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/Xp099RZNWcepYRKZ0NZp7-Yj-rvVNZj1WXqC912EEtk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS84Q0ZGNzYxNDkzODA4NzgxNThGRjhDMDk/xQjU3N0E1REE0NUI1MjQ2QTVENkQyRUM4RkE2RTFDQ0UzOEZEOTAyLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/dettol-hygienereiniger-duo-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062579"
+   "url": "https://www.lidl.ch/p/de-CH/dettol-hygienereiniger-duo-aktion-nur-in-der-deutsch-und-westschweiz-gueltig/p10062579",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3160,7 +3421,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/cB-yhLBT9LIPvfrC_prkcgC3k46M1m5ataR0v3mmf8o/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8yOUVBQjFGMDlEREM1MUE1MTAzRjNCOTA/yRjA1MTZGQTgxMUNDQTZBMkU3NjBBNEYwRkQ4NEJFNzVCRTdCRTdFLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/ariel-waschmittelpulver/p10062587"
+   "url": "https://www.lidl.ch/p/de-CH/ariel-waschmittelpulver/p10062587",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3172,7 +3434,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/3ndXRRzgIbmgyEbZyuiafDZHaR6mEqjHN4saJaPMDYU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zQjY2MkNERTc2MTkwRDFEMkFGMTBCMzI/yRjU4MzI5MDg2QzFEN0ZBMEQzRjczQkFFQ0Q4RDBEQTY3MEIwOTg1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/ariel-waschmittelpulver/p10062588"
+   "url": "https://www.lidl.ch/p/de-CH/ariel-waschmittelpulver/p10062588",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3184,7 +3447,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/k_4Lfi7727vGMF_pELu3Q16IVooW8rZbfLR5E81dL_4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS84NkE4N0IzMTlFM0U0OEE3NkRBMThERjV/DMjk4OEEyMjlFRUFENzY3MTdGNTQ1MjdFOTk0NURGNUU0MkRGNzg2LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/ariel-waschmittelpulver/p10062589"
+   "url": "https://www.lidl.ch/p/de-CH/ariel-waschmittelpulver/p10062589",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3196,7 +3460,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/QVAR1jhM762HjMdVZB3pCuWhemUOLu5goDG-LKWdxAo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9ENkI3NzQ4OUEzOEE2Mjc5OTk1QzE3NkE/3RUFEMzQ5MEQ0MzlCNTY5RUU4MzlDMjlBNTJBNjRBMzk4RThEMTYwLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/ariel-waschmittelpulver/p10062590"
+   "url": "https://www.lidl.ch/p/de-CH/ariel-waschmittelpulver/p10062590",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3208,7 +3473,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/oiWbdSpmYjzuvJZtSYNBesMnTFgav9BXQu2ZlOovUmU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS81RUMwMTRENTNDMkY1RURGMDEyMjlGOUI/4Nzk0RTgwOEFDNkM1N0Q0OUFEQUJFOTJEMjMzRkU0NUY3MUM4OEJELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/ariel-pods-all-in-1/p10062591"
+   "url": "https://www.lidl.ch/p/de-CH/ariel-pods-all-in-1/p10062591",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3220,7 +3486,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/_QcSr8Lj70N_VyHYV1s8PCo7f2Ze6sr4GLnFyrOIei4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS85N0M2Njg1QUY1MTU5NjUzQkI2MUU1N0R/ENzZGQUJDMEQ4QUM1Rjc0QjBBQ0E2NjNBMDg5QzM5ODE2MkM2OThFLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/ariel-pods-all-in-1/p10062592"
+   "url": "https://www.lidl.ch/p/de-CH/ariel-pods-all-in-1/p10062592",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3232,7 +3499,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/ZH5PFYMMdqGms6Lhfkslmy9hwKN-w4oyzTeXzLo3H_8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GODlDMkMyM0Y5QjcxNkQxMDNGNDk4MEM/zNzA5MkQ2RDExRjRCMDdGNjYzNTk4NjI3NEM5NUFGNjM1MzhCMEQyLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/ariel-pods-all-in-1/p10062593"
+   "url": "https://www.lidl.ch/p/de-CH/ariel-pods-all-in-1/p10062593",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3244,7 +3512,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/5aTkUlMFXYUXyTwmKb96JTXtnFkIDDdG6G0ngmuThKY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9CRTY3MDkyMkE5RTU1QUEwMTg3RDZGNUE/3NDg1NjA2MDRBMzZCOTk2RUU0NTYzNzQ2NDkwRTgxNDE0Qzg3NkFCLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschbad-narzissen/p10062594"
+   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschbad-narzissen/p10062594",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3256,7 +3525,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/pDLTDEbz5zpRzrPpIyTo9AB4W6t3-R61mImRVLffisk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS85NEQyNkU3M0M3QjQ0QUQwNjA5NDZFMzZ/GODhGRjlCRjkzQ0UyNjA1OTdBOTc1NkI3QTNFQTZGNTY3NUFFRTMwLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschbad-white-musk/p10062595"
+   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschbad-white-musk/p10062595",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3268,7 +3538,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/XWjaqhF6hwiezT3JMDlsvojDWV3uMEQa8cM-fwJwtJg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wNDcyODkwM0IyQkE1QjRFOTY2MjNEMzk/yOTM5NkQxQkM4OEYyNkIyOEY3NjFGMUZBRjQxREYzRUY5REEzNEJCLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschbad-meersalz/p10062596"
+   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschbad-meersalz/p10062596",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3280,7 +3551,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/KLiQsAtoPLXmLntf4mhTDlGLwLuxwHXkaBCCoC5hUmc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9DMTZBQUI0REE5ODI1MjYwRkJEN0M5REY/3RUFFMUVEQUQwQTM1REEyMjkwRDk0QjgwNjE3NzQxODlCQkZBQ0IwLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschbad-amber-argan/p10062597"
+   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschbad-amber-argan/p10062597",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3292,7 +3564,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/QSWAr0WSQ7xfRGhxSunrDylPsV7ZaRYhEHV41Py1GOg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GNTBENkJENTgxMDBDNTYxRkI3QTIwMDA/4RTJGMTAzOUQ1RTBBODU2NTNDMzQ1QjBEMDE0RkY3NUMwMTI3NUNDLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschbad-original/p10062598"
+   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschbad-original/p10062598",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3304,7 +3577,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/djdaOhpKMAwf4o1-KDOtxU_BUEq94yZzcwSM2eKvE6E/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9EMUJDNjhFM0JFMDYzNEVDNjg0RjU1NEE/wOEY5N0YyNDMxRTlDNTdFMEJGOEQ5MkNFQ0FDQkU3OUQ1NTFGNzg0LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschbad-bergamot-jasmin/p10062599"
+   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschbad-bergamot-jasmin/p10062599",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3316,7 +3590,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/JHzAgdpFuIoH5Z1afvtzcGvhISOiyKHlKsSGJM5gyuQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9CNDU0NTIwNTIxRjAxQUY4Nzg2QUU2OTk/zOUEwNTFGQkNGODY2MkRDMjRDNUY3ODEyQTk4ODY2ODA0RjA3MjE5LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschbad-moon-flowers/p10062600"
+   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschbad-moon-flowers/p10062600",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3328,7 +3603,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/QP51biVx0pcyeeR3spEEnIiJmpSu-Jo7b5btgx6cgpY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BQ0RENTYwRDE1MDBFMDhFNjQwMzc3NzE/2QkFBRjU3Q0UzMDhGOUUwM0JDMTY1Nzc5QkVFOUQxNjU5RTlENEI3LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/lenor-weichspueler/p10062601"
+   "url": "https://www.lidl.ch/p/de-CH/lenor-weichspueler/p10062601",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3340,7 +3616,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/Ky-N22oHsyCiY2xzjTZZE_0C7gXVbjouGXmI4kwiB48/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS81MEM3M0IxMEU5ODMwNkEzODE3ODc1REV/DNzJEQzc3MzVCREFFNTY0RjQ2NzhDQzY3NDcwN0QyMDc4ODgxMTE0LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/lenor-weichspueler/p10062602"
+   "url": "https://www.lidl.ch/p/de-CH/lenor-weichspueler/p10062602",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3352,7 +3629,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/6Kk79yCLj7NKeCctiD5QwBLbcxn2SiVmdkK3tzq_12g/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GM0VDOEUzOTY2OUQ1M0I2NjNEMjgxQTE/zNTREQjUxMkY0ODIwNkQ2MUNDN0RDRTVCRTZGMjkxNTQ4RTk3NzNGLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/lenor-weichspueler/p10062603"
+   "url": "https://www.lidl.ch/p/de-CH/lenor-weichspueler/p10062603",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3364,7 +3642,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/BGJBmGzrbWsEpuKlkH-OrfjZIGkL3nCEsQtHqHNtcOc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xRjJDMEEzRjMzNzM3MjlGMTQ5ODAzMjA/3ODU1NzYzRERENDA2NzA0M0I5NUQwRjNBNDREQ0MxNDk4RERFMUU5LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/lenor-weichspueler/p10062604"
+   "url": "https://www.lidl.ch/p/de-CH/lenor-weichspueler/p10062604",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3376,7 +3655,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/CCJBLqMsuCODUaL-_zsWMd2BSLUf49Rpxm_pbyWlxNY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xRDkwRjEyQUM2RkEyMDlCNzlDMEIwRTM/0NDdBRENFQzg4NzA0QUI0Njg5NUVFMUYwNjkyNURCNUREMzgxRkEyLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/lenor-weichspueler/p10062605"
+   "url": "https://www.lidl.ch/p/de-CH/lenor-weichspueler/p10062605",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3388,7 +3668,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/ml6us9pJfFyl02CnFlyVeGbr0LuzQ9GAyNX6eFIcgbM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9FOEFGMDU4Rjc2NTk5RjY1MzQ3MUYxREY/yOTQ1ODk4REU3QzlGMjBGRTc5RTQzNjNDRDAyMDZENjZGM0VEOUU4LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/lenor-weichspueler/p10062606"
+   "url": "https://www.lidl.ch/p/de-CH/lenor-weichspueler/p10062606",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3400,7 +3681,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/jOxpgtQE0aZU1MqiusopwaVubakoXT1YIspK3Dv91gA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9ENzU4NzlCMzM0REMzMEE2OTRGRjAyQTU/1OURCMkQxOTVFN0FDQkI0QjU2MUI1NzQ2QjFCREI1NDBEN0I2NkE1LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/lenor-weichspueler/p10062607"
+   "url": "https://www.lidl.ch/p/de-CH/lenor-weichspueler/p10062607",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3412,7 +3694,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/q1S6Bu2RtPMgPN59T7ql_gdNah4-_bV5nyKsVCGoHg4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9FOUM3MTRCMTQ5MzMyOTU0RTdEMjIyQ0J/CNEFFRUNGRkEzNjdDODJBRTNGNkZFRjI2NERFRDYyRERGM0ZDRDI4LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/lenor-weichspueler/p10062608"
+   "url": "https://www.lidl.ch/p/de-CH/lenor-weichspueler/p10062608",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3424,7 +3707,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/cpAMXw8XVKWbI76MpwGoLpfJSR6chWrhPSJ7LlJ8G38/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9DOTJFNTRCMUUzQkRENDg3NUU4MUMxNzR/FMkExN0NFN0RDNUVCQzhENEQ5Qzc1QzI1MjRGNkJFREI4NTJDOTY2LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/lenor-weichspueler/p10062609"
+   "url": "https://www.lidl.ch/p/de-CH/lenor-weichspueler/p10062609",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3436,7 +3720,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/xYwzZJhnlIfUGdOsBMFQpoN_SGe8KPGkQyPswcDmHww/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wMUUyRDYxMUQyQ0FCNEQyQ0I4MzQxNzg/xODVEMkI5M0YwRDE1OTEyMkRGN0ZBNTg5MUUyQkI2M0M4MjU2NjkzLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschgel/p10062614"
+   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschgel/p10062614",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3448,7 +3733,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/IY7T4k08r18ksPMOLX3W5x0qtdVXd9veyp_M8_tkkKY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9CMjkxQkE1NEIxNDE4QThFRTgxNDVENTB/DMDcyRTk0MTE5QzFCRjZBRkJGNUI3QzYxNUU3NTIxM0IzMEQ4MjQ2LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschgel/p10062615"
+   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschgel/p10062615",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3460,7 +3746,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/wi5Ws0SFo5r8QY2qi7YzqtxAPcIahX3088CEKXME78w/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS82MzYzMTg5RjI4MTNFODUyMzNFNzgwQTU/xMDMzNjg5RTFCOTQ2MkU4MjlDQzVDMjZEQUVGNzlEMjk0MDUxOTNCLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschgel/p10062616"
+   "url": "https://www.lidl.ch/p/de-CH/felce-azzurra-duschgel/p10062616",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3472,7 +3759,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/L9YO5ZmyJ21qX89uCDyNVaw2YPtFKYhw-jOxN6QBSu8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9EQzlEMDBFMUVFQUE3Njg4QTQ2NzM2MUE/5Q0I2REQ4RDNERkQ0M0QwNEYxMzIzOTU4ODcyMzY5RkYwNUQ2QkE4LnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/floralys-kuechentuecher-xxl/p10062617"
+   "url": "https://www.lidl.ch/p/de-CH/floralys-kuechentuecher-xxl/p10062617",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3484,7 +3772,8 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "image": "https://imgproxy-retcat.assets.schwarz/JjQokwRE7pezZDlf2VHv3C4aCRYFyDC6zvgbTZsqEjM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xOTVERTQ0QzE1QUEwMTRFRTREMkFBNjM/xOEFEMzM1REE0MDZGNDlDM0FDQkI4RDQyQTBBNjAyNTRENkI1NDUzLnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/felix-katzensnack-party-mix/p10062556"
+   "url": "https://www.lidl.ch/p/de-CH/felix-katzensnack-party-mix/p10062556",
+   "cat": "Food"
   },
   {
    "store": "lidl",
@@ -3496,7 +3785,8 @@
    "validFrom": "2026-11-26",
    "validTo": null,
    "image": "https://imgproxy-retcat.assets.schwarz/88e_bn_2qdwuh_xH6FJooQ_2w3EyoDlwFyKiKhFZTA8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9DODY4NDRGMjFDQ0U3NzM3MjQ1NzNDODl/CRDY1Q0ZGQzUxQ0MxRTlFMzM5MjM4RjlEMTU3RjczNzJENTRFN0ZELnBuZw.png",
-   "url": "https://www.lidl.ch/p/de-CH/gourmet-perle-katzennassnahrung/p10062559"
+   "url": "https://www.lidl.ch/p/de-CH/gourmet-perle-katzennassnahrung/p10062559",
+   "cat": "Food"
   }
  ]
 }
