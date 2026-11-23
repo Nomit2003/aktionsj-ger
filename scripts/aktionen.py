@@ -41,12 +41,12 @@ def ddmm(s, ref=TODAY):
     return f"{y:04d}-{mo:02d}-{d:02d}"
 
 
-def offer(store, title, size, price, regular, valid_from=None, valid_to=None, image=None, url=None):
+def offer(store, title, size, price, regular, valid_from=None, valid_to=None, image=None, url=None, cat=None):
     if not title or price is None:
         return None
     disc = round((1 - price / regular) * 100) if regular and regular > price else None
     return {"store": store, "title": title, "size": size or "", "price": price, "regular": regular if disc else None,
-            "discount": disc, "validFrom": valid_from, "validTo": valid_to, "image": image, "url": url}
+            "discount": disc, "validFrom": valid_from, "validTo": valid_to, "image": image, "url": url, "cat": cat}
 
 
 # ---------- Volg: Frische-Aktionen ab Mittwoch, weitere ab Montag ----------
@@ -111,7 +111,7 @@ def lidl():
             desc = txt((d.get("keyfacts") or {}).get("description", ""))
             o = offer("lidl", d.get("fullTitle") or d.get("title"), desc, pr.get("price"), pr.get("oldPrice"),
                       fmt(d.get("storeStartDate")), fmt(d.get("storeEndDate")), d.get("image"),
-                      "https://www.lidl.ch" + d.get("canonicalUrl", ""))
+                      "https://www.lidl.ch" + d.get("canonicalUrl", ""), d.get("category"))
             if o: out.append(o)
     return out
 

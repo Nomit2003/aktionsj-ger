@@ -95,9 +95,9 @@ function fmtPack(p, size) {
 const withSize = (p, name, size) => /\d/.test(name) ? name : `${name} ${fmtPack(p, size)}`;
 // Bestes Angebot pro Laden für die gewünschte Menge: wie viele Packungen braucht es, was kostet das?
 function offersFor(p, stores, amount = refAmount(p)) {
-  return p.offers.filter(o => stores.includes(o[0])).map(([s, name, size, price, regular]) => {
+  return p.offers.filter(o => stores.includes(o[0])).map(([s, name, size, price, regular, meta]) => {
     const packs = Math.max(1, Math.ceil(amount / size - 1e-9));
-    return { store: s, name: withSize(p, name, size), size, price, regular, promo: regular != null, unitPrice: price / size, packs, cost: packs * price,
+    return { store: s, live: !!meta, validTo: meta?.validTo, url: meta?.url, name: meta ? name : withSize(p, name, size), size, price, regular, promo: regular != null, unitPrice: price / size, packs, cost: packs * price,
       regCost: regular != null ? packs * regular : null };
   }).sort((a, b) => a.cost - b.cost || a.unitPrice - b.unitPrice);
 }
@@ -258,7 +258,7 @@ function renderPlan() {
       rows.map(({ it, p, o }) => `<div class="row ${it.done ? "done" : ""}" data-id="${it.id}">
         <div class="row-main">
           <label><input type="checkbox" ${it.done ? "checked" : ""}>
-            <span><span class="pname">${pic(p)}${fmtAmount(p, amt(it))} ${esc(p.label)}</span>${o.promo ? ' <span class="badge">AKTION bis ' + fmtDate(DATA_INFO.aktionBis) + "</span>" : ""}
+            <span><span class="pname">${pic(p)}${fmtAmount(p, amt(it))} ${esc(p.label)}</span>${o.promo ? ' <span class="badge">AKTION' + (o.validTo || !o.live ? " bis " + fmtDate(o.validTo || DATA_INFO.aktionBis) : "") + "</span>" : ""}${o.live ? ' <span class="badge live">ECHT</span>' : ""}
             <span class="pdesc">${o.packs > 1 ? o.packs + " × " : ""}${esc(o.name)} · ${CHF(o.unitPrice)}/${UNIT_LABEL[p.unit]}</span>${vsMain(main, p, o, amt(it))}</span>
           </label>
           <div class="price-col"><span class="now">${CHF(o.cost)}</span>${o.promo ? `<span class="was">${CHF(o.regCost)}</span>` : ""}</div>
@@ -410,12 +410,85 @@ function renderRegion() {
   fl.innerHTML = all.slice(0, 40).map(x => `<li><b>${STORES[x.b].name}</b> ${esc(x.name)}${x.addr ? ", " + esc(x.addr) : ""} · ${x.dist.toFixed(1)} km</li>`).join("");
 }
 
+// ---------- Echte Aktionen (aktionen.json, täglich von GitHub Actions erzeugt) ----------
+let LIVE = null;
+const LIVE_STORES = () => LIVE ? Object.keys(LIVE.stores).filter(s => LIVE.stores[s].count > 0) : [];
+// Packungsgrösse aus dem Aktionstext lesen, z.B. "2 x 160 g", "500 g", "Pro kg", "1,5 l", "6 Stück"
+function liveSize(text, unit) {
+  const t = text.toLowerCase().replace(/(\d),(\d)/g, "$1.$2").replace(/\bliter\b/g, "l").replace(/\bgramm\b/g, "g").replace(/\bkilo(gramm)?\b/g, "kg");
+  const conv = { kg: ["kg", 1], g: ["kg", 0.001], l: ["l", 1], dl: ["l", 0.1], cl: ["l", 0.01], ml: ["l", 0.001] };
+  let m = t.match(/(\d+)\s*[x×]\s*(\d+(?:\.\d+)?)\s*(kg|g|l|dl|cl|ml)\b/);
+  if (m && conv[m[3]][0] === unit) return +m[1] * +m[2] * conv[m[3]][1];
+  m = t.match(/(\d+(?:\.\d+)?)\s*(kg|g|l|dl|cl|ml)\b/);
+  if (m && conv[m[2]][0] === unit) return +m[1] * conv[m[2]][1];
+  if (/pro kg|per kg|\/kg/.test(t) && unit === "kg") return 1;
+  if (unit === "stk") { m = t.match(/(\d+)\s*(?:stück|stk|rollen|er)\b/); if (m) return +m[1]; if (/pro stück|per stück|pro bund/.test(t)) return 1; }
+  return null;
+}
+// Welches Produkt der Liste ist mit einer echten Aktion gemeint?
+function liveMatch(title) {
+  const n = norm(title), toks = n.split(" ");
+  for (const p of PRODUCTS) {
+    const cfg = (window.LIVE_KEYS || {})[p.id]; if (!cfg) continue;
+    if ((cfg.not || []).some(w => n.includes(norm(w)))) continue;
+    for (const raw of cfg.keys) {
+      const pre = raw.endsWith("*"), key = norm(raw.replace("*", ""));
+      if (key.includes(" ")) { if ((" " + n + " ").includes(" " + key + " ")) return p; continue; }
+      const i = toks.findIndex(k => k === key || (pre && k.startsWith(key)));
+      if (i >= 0 && !["mit", "im", "in", "und"].includes(toks[i - 1])) return p;
+    }
+  }
+  return null;
+}
+async function loadLive() {
+  try {
+    const ctl = new AbortController(); setTimeout(() => ctl.abort(), 6000);
+    const r = await fetch("aktionen.json", { cache: "no-cache", signal: ctl.signal });
+    if (!r.ok) return;
+    LIVE = await r.json();
+  } catch { return; }
+  for (const o of LIVE.offers) {
+    if (!STORES[o.store] || o.cat && o.cat !== "Food") continue;
+    if (/nur (im|in der) (tessin|romandie|westschweiz)/i.test(o.title)) continue; // regionale Aktionen nicht automatisch verwenden
+    const p = liveMatch(o.title); if (!p) continue;
+    const size = liveSize(o.size + " " + o.title, p.unit); if (!size) continue;
+    o.productId = p.id;
+    p.offers.push([o.store, `${o.title}${/\d/.test(o.title) ? "" : " " + fmtPack(p, size)}`, size, o.price, o.regular, { validTo: o.validTo, url: o.url }]);
+  }
+}
+
 // ---------- Aktionen ----------
 let dealStore = "alle";
+let dealQuery = "";
+function renderDealsLive() {
+  const stores = LIVE_STORES().filter(s => state.activeStores.includes(s));
+  if (dealStore !== "alle" && !stores.includes(dealStore)) dealStore = "alle";
+  $("#dealFilter").innerHTML = [["alle", "Alle"], ...stores.map(s => [s, STORES[s].name])]
+    .map(([k, l]) => `<button type="button" data-s="${k}" class="${dealStore === k ? "on" : ""}">${l}</button>`).join("");
+  const missing = Object.keys(STORES).filter(s => state.activeStores.includes(s) && !LIVE_STORES().includes(s)).map(s => STORES[s].name);
+  $("#dealsSub").innerHTML = `Echte Wochenaktionen, Stand ${fmtDate(LIVE.updated.slice(0, 10))}${LIVE.updated.slice(0, 4)}.${missing.length ? ` Für ${missing.join(", ")} gibt es noch keine echten Daten.` : ""}`;
+  $("#favDeals").innerHTML = alarmCard(true) + `<input id="dealSearch" class="deal-search" type="search" placeholder="Aktionen durchsuchen …" value="${esc(dealQuery)}">`;
+  const q = norm(dealQuery);
+  const shown = LIVE.offers.filter(o => stores.includes(o.store) && (dealStore === "alle" || o.store === dealStore) && (!q || norm(o.title + " " + o.size).includes(q)))
+    .sort((a, b) => (b.discount || 0) - (a.discount || 0)).slice(0, 150);
+  if (!shown.length) { $("#dealList").innerHTML = `<div class="empty"><span class="big">🏷️</span>Keine passenden Aktionen gefunden.</div>`; return; }
+  $("#dealList").innerHTML = `<ul class="items card-list">${shown.map(o => {
+    const p = productById(o.productId), onList = p && state.items.some(i => i.productId === p.id);
+    return `<li class="deal">
+      ${o.image ? `<img class="dimg" src="${esc(o.image)}" alt="" loading="lazy">` : `<div class="dot" style="--c:${STORES[o.store].color}">${initials(o.store)}</div>`}
+      <div class="dname">${esc(o.title)}</div>
+      <div class="dprice">${o.discount ? `<span class="pct">−${o.discount}%</span> ` : ""}<b>${CHF(o.price)}</b>${o.regular ? `<s>${CHF(o.regular)}</s>` : ""}</div>
+      <div class="dsub"><span class="sdot" style="--c:${STORES[o.store].color}"></span>${STORES[o.store].name}${o.size ? " · " + esc(o.size.slice(0, 70)) : ""}${o.validTo ? " · bis " + fmtDate(o.validTo) : ""}</div>
+      <div class="dact">${p ? `<button type="button" class="icon-btn star ${isFav(p.id) ? "on" : ""}" data-fav="${p.id}" aria-label="Favorit">${isFav(p.id) ? "★" : "☆"}</button><button type="button" class="add-btn ${onList ? "added" : ""}" data-add="${p.id}">${onList ? "✓ auf Liste" : "+ Liste"}</button>` : o.url ? `<a class="add-btn" href="${esc(o.url)}" target="_blank" rel="noopener">Ansehen ↗</a>` : ""}</div>
+    </li>`; }).join("")}</ul>`;
+  const inp = $("#dealSearch");
+  inp.addEventListener("input", () => { dealQuery = inp.value; clearTimeout(inp._t); inp._t = setTimeout(() => { renderDealsLive(); const n = $("#dealSearch"); n.focus(); n.setSelectionRange(n.value.length, n.value.length); }, 250); });
+}
 function renderDeals() {
+  if (LIVE) return renderDealsLive();
   const deals = [];
-  for (const p of PRODUCTS) for (const [s, name, size, price, regular] of p.offers)
-    if (regular != null && state.activeStores.includes(s)) deals.push({ p, s, name: withSize(p, name, size), price, regular, size, pct: Math.round((1 - price / regular) * 100) });
+  for (const p of PRODUCTS) for (const [s, name, size, price, regular, meta] of p.offers)
+    if (!meta && regular != null && state.activeStores.includes(s)) deals.push({ p, s, name: withSize(p, name, size), price, regular, size, pct: Math.round((1 - price / regular) * 100) });
   deals.sort((a, b) => b.pct - a.pct);
   const stores = [...new Set(deals.map(d => d.s))];
   if (dealStore !== "alle" && !stores.includes(dealStore)) dealStore = "alle";
@@ -448,13 +521,13 @@ function favPromos() {
 }
 function alarmCard(always) {
   const hits = favPromos();
-  const key = "alarmSeen_" + DATA_INFO.aktionBis;
+  const key = "alarmSeen_" + (LIVE?.updated || DATA_INFO.aktionBis);
   if (!hits.length || (!always && store.get(key, false))) return "";
   return `<div class="alarm"><div class="alarm-head"><span>🔔 Aktionsalarm: ${hits.length} ${hits.length === 1 ? "Favorit ist" : "Favoriten sind"} in Aktion</span>
       ${always ? "" : `<button type="button" class="icon-btn" data-alarm-close aria-label="ausblenden">✕</button>`}</div>
     ${hits.map(({ p, o, pct }) => {
       const on = state.items.some(i => i.productId === p.id);
-      return `<div class="alarm-row">${pic(p)}<span class="a-txt"><b>${esc(p.label)}</b> bei ${STORES[o.store].name}: ${CHF(o.price)} statt ${CHF(o.regular)} <span class="pct">−${pct}%</span><span class="pdesc">${esc(o.name)} · bis ${fmtDate(DATA_INFO.aktionBis)}</span></span>
+      return `<div class="alarm-row">${pic(p)}<span class="a-txt"><b>${esc(p.label)}</b> bei ${STORES[o.store].name}: ${CHF(o.price)} statt ${CHF(o.regular)} <span class="pct">−${pct}%</span><span class="pdesc">${esc(o.name)} · bis ${fmtDate(o.validTo || DATA_INFO.aktionBis)}${o.live ? " · echte Aktion" : ""}</span></span>
       <button type="button" class="add-btn ${on ? "added" : ""}" data-add="${p.id}">${on ? "✓ auf Liste" : "+ Liste"}</button></div>`; }).join("")}</div>`;
 }
 
@@ -530,8 +603,10 @@ function show(view) {
 }
 
 // ---------- Start ----------
-function init() {
+async function init() {
+  await loadLive();
   $("#standDate").textContent = fmtDate(DATA_INFO.stand) + DATA_INFO.stand.slice(0, 4);
+  if (LIVE) $("#sampleNoteText").textContent = `Echte Aktionen von ${LIVE_STORES().map(s => STORES[s].name).join(", ")} (Stand ${fmtDate(LIVE.updated.slice(0, 10))}). Normalpreise und die anderen Läden sind noch Beispieldaten.`;
   $("#sampleBanner").hidden = !DATA_INFO.isSample || store.get("noteHidden", false);
   $("#hideNote").addEventListener("click", () => { $("#sampleBanner").hidden = true; store.set("noteHidden", true); });
   document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => show(b.dataset.view)));
@@ -548,7 +623,7 @@ function init() {
     if (add) { if (!state.items.some(i => i.productId === add.dataset.add)) addItem(productById(add.dataset.add).label, add.dataset.add); }
     else if (fav) toggleFav(fav.dataset.fav);
     else if (quick) { if (!state.items.some(i => i.productId === quick.dataset.quick)) addItem(productById(quick.dataset.quick).label, quick.dataset.quick); }
-    else if (close) store.set("alarmSeen_" + DATA_INFO.aktionBis, true);
+    else if (close) store.set("alarmSeen_" + (LIVE?.updated || DATA_INFO.aktionBis), true);
     else if (del) { state.history = state.history.filter(h => String(h.id) !== del.dataset.delHist); save(); renderHistory(); return; }
     else return;
     renderList();

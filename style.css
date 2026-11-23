@@ -208,3 +208,9 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .bar .spent{background:var(--accent)} .bar .saved{background:var(--good)}
 .month-split{padding:0 14px 8px}
 .row.hist .price-col{display:flex;flex-direction:column;align-items:flex-end}
+/* v6: echte Aktionen */
+.badge.live{background:var(--soft);color:var(--good)}
+.dimg{width:44px;height:44px;object-fit:contain;border-radius:10px;background:#fff;grid-row:span 2}
+.sdot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--c);margin-right:5px;vertical-align:1px}
+.deal-search{width:100%;margin-bottom:10px}
+a.add-btn{text-decoration:none;display:inline-block}

@@ -14,14 +14,18 @@
 | Teil | Stand v1 |
 |---|---|
 | Filialen in deiner Region | **Echt** (OpenStreetMap, live abgefragt) |
-| Produktpreise | **Beispieldaten**, von Hand geschätzt (`data.js`) |
-| Aktionen | **Erfunden**, nur zur Demonstration |
+| Aktionen Volg, Denner, Lidl | **Echt**, täglich automatisch geladen (`scripts/aktionen.py` → `aktionen.json`) |
+| Aktionen Migros, Coop, Aldi, Spar | noch Beispieldaten (Seiten sperren automatische Abrufe oder brauchen eine andere Methode) |
+| Normalpreise | **Beispieldaten**, von Hand geschätzt (`data.js`) |
 
 ## Mögliche echte Datenquellen (Recherche)
 - **Keine offiziellen Preis-APIs:** Migros, Coop, Denner, Lidl, Aldi, Spar und Volg bieten keine öffentliche Schnittstelle für Preise/Aktionen.
 - **Webshops/Aktionsseiten der Läden** (migros.ch, coop.ch, denner.ch, lidl.ch, aldi-suisse.ch): Preise sind öffentlich sichtbar, ein Scraper kann sie wöchentlich einlesen. Es gibt fertige kostenpflichtige Scraper (z.B. auf Apify für Migros, Coop, Denner).
 - **Aktionsportale** (aktionis.ch, preispirat.ch, profital.ch): sammeln die Wochenaktionen aller Läden, das wäre die einfachste Quelle für Aktionen.
 - **Rechtliches (keine Rechtsberatung):** Für eine private App ist das Auslesen öffentlicher Preise meist unproblematisch. Bei einer veröffentlichten App sind die Nutzungsbedingungen der Seiten und das UWG (Art. 5 lit. c, Übernahme fremder Arbeitsergebnisse) zu beachten. Daten direkt bei den Läden zu holen ist sicherer als die gesammelten Daten der Aktionsportale zu übernehmen.
+
+## Automatischer Abruf
+Der Workflow `.github/workflows/aktionen.yml` läuft jeden Morgen und übernimmt neue Aktionen am Tag, an dem ein Laden sie veröffentlicht. Fällt ein Laden aus, bleiben seine letzten Daten stehen. Manuell starten: GitHub → Actions → „Aktionen laden“ → Run workflow.
 
 ## Dateien
 - `index.html`, `style.css`, `app.js`: die App
