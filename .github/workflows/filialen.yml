@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["scripts/filialen.py", "scripts/profital_probe.py", ".github/workflows/filialen.yml"]
+    paths: ["scripts/filialen.py", ".github/workflows/filialen.yml"]
 permissions:
   contents: write
 concurrency: { group: daten-commit, cancel-in-progress: false }
@@ -16,7 +16,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: python scripts/profital_probe.py || true
       - run: python scripts/filialen.py
       - name: Änderungen speichern
         run: |

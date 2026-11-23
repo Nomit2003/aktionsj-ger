@@ -341,7 +341,35 @@ function km(lat1, lon1, lat2, lon2) {
   const a = Math.sin(dLat / 2) ** 2 + Math.cos(lat1 * r) * Math.cos(lat2 * r) * Math.sin(dLon / 2) ** 2;
   return 2 * R * Math.asin(Math.sqrt(a));
 }
+// ---------- Schnelle Suche: alle Filialen der Schweiz liegen vorgeladen in filialen.json ----------
+let FILIALEN = null, filialenPromise = null;
+function loadFilialen() {
+  return filialenPromise ||= fetch("filialen.json").then(r => r.ok ? r.json() : null).then(d => (FILIALEN = d)).catch(() => null);
+}
+// PLZ oder Ort direkt aus den Filial-Adressen bestimmen (ohne Internet-Abfrage)
+function geocodeLocal(q) {
+  if (!FILIALEN) return null;
+  const qq = q.trim(), isPlz = /^\d{4}$/.test(qq), nq = norm(qq);
+  const hits = FILIALEN.rows.filter(r => isPlz ? r[5] === qq : norm(r[6]) === nq);
+  if (!hits.length) return null;
+  const lat = hits.reduce((a, r) => a + r[1], 0) / hits.length, lon = hits.reduce((a, r) => a + r[2], 0) / hits.length;
+  const city = hits.find(r => r[6])?.[6] || "";
+  return { lat, lon, label: isPlz ? `${qq} ${city}`.trim() : city || qq };
+}
+function findStoresLocal(lat, lon, radius) {
+  const found = {}, km0 = radius / 1000;
+  const dLat = km0 / 111, dLon = km0 / (111 * Math.cos(lat * Math.PI / 180));
+  for (const [b, la, lo, name, street, plz, ort] of FILIALEN.rows) {
+    if (Math.abs(la - lat) > dLat || Math.abs(lo - lon) > dLon || !STORES[b]) continue;
+    const dist = km(lat, lon, la, lo); if (dist > km0) continue;
+    (found[b] ||= []).push({ name: name || STORES[b].name, addr: [street, ort].filter(Boolean).join(", "), dist });
+  }
+  for (const b in found) found[b].sort((x, y) => x.dist - y.dist);
+  return found;
+}
 async function geocode(q) {
+  await loadFilialen();
+  const local = geocodeLocal(q); if (local) return local;
   const base = "https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=ch&";
   const url = /^\d{4}$/.test(q.trim()) ? base + "postalcode=" + q.trim() : base + "q=" + encodeURIComponent(q);
   const r = await fetch(url, { headers: { "Accept-Language": "de" } });
@@ -349,6 +377,8 @@ async function geocode(q) {
   return { lat: +j[0].lat, lon: +j[0].lon, label: (/^\d{4}$/.test(q.trim()) ? q.trim() + " " : "") + (j[0].display_name.split(",").map(x => x.trim()).find(x => !/^\d+$/.test(x)) || "") };
 }
 async function findStores(lat, lon, radius) {
+  await loadFilialen();
+  if (FILIALEN) return findStoresLocal(lat, lon, radius);
   const query = `[out:json][timeout:25];nwr["shop"~"^(supermarket|convenience|discount)$"](around:${radius},${lat},${lon});out center tags;`;
   const endpoints = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter"];
   let lastErr;
@@ -604,6 +634,7 @@ function show(view) {
 
 // ---------- Start ----------
 async function init() {
+  loadFilialen(); // im Hintergrund vorladen
   await loadLive();
   $("#standDate").textContent = fmtDate(DATA_INFO.stand) + DATA_INFO.stand.slice(0, 4);
   if (LIVE) $("#sampleNoteText").textContent = `Echte Aktionen von ${LIVE_STORES().map(s => STORES[s].name).join(", ")} (Stand ${fmtDate(LIVE.updated.slice(0, 10))}). Normalpreise und die anderen Läden sind noch Beispieldaten.`;
@@ -659,6 +690,7 @@ async function init() {
   });
   $("#itemList").addEventListener("click", e => { if (e.target.matches("a[data-a=pick]")) e.preventDefault(); }, true);
 
+  $("#radiusInput").addEventListener("change", () => { if (state.region && FILIALEN) runRegionSearch(async () => state.region); });
   $("#regionForm").addEventListener("submit", e => {
     e.preventDefault(); const q = $("#plzInput").value.trim(); if (!q) return;
     runRegionSearch(() => geocode(q));

@@ -23,7 +23,8 @@ def brand(tags):
 
 def main():
     data = None
-    for ep in ENDPOINTS:
+    import time
+    for ep in ENDPOINTS * 2:  # zwei Runden, Overpass ist oft überlastet
         try:
             req = urllib.request.Request(ep, data=urllib.parse.urlencode({"data": QUERY}).encode(),
                                          headers={"User-Agent": "aktionsjaeger-filialen/1.0 (GitHub Actions)"})
@@ -33,8 +34,10 @@ def main():
             break
         except Exception as e:
             print("Fehler bei", ep, e, file=sys.stderr)
+            time.sleep(30)
     if not data:
-        sys.exit("Kein Overpass-Server erreichbar – alte filialen.json bleibt bestehen.")
+        print("::warning::Kein Overpass-Server erreichbar – alte filialen.json bleibt bestehen.")
+        return
     rows = []
     for el in data["elements"]:
         tags = el.get("tags", {}); b = brand(tags)
