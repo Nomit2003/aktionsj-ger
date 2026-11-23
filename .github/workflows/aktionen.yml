@@ -8,7 +8,7 @@ on:
     paths: ["scripts/**", ".github/workflows/aktionen.yml"]
 permissions:
   contents: write
-concurrency: { group: aktionen, cancel-in-progress: false }
+concurrency: { group: daten-commit, cancel-in-progress: false }
 jobs:
   laden:
     runs-on: ubuntu-latest
@@ -22,4 +22,4 @@ jobs:
           git config user.name "aktionen-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add aktionen.json
-          git diff --cached --quiet || (git commit -m "Aktionen aktualisiert" && git push)
+          git diff --cached --quiet || (git commit -m "Aktionen aktualisiert" && git pull --rebase && git push)
