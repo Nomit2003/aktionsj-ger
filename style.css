@@ -224,3 +224,9 @@ a.add-btn{text-decoration:none;display:inline-block}
 .own-form input,.own-form select{width:100%}
 @media (max-width:380px){.own-two{grid-template-columns:1fr}}
 .badge.own{background:var(--accent);color:var(--accent-ink)}
+.deal-group{margin:0 0 18px}
+.deal-group-head{display:flex;align-items:center;gap:10px;margin:0 2px 8px}
+.deal-group-head .dot{width:30px;height:30px;font-size:12px;grid-row:auto}
+.deal-group-head .gname{font-weight:800;font-size:17px}
+.more-btn{margin-left:auto;border:0;background:none;color:var(--accent);font:600 14px/1 inherit;cursor:pointer;padding:6px 0}
+.more-all{margin-top:8px}

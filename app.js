@@ -567,6 +567,16 @@ function ownClick(e) {
 // ---------- Aktionen ----------
 let dealStore = "alle";
 let dealQuery = "";
+function dealRow(o) {
+  const p = productById(o.productId), onList = p && state.items.some(i => i.productId === p.id);
+  return `<li class="deal">
+      ${o.image ? `<img class="dimg" src="${esc(o.image)}" alt="" loading="lazy">` : `<div class="dot" style="--c:${STORES[o.store].color}">${initials(o.store)}</div>`}
+      <div class="dname">${esc(o.title)}</div>
+      <div class="dprice">${o.discount ? `<span class="pct">−${o.discount}%</span> ` : ""}<b>${CHF(o.price)}</b>${o.regular ? `<s>${CHF(o.regular)}</s>` : ""}</div>
+      <div class="dsub">${o.size ? esc(o.size.slice(0, 70)) : ""}${o.size && o.validTo ? " · " : ""}${o.validTo ? "bis " + fmtDate(o.validTo) : ""}${o.own ? ' <span class="badge own">EIGENE</span>' : ""}</div>
+      <div class="dact">${p ? `<button type="button" class="icon-btn star ${isFav(p.id) ? "on" : ""}" data-fav="${p.id}" aria-label="Favorit">${isFav(p.id) ? "★" : "☆"}</button><button type="button" class="add-btn ${onList ? "added" : ""}" data-add="${p.id}">${onList ? "✓ auf Liste" : "+ Liste"}</button>` : o.url ? `<a class="add-btn" href="${esc(o.url)}" target="_blank" rel="noopener">Ansehen ↗</a>` : ""}</div>
+    </li>`;
+}
 function renderDealsLive() {
   const own = ownDeals();
   const stores = [...new Set([...LIVE_STORES(), ...own.map(o => o.store)])].filter(s => state.activeStores.includes(s));
@@ -577,18 +587,22 @@ function renderDealsLive() {
   $("#dealsSub").innerHTML = `Echte Wochenaktionen, Stand ${fmtDate(LIVE.updated.slice(0, 10))}${LIVE.updated.slice(0, 4)}.${missing.length ? ` Für ${missing.join(", ")} gibt es noch keine echten Daten.` : ""}`;
   $("#favDeals").innerHTML = alarmCard(true) + `<input id="dealSearch" class="deal-search" type="search" placeholder="Aktionen durchsuchen …" value="${esc(dealQuery)}">`;
   const q = norm(dealQuery);
-  const shown = [...own, ...LIVE.offers].filter(o => stores.includes(o.store) && (dealStore === "alle" || o.store === dealStore) && (!q || norm(o.title + " " + o.size).includes(q)))
-    .sort((a, b) => (b.own ? 1 : 0) - (a.own ? 1 : 0) || (b.discount || 0) - (a.discount || 0)).slice(0, 150);
-  if (!shown.length) { $("#dealList").innerHTML = `<div class="empty"><span class="big">🏷️</span>Keine passenden Aktionen gefunden.</div>`; return; }
-  $("#dealList").innerHTML = `<ul class="items card-list">${shown.map(o => {
-    const p = productById(o.productId), onList = p && state.items.some(i => i.productId === p.id);
-    return `<li class="deal">
-      ${o.image ? `<img class="dimg" src="${esc(o.image)}" alt="" loading="lazy">` : `<div class="dot" style="--c:${STORES[o.store].color}">${initials(o.store)}</div>`}
-      <div class="dname">${esc(o.title)}</div>
-      <div class="dprice">${o.discount ? `<span class="pct">−${o.discount}%</span> ` : ""}<b>${CHF(o.price)}</b>${o.regular ? `<s>${CHF(o.regular)}</s>` : ""}</div>
-      <div class="dsub"><span class="sdot" style="--c:${STORES[o.store].color}"></span>${STORES[o.store].name}${o.size ? " · " + esc(o.size.slice(0, 70)) : ""}${o.validTo ? " · bis " + fmtDate(o.validTo) : ""}${o.own ? ' · <span class="badge own">EIGENE</span>' : ""}</div>
-      <div class="dact">${p ? `<button type="button" class="icon-btn star ${isFav(p.id) ? "on" : ""}" data-fav="${p.id}" aria-label="Favorit">${isFav(p.id) ? "★" : "☆"}</button><button type="button" class="add-btn ${onList ? "added" : ""}" data-add="${p.id}">${onList ? "✓ auf Liste" : "+ Liste"}</button>` : o.url ? `<a class="add-btn" href="${esc(o.url)}" target="_blank" rel="noopener">Ansehen ↗</a>` : ""}</div>
-    </li>`; }).join("")}</ul>`;
+  const all = [...own, ...LIVE.offers].filter(o => stores.includes(o.store) && (dealStore === "alle" || o.store === dealStore) && (!q || norm(o.title + " " + o.size).includes(q)))
+    .sort((a, b) => (b.own ? 1 : 0) - (a.own ? 1 : 0) || (b.discount || 0) - (a.discount || 0));
+  if (!all.length) { $("#dealList").innerHTML = `<div class="empty"><span class="big">🏷️</span>Keine passenden Aktionen gefunden.</div>`; }
+  else {
+    // pro Laden ein Abschnitt; bei „Alle“ nur die besten pro Laden, Rest über „Alle anzeigen“
+    const limit = dealStore === "alle" ? (q ? 30 : 12) : 300;
+    const order = Object.keys(STORES).filter(s => all.some(o => o.store === s));
+    $("#dealList").innerHTML = order.map(s => {
+      const list = all.filter(o => o.store === s), shown = list.slice(0, limit);
+      return `<section class="deal-group">
+        <div class="deal-group-head"><div class="dot" style="--c:${STORES[s].color}">${initials(s)}</div><span class="gname">${STORES[s].name}</span><span class="muted small">${list.length} ${list.length === 1 ? "Aktion" : "Aktionen"}</span>
+          ${list.length > shown.length ? `<button type="button" class="more-btn" data-deal-store="${s}">Alle ›</button>` : ""}</div>
+        <ul class="items card-list">${shown.map(dealRow).join("")}</ul>
+        ${list.length > shown.length ? `<button type="button" class="btn ghost block small more-all" data-deal-store="${s}">Alle ${list.length} Aktionen von ${STORES[s].name} anzeigen</button>` : ""}
+      </section>`; }).join("");
+  }
   const inp = $("#dealSearch");
   inp.addEventListener("input", () => { dealQuery = inp.value; clearTimeout(inp._t); inp._t = setTimeout(() => { renderDealsLive(); const n = $("#dealSearch"); n.focus(); n.setSelectionRange(n.value.length, n.value.length); }, 250); });
 }
@@ -720,7 +734,8 @@ async function init() {
   $("#ownProduct").addEventListener("change", ownUnitSync);
   $("#ownList").addEventListener("click", ownClick);
   $("#standDate").textContent = fmtDate(DATA_INFO.stand) + DATA_INFO.stand.slice(0, 4);
-  if (LIVE) $("#sampleNoteText").textContent = `Echte Aktionen von ${LIVE_STORES().map(s => STORES[s].name).join(", ")} (Stand ${fmtDate(LIVE.updated.slice(0, 10))}). Normalpreise und die anderen Läden sind noch Beispieldaten.`;
+  if (LIVE) { const rest = Object.keys(STORES).filter(s => !LIVE_STORES().includes(s)).map(s => STORES[s].name);
+    $("#sampleNoteText").textContent = `Echte Aktionen von ${LIVE_STORES().map(s => STORES[s].name).join(", ")} (Stand ${fmtDate(LIVE.updated.slice(0, 10))}). Für ${rest.join(", ")} sind es Beispielpreise, ihre Aktionen kannst du unter „Aktionen“ selbst eintragen.`; }
   $("#sampleBanner").hidden = !DATA_INFO.isSample || store.get("noteHidden", false);
   $("#hideNote").addEventListener("click", () => { $("#sampleBanner").hidden = true; store.set("noteHidden", true); });
   document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => show(b.dataset.view)));
@@ -730,6 +745,7 @@ async function init() {
   document.addEventListener("click", e => { const g = e.target.closest("[data-go]"); if (g) show(g.dataset.go); });
   $("#planSummary").addEventListener("click", e => { const b = e.target.closest("[data-force]"); if (!b) return; state.forceStore = b.dataset.force || null; save(); renderPlan(); window.scrollTo(0, 0); });
   $("#dealFilter").addEventListener("click", e => { const b = e.target.closest("button"); if (b) { dealStore = b.dataset.s; renderDeals(); } });
+  $("#dealList").addEventListener("click", e => { const b = e.target.closest("[data-deal-store]"); if (b) { dealStore = b.dataset.dealStore; renderDeals(); $("#dealFilter").scrollIntoView({ block: "start" }); window.scrollBy(0, -80); } });
   // globale Klicks: Favorit, + Liste, Alarm schliessen, Schnell-Hinzufügen, Verlauf löschen
   document.addEventListener("click", e => {
     const t = e.target;
