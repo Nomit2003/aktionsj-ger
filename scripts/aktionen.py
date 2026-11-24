@@ -87,7 +87,9 @@ def denner():
         o = offer("denner", txt(t.group(1)) if t else "", txt(sub.group(1)) if sub else "", chf(pm.group(1)) if pm else None,
                   chf(reg.group(1)) if reg else None, vf, vt,
                   html.unescape(img.group(1)) if img else None, "https://www.denner.ch" + link.group(1) if link else None)
-        if o: out.append(o)
+        if o:
+            o["cmp"] = bool(reg and "*" in reg.group(1))  # "statt …*" = Konkurrenzvergleich, nicht Denners eigener Preis
+            out.append(o)
     return out
 
 

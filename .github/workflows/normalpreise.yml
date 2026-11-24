@@ -1,0 +1,26 @@
+name: Normalpreise laden
+on:
+  schedule:
+    - cron: "47 4 * * 1"   # jeden Montag früh
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/normalpreise.py", ".github/workflows/normalpreise.yml"]
+permissions:
+  contents: write
+concurrency: { group: daten-commit, cancel-in-progress: false }
+jobs:
+  laden:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install playwright==1.49.1 && python -m playwright install --with-deps chromium
+      - run: python scripts/normalpreise.py
+      - name: Änderungen speichern
+        run: |
+          git config user.name "aktionen-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add normalpreise.json
+          git diff --cached --quiet || (git commit -m "Normalpreise aktualisiert" && git pull --rebase && git push)
