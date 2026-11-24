@@ -116,7 +116,46 @@ def lidl():
     return out
 
 
-SOURCES = {"volg": volg, "denner": denner, "lidl": lidl}
+# ---------- Aldi: öffentliche Aktionsseiten (ab Montag / ab Donnerstag), mit einem echten Browser geöffnet ----------
+# robots.txt von aldi-suisse.ch erlaubt diese Seiten. Die Seite wird ganz normal angezeigt und der sichtbare Text gelesen.
+def aldi():
+    from playwright.sync_api import sync_playwright
+    keys = []
+    for wd in (0, 3):  # Montag, Donnerstag
+        last = TODAY - timedelta(days=(TODAY.weekday() - wd) % 7)
+        keys += [last, last + timedelta(days=7)]
+    keys = sorted(k for k in keys if -7 < (k - TODAY).days <= 3)
+    out, seen = [], set()
+    with sync_playwright() as pw:
+        br = pw.chromium.launch()
+        page = br.new_page(user_agent=UA, locale="de-CH", viewport={"width": 1280, "height": 900})
+        for k in keys:
+            url = f"https://www.aldi-suisse.ch/de/aktionen-und-angebote/{k.isoformat()}"
+            page.goto(url, wait_until="domcontentloaded", timeout=60000)
+            page.wait_for_timeout(6000)
+            for _ in range(12):  # weiterscrollen, bis alle Produkte geladen sind
+                page.mouse.wheel(0, 4000); page.wait_for_timeout(800)
+            tiles = page.eval_on_selector_all("a[href]", """els => els.filter(e => /CHF/.test(e.innerText) && e.innerText.length < 400)
+                .map(e => ({href: e.href, text: e.innerText, img: (e.querySelector('img') || {}).src || null}))""")
+            for t in tiles:
+                if t["href"] in seen: continue
+                seen.add(t["href"])
+                lines = [l.strip() for l in t["text"].splitlines() if l.strip() and not l.strip().startswith("verfügbar")]
+                pm = re.search(r"CHF\s*([\d.]+)", t["text"])
+                if not pm or not lines: continue
+                name_lines = [l for l in lines if "CHF" not in l and not re.match(r"^\(.*\)$", l)]
+                title = " ".join(name_lines[:2])[:120]
+                size = " ".join(l for l in lines if re.search(r"\d\s*(g|kg|ml|l|Stück)\b", l) and "CHF" in l)[:80]
+                o = offer("aldi", title, size, chf(pm.group(1)), None, k.isoformat(), (k + timedelta(days=6)).isoformat(),
+                          t["img"], t["href"])
+                if o: out.append(o)
+            print(f"aldi {k}: {len(tiles)} Kacheln")
+        br.close()
+    if out: print("ALDI BEISPIEL:", out[:3])
+    return out
+
+
+SOURCES = {"volg": volg, "denner": denner, "lidl": lidl, "aldi": aldi}
 
 
 def main():

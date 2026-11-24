@@ -16,6 +16,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
+      - run: pip install playwright==1.49.1 && python -m playwright install --with-deps chromium
       - run: python scripts/aktionen.py
       - name: Änderungen speichern
         run: |
