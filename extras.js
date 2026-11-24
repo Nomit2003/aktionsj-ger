@@ -182,9 +182,7 @@ function renderShare() {
   if (!shareReady()) {
     box.innerHTML = `<div class="region-card"><div class="scan-title">📤 Liste als Link schicken</div>
       <p class="muted small">Schickt eine Kopie deiner Liste, z.B. per WhatsApp. Wer den Link öffnet, kann die Artikel übernehmen.</p>
-      <button type="button" class="btn primary block" data-share="snapshot">Link teilen</button></div>
-      <div class="region-card share-soon"><div class="scan-title">👪 Gemeinsame Liste (live)</div>
-      <p class="muted small">Alle in der Familie sehen dieselbe Liste und können Sachen hinzufügen oder abhaken. Dafür braucht die App eine kleine, kostenlose Online-Datenbank, die noch eingerichtet werden muss.</p></div>`;
+      <button type="button" class="btn primary block" data-share="snapshot">Link teilen</button></div>`;
     return;
   }
   if (!LIVE_SHARE.ref) {
