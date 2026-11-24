@@ -72,6 +72,18 @@
     <button class="back" type="button" data-go="aktionen">← Zurück</button>
     <div class="view-title">Aktion eintragen</div>
     <p class="view-sub">Für Aktionen aus dem Prospekt, z.B. von Coop oder Migros. Sie zählen danach beim Preisvergleich mit, bis sie ablaufen.</p>
+    <div class="region-card scan-card">
+      <div class="scan-title">📸 Prospekt einlesen</div>
+      <p class="muted small">Die App liest Produkte und Preise selbst heraus. Danach kannst du alles prüfen und korrigieren.</p>
+      <div class="scan-btns">
+        <label class="btn primary scan-btn">📷 Foto machen<input id="scanPhoto" type="file" accept="image/*" capture="environment" hidden></label>
+        <label class="btn ghost scan-btn">📄 Datei hochladen<input id="scanFile" type="file" accept="application/pdf,image/*" multiple hidden></label>
+      </div>
+      <p class="muted small">PDF oder Bilder, auch mehrere auf einmal. Alles bleibt auf deinem Handy.</p>
+      <p class="status" id="scanStatus"></p>
+      <div id="scanResult"></div>
+    </div>
+    <h3>Oder von Hand eintragen</h3>
     <form class="region-card own-form" id="ownForm" autocomplete="off">
       <label>Laden<select id="ownStore"></select></label>
       <label>Produkt<select id="ownProduct"></select></label>
@@ -134,5 +146,6 @@
 
 <script src="data.js"></script>
 <script src="app.js"></script>
+<script src="prospekt.js"></script>
 </body>
 </html>

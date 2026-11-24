@@ -230,3 +230,18 @@ a.add-btn{text-decoration:none;display:inline-block}
 .deal-group-head .gname{font-weight:800;font-size:17px}
 .more-btn{margin-left:auto;border:0;background:none;color:var(--accent);font:600 14px/1 inherit;cursor:pointer;padding:6px 0}
 .more-all{margin-top:8px}
+.scan-card{margin-bottom:6px}
+.scan-title{font-weight:800;font-size:17px;margin-bottom:4px}
+.scan-card p{margin:6px 0}
+.scan-btns{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0 4px}
+.scan-btn{text-align:center;display:block}
+.scan-btn.busy{opacity:.5;pointer-events:none}
+.scan-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px;margin:8px 0}
+.scan-head label,.scan-nums label{display:flex;flex-direction:column;gap:4px;font-size:13px;font-weight:600}
+.scan-head select,.scan-head input,.scan-fields select,.scan-fields input{width:100%;padding:8px 10px;font-size:15px}
+.scan-list{list-style:none;margin:0 0 12px;padding:0;display:flex;flex-direction:column;gap:10px}
+.scan-row{display:flex;gap:10px;border:1px solid var(--line);border-radius:12px;padding:10px}
+.scan-row.warn{border-color:var(--promo)}
+.scan-check input{width:22px;height:22px;margin-top:8px}
+.scan-fields{flex:1;min-width:0;display:flex;flex-direction:column;gap:6px}
+.scan-nums{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}

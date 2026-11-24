@@ -15,7 +15,7 @@
 |---|---|
 | Filialen in deiner Region | **Echt** (OpenStreetMap, live abgefragt) |
 | Aktionen Volg, Denner, Lidl, Aldi | **Echt**, täglich automatisch geladen (`scripts/aktionen.py` → `aktionen.json`) |
-| Aktionen Migros, Coop, Spar | noch Beispieldaten: Coop sperrt automatische Abrufe, Migros verbietet die Aktionsseiten in robots.txt, Spar hat keine Aktionsliste. Dafür gibt es unter „Aktionen“ den Knopf **„Aktion selbst eintragen“**: Aktionen aus dem Prospekt werden im Browser gespeichert und zählen beim Vergleich mit, bis sie ablaufen. |
+| Aktionen Migros, Coop, Spar | noch Beispieldaten: Coop sperrt automatische Abrufe, Migros verbietet die Aktionsseiten in robots.txt, Spar hat keine Aktionsliste. Dafür gibt es unter „Aktionen“ den Knopf **„Aktion selbst eintragen“**: Aktionen aus dem Prospekt werden im Browser gespeichert und zählen beim Vergleich mit, bis sie ablaufen. Mit **„Prospekt einlesen“** (Foto oder PDF) liest die App Produkte und Preise selbst heraus (Texterkennung Tesseract.js bzw. pdf.js, läuft im Browser, in `lib/`). |
 | Normalpreise | **Beispieldaten**, von Hand geschätzt (`data.js`) |
 
 ## Mögliche echte Datenquellen (Recherche)

@@ -446,7 +446,7 @@ let LIVE = null;
 const LIVE_STORES = () => LIVE ? Object.keys(LIVE.stores).filter(s => LIVE.stores[s].count > 0) : [];
 // Packungsgrösse aus dem Aktionstext lesen, z.B. "2 x 160 g", "500 g", "Pro kg", "1,5 l", "6 Stück"
 function liveSize(text, unit) {
-  const t = text.toLowerCase().replace(/(\d),(\d)/g, "$1.$2").replace(/\bliter\b/g, "l").replace(/\bgramm\b/g, "g").replace(/\bkilo(gramm)?\b/g, "kg");
+  const t = text.toLowerCase().replace(/(\d),(\d)/g, "$1.$2").replace(/(\d|\b)\s*liter\b/g, "$1 l").replace(/(\d|\b)\s*gramm\b/g, "$1 g").replace(/\bkilo(gramm)?\b/g, "kg");
   const conv = { kg: ["kg", 1], g: ["kg", 0.001], l: ["l", 1], dl: ["l", 0.1], cl: ["l", 0.01], ml: ["l", 0.001] };
   let m = t.match(/(\d+)\s*[x×]\s*(\d+(?:\.\d+)?)\s*(kg|g|l|dl|cl|ml)\b/);
   if (m && conv[m[3]][0] === unit) return +m[1] * +m[2] * conv[m[3]][1];
