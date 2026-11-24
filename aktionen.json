@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-23T23:11+01:00",
+ "updated": "2026-11-24T06:17+01:00",
  "stores": {
   "volg": {
    "ok": true,
    "count": 25,
-   "updated": "2026-11-23"
+   "updated": "2026-11-24"
   },
   "denner": {
    "ok": true,
    "count": 32,
-   "updated": "2026-11-23"
+   "updated": "2026-11-24"
   },
   "lidl": {
    "ok": true,
    "count": 233,
-   "updated": "2026-11-23"
+   "updated": "2026-11-24"
   }
  },
  "offers": [
@@ -27,7 +27,7 @@
    "discount": 30,
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/8/7/csm_promo_77879_de_43224573d3.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/8/7/csm_promo_77879_de_b57c4865f2.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -40,7 +40,7 @@
    "discount": 20,
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/d/7/csm_promo_77876_de_b3dd57ee9a.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/d/7/csm_promo_77876_de_c74b009cc0.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -53,7 +53,7 @@
    "discount": 20,
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/d/d/csm_promo_77844_de_728b0280c1.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/d/d/csm_promo_77844_de_f8a9f73905.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -66,7 +66,7 @@
    "discount": 21,
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/6/d/csm_promo_77895_de_2f38e155bb.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/6/d/csm_promo_77895_de_56a08d55a6.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -79,7 +79,7 @@
    "discount": 23,
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/0/1/csm_promo_77890_de_23dfd70040.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/0/1/csm_promo_77890_de_eb28cc22ce.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -92,7 +92,7 @@
    "discount": 31,
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/6/a/csm_promo_77833_de_149a79a01c.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/6/a/csm_promo_77833_de_d6d89dc26c.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -105,7 +105,7 @@
    "discount": 22,
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/5/1/csm_promo_77830_de_cc3b521918.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/5/1/csm_promo_77830_de_7454a68818.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -118,7 +118,7 @@
    "discount": 26,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/3/1/csm_promo_77825_de_c35d9873a0.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/3/1/csm_promo_77825_de_b5b0066c5d.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -131,7 +131,7 @@
    "discount": 24,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/8/2/csm_promo_77810_de_2dd469bace.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/8/2/csm_promo_77810_de_af8d97e317.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -144,7 +144,7 @@
    "discount": 39,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/b/5/csm_promo_78097_de_b15fffa568.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/b/5/csm_promo_78097_de_c477fe511a.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -157,7 +157,7 @@
    "discount": 41,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/b/c/csm_promo_77796_de_4fdfe6bbbf.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/b/c/csm_promo_77796_de_df05a723fc.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -170,7 +170,7 @@
    "discount": 20,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/c/9/csm_promo_77785_de_27baa881db.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/c/9/csm_promo_77785_de_d3b971e9a0.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -183,7 +183,7 @@
    "discount": 24,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/8/4/csm_promo_77788_de_49ba1a8988.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/8/4/csm_promo_77788_de_7c00c524b0.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -196,7 +196,7 @@
    "discount": 20,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/d/b/csm_promo_77792_de_0bcc77ff54.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/d/b/csm_promo_77792_de_6b60b8096a.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -209,7 +209,7 @@
    "discount": 20,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/1/3/csm_promo_77889_de_15a59696c5.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/1/3/csm_promo_77889_de_9cfae1605d.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -222,7 +222,7 @@
    "discount": 22,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/2/2/csm_promo_77762_de_a384eebd0f.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/2/2/csm_promo_77762_de_9aca53fa61.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -235,7 +235,7 @@
    "discount": 20,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/0/5/csm_promo_77781_de_cddf9dbd1c.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/0/5/csm_promo_77781_de_a4f6ba5b77.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -350,8 +350,8 @@
    "price": 0.69,
    "regular": 0.99,
    "discount": 30,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/916a9fb1-28fa-4849-9d87-7a4df552b6f1/web/803822_25_09_29_KISTE.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/esskastanien~p1142739?variant=598abbf9-4c46-4980-9e78-e06dd429bbae",
    "cat": null
@@ -363,8 +363,8 @@
    "price": 4.5,
    "regular": null,
    "discount": null,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/99b7bf91-cd62-44b0-9275-e64e99eacdaa/web/904429_25_03_26.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/grischuna-calanda-moeckli~p1008912?variant=e0b8ae17-541b-4505-a4c2-c0c29a6f8046",
    "cat": null
@@ -376,8 +376,8 @@
    "price": 3.6,
    "regular": 5.4,
    "discount": 33,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/6b7bc205-44eb-406f-8aea-37f471e28be4/web/900337_25_09_17.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/danone-danonino-fruchtzwerge~p1008056?variant=691cc948-22d6-455e-9e8f-adaf377b6b6d",
    "cat": null
@@ -389,8 +389,8 @@
    "price": 0.8,
    "regular": 1.1,
    "discount": 27,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/745b08ff-3f39-4b5a-9d5d-ea497cd3078d/web/665966_26_01_21.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/schokobroetchen~p1105260?variant=d2de7aa6-1895-4c36-998c-72e2a43bad16",
    "cat": null
@@ -402,8 +402,8 @@
    "price": 1.15,
    "regular": 1.7,
    "discount": 32,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/6f8765bb-3ad2-4db0-ba06-02bd8ed87e84/web/803318_25_04_15_OFFEN.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/schoggigipfel~p1100296?variant=20303a27-55ff-4ff5-b73f-b3e0e0ec196d",
    "cat": null
@@ -415,8 +415,8 @@
    "price": 14.95,
    "regular": 19.9,
    "discount": 25,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/25419d5e-e119-4d7d-9b64-f6545adaf94a/web/020121_23_01_31.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/moevenpick-kaffee-espresso~p1020144?variant=bc8a1afc-a6e5-46dc-bfeb-96f7098e643a",
    "cat": null
@@ -428,8 +428,8 @@
    "price": 14.95,
    "regular": 20.9,
    "discount": 28,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/33be0a6d-bc3e-4b38-9ec6-32192cad64b5/web/020479_23_01_31.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/moevenpick-caffe-crema~p1020251?variant=abcb4073-5e1f-4d4c-be71-ee8c7de5710f",
    "cat": null
@@ -441,8 +441,8 @@
    "price": 14.95,
    "regular": 20.9,
    "discount": 28,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/50841145-96c9-433c-8292-bfa984c0ff73/web/020123_23_01_31.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/moevenpick-kaffee-der-himmlische~p1020147?variant=7c898628-bd06-42ef-bff8-b285d0bb2890",
    "cat": null
@@ -454,8 +454,8 @@
    "price": 1.67,
    "regular": 2.25,
    "discount": 26,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/eadf38f3-950c-4570-a5ff-8f9edfc008fc/web/661106_26_10_02_kombi.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/denner-schweinsnierstueck~p1100499?variant=db320fdd-40b4-4b71-b43b-e3dcb17e8ce3",
    "cat": null
@@ -467,8 +467,8 @@
    "price": 3.99,
    "regular": 4.99,
    "discount": 20,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/ad7c635c-2177-476d-9772-09d7038ad599/web/950177_26_11_04_kombi.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/prime-black-angus-rindsentrecote-florentino-s~p1139954?variant=cffae142-1e2f-49d1-a471-be660ffd7028",
    "cat": null
@@ -480,8 +480,8 @@
    "price": 14.95,
    "regular": 29.95,
    "discount": 50,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/75e384d4-9ea9-4fc9-97fd-896ae58274f6/web/950346_26_10_20.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/cailler-collection-pralines~p1144561?variant=1334c120-c004-4213-8173-dda9165c8394",
    "cat": null
@@ -493,8 +493,8 @@
    "price": 44.85,
    "regular": 89.7,
    "discount": 50,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/4fe9872a-ce01-41f3-8d77-4eaff83c02d1/web/050441_Y2024_25_09_24_PACK_ITEM.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/trivento-malbec-reserve~p1026633?variant=c109b5c2-de4b-4b4d-a4fb-abea848fc9cf",
    "cat": null
@@ -506,8 +506,8 @@
    "price": 3.3,
    "regular": 6.6,
    "discount": 50,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/dac4d3f8-026b-458a-af6a-b649cba8abe9/web/058064_26_04_27_PACK_ITEM.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/evian-mineralwasser~p1028367?variant=ddcce98f-3a32-4467-a191-7b42306bbb17",
    "cat": null
@@ -519,8 +519,8 @@
    "price": 9.95,
    "regular": null,
    "discount": null,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/c5db4af6-4377-4c04-8aec-1e933cf95e21/web/801547_25_10_13_TOP.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/adventskranz~p1006137?variant=029034f3-cfeb-4713-8f42-7ac94dd9ddac",
    "cat": null
@@ -532,8 +532,8 @@
    "price": 2.5,
    "regular": 4.0,
    "discount": 38,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/16f577ee-866d-4b5f-b71d-e5ed1dc6a728/web/801073_25_06_16_OFFEN.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/broccoli~p1006161?variant=540a78d4-4e32-4c11-826b-02c19c72117c",
    "cat": null
@@ -545,8 +545,8 @@
    "price": 4.75,
    "regular": null,
    "discount": null,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/67c7297a-ce6b-4027-ae59-8dd79fc870c4/web/802322_25_11_10_OFFEN.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/datteln-medjoul~p1006061?variant=e409d8aa-3074-4442-a7d6-75a99208d3ca",
    "cat": null
@@ -558,23 +558,10 @@
    "price": 0.59,
    "regular": 0.9,
    "discount": 34,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/3f03c02c-48a1-4d57-8602-7ed70f324252/web/800081_25_09_22_OFFEN.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/kaki~p1006234?variant=55a2c86c-6524-4b4f-8599-63509893c864",
-   "cat": null
-  },
-  {
-   "store": "denner",
-   "title": "Mini-Weihnachtsbaum",
-   "size": "1 Stück",
-   "price": 9.95,
-   "regular": null,
-   "discount": null,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
-   "image": "https://denner.imgix.net/assets/9d3f78e0-31ea-4a15-b15a-c59d124a475f/web/661266_23_12_21.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
-   "url": "https://www.denner.ch/de/aktionen/mini-weihnachtsbaum~p1100659?variant=0a8bdf14-8d8e-4905-a0b9-0c16edda82ca",
    "cat": null
   },
   {
@@ -584,8 +571,8 @@
    "price": 2.25,
    "regular": 3.0,
    "discount": 25,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/2183b8c3-1f2e-44d8-bacd-ef48b5987996/web/661716_25_04_03.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/mmmh-nuesslisalat~p1101109?variant=a15c76bf-8cf6-47bb-86d6-47b3fdff271a",
    "cat": null
@@ -597,8 +584,8 @@
    "price": 8.9,
    "regular": null,
    "discount": null,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/33002d2e-00ec-4595-addf-03b7b257b941/web/904713_23_06_01.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/citterio-salame-strafino~p1009215?variant=2973a814-e532-4646-a021-92ee3c7f36fc",
    "cat": null
@@ -610,8 +597,8 @@
    "price": 9.0,
    "regular": 11.8,
    "discount": 24,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/eb91ba80-a517-46cb-8420-ca9f1f398c9c/web/661905_25_06_18_PACK_03.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/denner-fruehstuecksspeck~p1101295?variant=e3744e45-e637-4087-94e1-11f5b21f9342",
    "cat": null
@@ -623,8 +610,8 @@
    "price": 10.9,
    "regular": 15.9,
    "discount": 31,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/8cbecd8f-0444-407b-abc8-62b2e7e9327c/web/901775_25_09_03_kombi.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/denner-kaiserbraten~p1003181?variant=c1a0cc71-18dc-4d74-b7d9-2e7857fb4388",
    "cat": null
@@ -636,8 +623,8 @@
    "price": 2.79,
    "regular": 4.85,
    "discount": 42,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/23603458-3101-4a8a-89af-b95126f59902/web/900114_25_10_29_kombi.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/denner-lammhuft~p1002792?variant=9b54608f-3b40-43a6-a108-6f6c80c28678",
    "cat": null
@@ -649,8 +636,8 @@
    "price": 1.99,
    "regular": 2.35,
    "discount": 15,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/d10c4bc9-7d2b-4a00-b281-6bfb96caf748/web/904398_26_03_24_kombi.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/denner-rindsvoressen~p1003869?variant=40497f58-037d-411d-9528-4078752cfd48",
    "cat": null
@@ -662,8 +649,8 @@
    "price": 8.8,
    "regular": null,
    "discount": null,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/edb4d62f-4de8-434c-b39e-01744b046c6d/web/661763_25_01_24_PACK_02.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/menatti-bresaola-della-valtellina-i.g.p~p1101156?variant=964de7ca-cab4-44ce-bb64-9ab2e036cf84",
    "cat": null
@@ -675,8 +662,8 @@
    "price": 9.5,
    "regular": null,
    "discount": null,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/9e92109a-8735-431d-a962-f17152d66f43/web/902437_20_08_14.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/mmmh-poulet-delice~p1002910?variant=929c5fdb-18f5-472f-af44-8505bf8fa2b8",
    "cat": null
@@ -688,8 +675,8 @@
    "price": 6.95,
    "regular": 8.95,
    "discount": 22,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/a52ca922-c27e-4e3b-81b9-ae586b1cbe9d/web/903321_2_c_K.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/gourmet-fisheries-pangasius-knusperli~p1003771?variant=9b97f549-ec32-4713-8155-28b44ddfb7fd",
    "cat": null
@@ -701,8 +688,8 @@
    "price": 5.1,
    "regular": 9.85,
    "discount": 48,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/5d55a053-e060-4a2b-b313-3927176bb7f0/web/661936_25_05_23.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/rapelli-hinterschinken-puccini~p1101326?variant=9ccaa205-1bd4-4c0c-992f-d89f5c9b67b9",
    "cat": null
@@ -714,8 +701,8 @@
    "price": 5.9,
    "regular": 10.95,
    "discount": 46,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/6b8c6489-6525-460e-92f2-48c2c291ada6/web/904577_24_02_09.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/schwarzwaelderschinken~p1009083?variant=50310a57-3447-40bf-a6ff-eb6199019834",
    "cat": null
@@ -727,8 +714,8 @@
    "price": 7.2,
    "regular": 9.0,
    "discount": 20,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/83be51ae-a9de-4ab8-b61c-2f6ddae5336e/web/904525_25_07_04.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/ancora-alaska-wildlachs~p1009058?variant=958940a9-0779-4b74-bbdb-bbff43d64190",
    "cat": null
@@ -740,8 +727,8 @@
    "price": 4.95,
    "regular": 9.9,
    "discount": 50,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/8936e3e2-8f49-4379-beac-eac5080bd070/web/904732_23_08_11.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/el-pozo-tapas-mix~p1009176?variant=1cfc87e2-fe0e-427e-b50d-4d6554ae5852",
    "cat": null
@@ -753,10 +740,23 @@
    "price": 10.95,
    "regular": null,
    "discount": null,
-   "validFrom": "2026-11-17",
-   "validTo": "2026-11-23",
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
    "image": "https://denner.imgix.net/assets/1ce9651e-4d5d-4a66-a5fa-e55382a7a686/web/691575_26_07_21.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
    "url": "https://www.denner.ch/de/aktionen/cremo-fondue-moitie-moitie~p1130546?variant=20dff36d-dde5-4e7b-9bec-60e9f4c26f5f",
+   "cat": null
+  },
+  {
+   "store": "denner",
+   "title": "Danone Joghurt Twix mit Caramelsauce",
+   "size": "3 x 120 g",
+   "price": 2.95,
+   "regular": 4.2,
+   "discount": 30,
+   "validFrom": "2026-11-24",
+   "validTo": "2026-11-30",
+   "image": "https://denner.imgix.net/assets/72a26395-f038-427e-be53-5b830e354858/web/902095_23_03_08_PACK_03.png?auto=format%2Ccompress&w=200&h=200&fit=fillmax",
+   "url": "https://www.denner.ch/de/aktionen/danone-joghurt-twix-mit-caramelsauce~p1008223?variant=bdf3f670-3519-447c-afd7-a68358791c0a",
    "cat": null
   },
   {
