@@ -10,9 +10,214 @@
 "count": 79,
 "updated": "2026-11-24",
 "source": "Normalpreise aus den Wochenaktionen (statt-Preis)"
+},
+"denner": {
+"count": 25,
+"updated": "2026-11-24",
+"source": "Normalpreise aus den Wochenaktionen (statt-Preis)"
 }
 },
 "items": [
+{
+"store": "denner",
+"title": "Ancora Alaska Wildlachs",
+"size": "geschnitten, Alaska, 2 x 100 g",
+"price": 9.0,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Broccoli",
+"size": "Spanien/Italien, per kg",
+"price": 4.0,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Cailler Collection Pralinés",
+"size": "Xmas, 427 g",
+"price": 29.95,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Danone Danonino FruchtZwerge",
+"size": "Erdbeere, Banane, Himbeere, Aprikose, Kirsche, 12 x 50 g",
+"price": 5.4,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Danone Joghurt Twix mit Caramelsauce",
+"size": "3 x 120 g",
+"price": 4.2,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Denner Frühstücksspeck",
+"size": "geschnitten, Schweiz, 3 x 200 g",
+"price": 11.8,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Denner Kaiserbraten",
+"size": "Schwein, zum Backen, 600 g",
+"price": 15.9,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Denner Lammhuft",
+"size": "2 Stück, Australien/Neuseeland/Vereinigtes Königreich/Uruguay, ca. 400 g, per 100 g",
+"price": 4.85,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Denner Rindsvoressen",
+"size": "ca. 400 g, per 100 g",
+"price": 2.35,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Denner Schweinsnierstück",
+"size": "am Stück, ca. 900 g, per 100 g",
+"price": 2.25,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "El Pozo Tapas-Mix",
+"size": "Jamón Serrano, Chorizo, Salchichón, geschnitten, Spanien, 120 g",
+"price": 9.9,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Esskastanien",
+"size": "Italien, per 100 g",
+"price": 0.99,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Evian Mineralwasser",
+"size": "ohne Kohlensäure, 6 x 1,5 Liter",
+"price": 6.6,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Gourmet Fisheries Pangasius-Knusperli",
+"size": "in Backteig, vorgebacken, Vietnam, 500 g",
+"price": 8.95,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Kaki",
+"size": "Spanien, per Stück",
+"price": 0.9,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Mmmh Nüsslisalat",
+"size": "servierfertig, Herkunft siehe Verpackung, 120 g",
+"price": 3.0,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Mövenpick Caffè Crema",
+"size": "Bohnen, 1 kg",
+"price": 20.9,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Mövenpick Kaffee Der Himmlische",
+"size": "Bohnen, 1 kg",
+"price": 20.9,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Mövenpick Kaffee Espresso",
+"size": "Bohnen, 1 kg",
+"price": 19.9,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Prime Black Angus Rindsentrecôte Florentino’s",
+"size": "Uruguay, 2 x 220 g, per 100 g",
+"price": 4.99,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Rapelli Hinterschinken Puccini",
+"size": "hauchdünn, Schweiz, 250 g",
+"price": 9.85,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Schoggigipfel",
+"size": "85 g",
+"price": 1.7,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Schokobrötchen",
+"size": "70 g",
+"price": 1.1,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Schwarzwälderschinken",
+"size": "am Stück, Deutschland, 300 g",
+"price": 10.95,
+"date": "2026-11-24",
+"src": "statt"
+},
+{
+"store": "denner",
+"title": "Trivento Malbec Reserve",
+"size": "2024",
+"price": 89.7,
+"date": "2026-11-24",
+"src": "statt"
+},
 {
 "store": "lidl",
 "title": "ALESTO Getrocknete Cranberries",
