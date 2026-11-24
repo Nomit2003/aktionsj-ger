@@ -16,7 +16,7 @@
 | Filialen in deiner Region | **Echt** (OpenStreetMap, live abgefragt) |
 | Aktionen Volg, Denner, Lidl, Aldi | **Echt**, täglich automatisch geladen (`scripts/aktionen.py` → `aktionen.json`) |
 | Aktionen Migros, Coop, Spar | noch Beispieldaten: Coop sperrt automatische Abrufe, Migros verbietet die Aktionsseiten in robots.txt, Spar hat keine Aktionsliste. Dafür gibt es unter „Aktionen“ den Knopf **„Aktion selbst eintragen“**: Aktionen aus dem Prospekt werden im Browser gespeichert und zählen beim Vergleich mit, bis sie ablaufen. Mit **„Prospekt einlesen“** (Foto oder PDF) liest die App Produkte und Preise selbst heraus (Texterkennung Tesseract.js bzw. pdf.js, läuft im Browser, in `lib/`). |
-| Normalpreise | **Beispieldaten**, von Hand geschätzt (`data.js`) |
+| Normalpreise | **Beispieldaten**, von Hand geschätzt (`data.js`), grosser Katalog mit ~250 Produkten in `catalog.js` (Preise pro Laden aus Richtpreis × typischem Preisniveau) |
 
 ## Mögliche echte Datenquellen (Recherche)
 - **Keine offiziellen Preis-APIs:** Migros, Coop, Denner, Lidl, Aldi, Spar und Volg bieten keine öffentliche Schnittstelle für Preise/Aktionen.
@@ -30,4 +30,5 @@ Der Workflow `.github/workflows/aktionen.yml` läuft jeden Morgen und übernimmt
 ## Dateien
 - `index.html`, `style.css`, `app.js`: die App
 - `data.js`: Produkte und Preise (später automatisch wöchentlich erzeugt)
+- `catalog.js`: ganzes Supermarkt-Sortiment (Gemüse, Früchte, Fleisch, Käse, Getränke, Haushalt, Hygiene …) mit Suchwörtern und Kategorien
 - `manifest.json`, `sw.js`, `icon.svg`: damit sie wie eine Handy-App installierbar ist und offline startet

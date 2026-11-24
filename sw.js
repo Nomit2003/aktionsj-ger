@@ -1,6 +1,6 @@
 // Einfacher Offline-Cache für die App-Hülle (Netzwerk zuerst, Cache als Rückfall)
-const CACHE = "aktionsjaeger-v10";
-const FILES = ["./", "index.html", "style.css", "app.js", "prospekt.js", "data.js", "manifest.json", "icon.svg"];
+const CACHE = "aktionsjaeger-v11";
+const FILES = ["./", "index.html", "style.css", "app.js", "prospekt.js", "data.js", "catalog.js", "manifest.json", "icon.svg"];
 self.addEventListener("install", e => e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES))));
 self.addEventListener("activate", e => e.waitUntil(
   caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k))))));

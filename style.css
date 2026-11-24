@@ -46,7 +46,7 @@ input:focus,select:focus{outline:2px solid var(--accent);outline-offset:-1px;bor
 .add-input-wrap input{width:100%;padding-left:40px;border:0;box-shadow:var(--shadow);height:48px}
 .add-input-wrap::before{content:"＋";position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--accent);font-weight:800;font-size:18px;pointer-events:none}
 .add-row .btn{height:48px}
-.suggest{position:absolute;left:0;right:0;top:100%;margin:6px 0 0;padding:6px;list-style:none;background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 32px rgba(0,0,0,.16);z-index:7}
+.suggest{position:absolute;left:0;right:0;top:100%;margin:6px 0 0;padding:6px;list-style:none;background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 32px rgba(0,0,0,.16);z-index:7;max-height:min(55vh,420px);overflow-y:auto}
 .suggest li{padding:10px 12px;border-radius:10px;cursor:pointer;display:flex;justify-content:space-between;gap:8px}
 .suggest li:hover,.suggest li.sel{background:var(--soft)}
 .empty{text-align:center;padding:40px 16px;color:var(--muted)}

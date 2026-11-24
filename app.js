@@ -46,15 +46,21 @@ function scoreProduct(q, p) {
   for (const t of terms) {
     if (t === q) return 100;
     if (t.startsWith(q) && q.length >= 2) best = Math.max(best, 80 - (t.length - q.length));
-    else if (q.length >= 4 && (t.includes(q) || q.includes(t))) best = Math.max(best, 60);
+    else if (q.length >= 4 && (t.includes(q) || (t.length >= 6 && q.includes(t)))) best = Math.max(best, 60);
     else if (q.length >= 4) { const d = lev(q, t); if (d <= (q.length > 7 ? 2 : 1)) best = Math.max(best, 70 - d * 10); }
   }
   return best;
 }
+// Passt die Eingabe auf eine Kategorie (z.B. "Gemüse", "Käse", "Putzmittel")?
+function matchCategories(q) {
+  if (!q || !window.CATEGORIES) return [];
+  return Object.entries(CATEGORIES).filter(([c, ws]) => [c, ...ws].map(norm).some(w => w === q || (q.length >= 4 && w.startsWith(q)))).map(([c]) => c);
+}
 function matchProducts(text) {
   const q = norm(text); if (!q) return [];
-  return PRODUCTS.map(p => ({ p, s: scoreProduct(q, p) })).filter(x => x.s > 0)
-    .sort((a, b) => b.s - a.s).map(x => x.p);
+  const cats = matchCategories(q);
+  return PRODUCTS.map((p, i) => { let s = scoreProduct(q, p); if (cats.includes(p.cat)) s = Math.max(s, 85); return { p, s, i }; }).filter(x => x.s > 0)
+    .sort((a, b) => b.s - a.s || a.i - b.i).map(x => x.p);
 }
 const productById = id => PRODUCTS.find(p => p.id === id);
 
@@ -206,16 +212,18 @@ const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&
 let sugSel = -1;
 function showSuggest() {
   const val = $("#addInput").value; const ul = $("#suggest");
-  const res = matchProducts(parseAmount(val).rest || val).slice(0, 6); sugSel = -1;
+  const q = parseAmount(val).rest || val, many = matchCategories(norm(q)).length > 0;
+  const res = matchProducts(q).slice(0, many ? 60 : 8); sugSel = -1;
   if (!val.trim() || !res.length) { ul.hidden = true; return; }
-  ul.innerHTML = res.map((p, i) => `<li data-i="${i}" data-pid="${p.id}">${p.label} <span class="muted small">· ${p.cat}</span></li>`).join("");
+  ul.innerHTML = res.map((p, i) => `<li data-i="${i}" data-pid="${p.id}"><span>${p.icon || ""} ${p.label}</span> <span class="muted small">· ${p.cat}</span></li>`).join("");
   ul.hidden = false;
 }
 function addItem(text, productId) {
   text = text.trim(); if (!text) return;
-  const { rest, n, u } = parseAmount(text);
+  let { rest, n, u } = parseAmount(text);
   const pid = productId || matchProducts(rest || text)[0]?.id || null;
   const p = productById(pid);
+  if (p && matchCategories(norm(rest || text)).length && scoreProduct(norm(rest || text), p) < 100) rest = p.label; // "Gemüse" → "Broccoli"
   const amount = p ? toAmount(p, n, u) : null;
   const existing = pid && state.items.find(i => i.productId === pid);
   if (existing) existing.amount = r3(amt(existing) + amount);
@@ -459,17 +467,22 @@ function liveSize(text, unit) {
 // Welches Produkt der Liste ist mit einer echten Aktion gemeint?
 function liveMatch(title) {
   const n = norm(title), toks = n.split(" ");
+  let best = null; // das zuerst genannte Produkt gewinnt ("Vollmilch Joghurt" ist trotzdem Joghurt dank not-Liste)
   for (const p of PRODUCTS) {
     const cfg = (window.LIVE_KEYS || {})[p.id]; if (!cfg) continue;
     if ((cfg.not || []).some(w => n.includes(norm(w)))) continue;
+    const cn = window.CAT_NOT || {};
+    if ((cn[p.cat] || []).some(w => toks.includes(norm(w)) || n.includes(norm(w) + " ") && norm(w).length > 5)) continue;
+    if (p.cat !== "Baby & Tier" && (cn["*"] || []).some(w => toks.some(t => t.startsWith(norm(w))))) continue;
     for (const raw of cfg.keys) {
-      const pre = raw.endsWith("*"), key = norm(raw.replace("*", ""));
-      if (key.includes(" ")) { if ((" " + n + " ").includes(" " + key + " ")) return p; continue; }
-      const i = toks.findIndex(k => k === key || (pre && k.startsWith(key)));
-      if (i >= 0 && !["mit", "im", "in", "und"].includes(toks[i - 1])) return p;
+      const pre = raw.endsWith("*"), key = norm(raw.replace("*", "")); if (!key) continue;
+      let pos = -1;
+      if (key.includes(" ")) { const i = (" " + n + " ").indexOf(" " + key + " "); if (i >= 0) pos = n.slice(0, i).split(" ").filter(Boolean).length; }
+      else { const i = toks.findIndex((k, j) => (k === key || (pre && k.startsWith(key))) && !["mit", "im", "in", "und"].includes(toks[j - 1])); pos = i; }
+      if (pos >= 0 && (!best || pos < best.pos || (pos === best.pos && key.length > best.len))) best = { p, pos, len: key.length };
     }
   }
-  return null;
+  return best ? best.p : null;
 }
 async function loadLive() {
   try {
@@ -785,7 +798,11 @@ async function init() {
   $("#addForm").addEventListener("submit", e => {
     e.preventDefault();
     const sel = sug.querySelectorAll("li")[sugSel];
-    if (!sug.hidden && sel) addItem(inp.value, sel.dataset.pid); else addItem(inp.value);
+    if (!sug.hidden && sel) return addItem(inp.value, sel.dataset.pid);
+    // Nur eine Kategorie eingegeben (z.B. "Gemüse")? Dann Auswahl offen lassen statt irgendein Gemüse zu nehmen
+    const q = norm(parseAmount(inp.value).rest || inp.value);
+    if (matchCategories(q).length && !PRODUCTS.some(p => scoreProduct(q, p) === 100)) { showSuggest(); return; }
+    addItem(inp.value);
   });
   $("#itemList").addEventListener("click", e => { if (e.target.matches("a[data-a=pick]")) e.preventDefault(); }, true);
 
