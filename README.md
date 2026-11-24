@@ -16,7 +16,7 @@
 | Filialen in deiner Region | **Echt** (OpenStreetMap, live abgefragt) |
 | Aktionen Volg, Denner, Lidl, Aldi | **Echt**, täglich automatisch geladen (`scripts/aktionen.py` → `aktionen.json`) |
 | Aktionen Migros, Coop, Spar | noch Beispieldaten: Coop sperrt automatische Abrufe, Migros verbietet die Aktionsseiten in robots.txt, Spar hat keine Aktionsliste. Dafür gibt es unter „Aktionen“ den Knopf **„Aktion selbst eintragen“**: Aktionen aus dem Prospekt werden im Browser gespeichert und zählen beim Vergleich mit, bis sie ablaufen. Mit **„Prospekt einlesen“** (Foto oder PDF) liest die App Produkte und Preise selbst heraus (Texterkennung Tesseract.js bzw. pdf.js, läuft im Browser, in `lib/`). |
-| Normalpreise | **Beispieldaten**, von Hand geschätzt (`data.js`), grosser Katalog mit ~250 Produkten in `catalog.js` (Preise pro Laden aus Richtpreis × typischem Preisniveau) |
+| Normalpreise | **Echt** für Aldi (ganzes Sortiment, wöchentlich von aldi-suisse.ch/de/sortiment, `normalpreise.json`) und teilweise für Volg, Denner, Lidl (statt-Preise aus den Wochenaktionen, gesammelt). Migros (Online-Shop sperrt automatische Abrufe), Coop (gesperrt), Spar (keine Preisliste): weiterhin geschätzt, in der App mit ≈ markiert. Schätzungen:, von Hand geschätzt (`data.js`), grosser Katalog mit ~250 Produkten in `catalog.js` (Preise pro Laden aus Richtpreis × typischem Preisniveau) |
 
 ## Mögliche echte Datenquellen (Recherche)
 - **Keine offiziellen Preis-APIs:** Migros, Coop, Denner, Lidl, Aldi, Spar und Volg bieten keine öffentliche Schnittstelle für Preise/Aktionen.

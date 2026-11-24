@@ -360,7 +360,7 @@ window.PRODUCTS = [
 // "*" am Ende = darf auch Wortanfang sein (z.B. Pouletbrust* passt auf Pouletbrustfilet). not = Ausschlusswörter.
 window.LIVE_KEYS = {
   pouletbrust: { keys: ["pouletbrust*", "pouletbrüstli", "hähnchenbrust*"] },
-  hackfleisch: { keys: ["hackfleisch", "rindshackfleisch"] },
+  hackfleisch: { keys: ["hackfleisch", "rindshackfleisch"], not: ["truten", "poulet", "schweins", "gemischt", "vegan", "vegi"] },
   lachs: { keys: ["lachsfilet*", "lachs"], not: ["geräuchert", "rauchlachs"] },
   eier: { keys: ["eier", "freilandeier", "bodenhaltungseier"], not: ["nudeln", "teigwaren", "likör", "schoko"] },
   milch: { keys: ["vollmilch", "milch"], not: ["energy", "protein", "kefir", "schokolade"] },
@@ -374,8 +374,8 @@ window.LIVE_KEYS = {
   reis: { keys: ["reis", "basmati", "basmatireis", "langkornreis", "jasminreis", "risottoreis"], not: ["waffeln", "pudding", "milchreis"] },
   mehl: { keys: ["mehl", "weissmehl", "zopfmehl", "halbweissmehl"] },
   zucker: { keys: ["zucker", "kristallzucker"] },
-  kaffee: { keys: ["kaffee", "kaffeebohnen", "bohnenkaffee"], not: ["kapseln", "rahm", "löslich", "kaffeerahm"] },
-  tomaten: { keys: ["tomaten", "rispentomaten", "cherrytomaten", "datteltomaten"], not: ["gehackte", "passata", "pelati", "getrocknet", "sauce", "püree"] },
+  kaffee: { keys: ["kaffee", "kaffeebohnen", "bohnenkaffee"], not: ["kapseln", "rahm", "löslich", "kaffeerahm", "zichorie", "gemahlen", "eiskaffee"] },
+  tomaten: { keys: ["tomaten", "rispentomaten", "cherrytomaten", "datteltomaten"], not: ["gehackte", "passata", "pelati", "getrocknet", "sauce", "püree", "passiert", "geschält", "ganze tomaten"] },
   zucchetti: { keys: ["zucchetti", "zucchini"] },
   gurke: { keys: ["gurke", "gurken", "salatgurke", "salatgurken"], not: ["essig", "glas"] },
   aepfel: { keys: ["äpfel", "apfel"], not: ["saft", "strudel", "mus"] },

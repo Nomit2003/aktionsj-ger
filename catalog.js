@@ -42,7 +42,7 @@ bohnen|🫛|Grüne Bohnen|kg|0.5|3.90|bohnen,buschbohnen,kenia bohnen`,
 orangen|🍊|Orangen|kg|2|4.50|orange,blutorangen
 mandarinen|🍊|Mandarinen|kg|1|3.50|clementinen,mandarine
 zitronen|🍋|Zitronen|kg|0.5|2.20|zitrone,limetten
-birnen|🍐|Birnen|kg|1|3.90|birne
+birnen|🍐|Birnen|kg|1|3.90|birne|pfirsich,konserve,dose
 trauben|🍇|Trauben|kg|0.5|3.50|weintrauben,tafeltrauben
 erdbeeren|🍓|Erdbeeren|kg|0.25|3.95|erdbeere
 himbeeren|🫐|Himbeeren|kg|0.125|3.50|himbeere
@@ -61,16 +61,16 @@ trockenfruechte|🍇|Dörrfrüchte|kg|0.2|3.90|rosinen,sultaninen,dörrfrüchte,
 pouletschenkel|🍗|Pouletschenkel|kg|1|12.90|pouletflügeli,poulet schenkel,chicken wings,pouletflügel
 ganzespoulet|🍗|Ganzes Poulet|kg|1.2|13.90|poulet ganz,brathähnchen
 truthahn|🦃|Trutenbrust|kg|0.3|9.50|truthahn,trute,trutenbrust
-rindsplätzli|🥩|Rindsplätzli|kg|0.3|13.50|rindsschnitzel,rindssteak,entrecote,rindsfilet,steak
+rindsplätzli|🥩|Rindsplätzli|kg|0.3|13.50|rindsschnitzel,rindssteak,entrecote,rindsfilet,steak|schwein,poulet,truten,kalb
 rindsragout|🥩|Rindsragout|kg|0.5|14.50|ragout,gulasch,voressen
 schweinsplaetzli|🥩|Schweinsplätzli|kg|0.4|8.90|schweinsschnitzel,schweinssteak,schweinskotelett,kotelett,schweinsfilet
 schweinshals|🥩|Schweinshals|kg|0.6|9.90|schweinsbraten,braten
-kalbfleisch|🥩|Kalbsplätzli|kg|0.25|13.90|kalb,kalbfleisch,kalbsschnitzel,geschnetzeltes
+kalbfleisch|🥩|Kalbsplätzli|kg|0.25|13.90|kalb,kalbfleisch,kalbsschnitzel,kalbsgeschnetzeltes
 lamm|🥩|Lammfleisch|kg|0.3|11.90|lammkoteletts,lammrack,lamm
 cervelat|🌭|Cervelat|stk|2|2.20|cervelats,klöpfer
 wienerli|🌭|Wienerli|kg|0.2|3.90|wiener würstchen,wiener,frankfurter
 bratwurst|🌭|Bratwurst|stk|2|4.50|kalbsbratwurst,schweinsbratwurst,olma bratwurst
-schinken|🥓|Hinterschinken|kg|0.15|4.50|schinken,kochschinken,beinschinken
+schinken|🥓|Hinterschinken|kg|0.15|4.50|schinken,kochschinken,beinschinken|gipfel,sandwich,pizza
 salami|🍖|Salami|kg|0.1|3.90|salametti,chorizo
 speck|🥓|Speck|kg|0.15|3.50|bacon,speckwürfeli,rohschinken,coppa
 fleischkaese|🍖|Fleischkäse|kg|0.2|3.20|fleischkäse,leberkäse
@@ -88,10 +88,10 @@ sardinen|🐟|Sardinen|kg|0.12|1.90|sardellen,makrelen`,
     "Käse": `
 emmentaler|🧀|Emmentaler|kg|0.25|4.90|emmentaler,käse,hartkäse
 gruyere|🧀|Gruyère|kg|0.25|5.50|greyerzer,gruyere,käse
-appenzeller|🧀|Appenzeller|kg|0.2|5.20|appenzeller,käse
+appenzeller|🧀|Appenzeller|kg|0.2|5.20|appenzeller,käse|biber,bärli,speck,salsiz,wurst
 tilsiter|🧀|Tilsiter|kg|0.25|4.50|tilsiter,käse
 raclette|🧀|Raclettekäse|kg|0.4|8.90|raclette,raclettekäse,käse
-fondue|🫕|Fondue-Mischung|kg|0.8|14.90|fondue,fertigfondue,käsefondue
+fondue|🫕|Fondue-Mischung|kg|0.8|14.90|fondue,fertigfondue,käsefondue|sauce,saucen,chinoise,bouillon
 feta|🧀|Feta|kg|0.2|3.50|fetakäse,schafskäse,feta
 frischkaese|🧀|Frischkäse|kg|0.2|2.50|philadelphia,frischkäse,cantadou
 huettenkaese|🧀|Hüttenkäse|kg|0.2|1.90|cottage cheese,hüttenkäse
@@ -135,7 +135,7 @@ kidneybohnen|🫘|Kidneybohnen Dose|kg|0.4|1.20|kidney,bohnen dose,kichererbsen 
 mais_dose|🌽|Mais Dose|kg|0.285|1.50|maiskörner,mais dose
 haferflocken|🥣|Haferflocken|kg|0.5|1.50|porridge,flocken
 muesli|🥣|Müesli|kg|0.75|4.50|birchermüesli,knuspermüesli,granola,müsli
-cornflakes|🥣|Cornflakes|kg|0.5|3.50|frühstücksflocken,cerealien,cereals,crunchy
+cornflakes|🥣|Cornflakes|kg|0.5|3.50|frühstücksflocken,cerealien,cereals
 konfituere|🍓|Konfitüre|kg|0.5|3.20|marmelade,konfi,gelée,fruchtaufstrich,confiture
 honig|🍯|Honig|kg|0.5|6.90|blütenhonig,waldhonig
 nutella|🍫|Nuss-Nougat-Creme|kg|0.4|3.95|nutella,brotaufstrich,schoggicreme
@@ -184,7 +184,7 @@ erdnuesse|🥜|Erdnüsse|kg|0.2|2.50|apéro nüsse,gesalzene nüsse
 popcorn|🍿|Popcorn|kg|0.1|1.90|
 darkschokolade|🍫|Dunkle Schokolade|kg|0.1|1.90|zartbitter,dunkle schoggi,crémant,noir
 kaugummi|🍬|Kaugummi|stk|1|2.20|chewing gum,bonbons,ricola
-nachos|🌮|Nachos|kg|0.2|2.50|tortilla chips,nachos,salsa
+nachos|🌮|Nachos|kg|0.2|2.50|tortilla chips,nachos
 lebkuchen|🍪|Lebkuchen|kg|0.3|3.90|grittibänz,weihnachtsguetzli,chräbeli,spitzbuben
 pommes_chips|🥔|Paprika Chips|kg|0.175|2.95|zweifel,paprika chips`,
     "Getränke": `
@@ -208,7 +208,7 @@ haushaltpapier|🧻|Haushaltpapier|stk|4|5.50|küchenpapier,küchenrolle,haushal
 taschentuecher|🤧|Taschentücher|stk|30|3.50|nastücher,tempo,kosmetiktücher
 waschmittel|🧺|Waschmittel|l|2|12.90|waschpulver,flüssigwaschmittel,colorwaschmittel,persil,ariel
 weichspueler|🧺|Weichspüler|l|1.5|4.50|
-geschirrtabs|🍽️|Geschirrspültabs|stk|40|9.90|tabs,geschirrspüler,maschinenspülmittel,finish,klarspüler
+geschirrtabs|🍽️|Geschirrspültabs|stk|40|9.90|tabs,geschirrspüler,maschinenspülmittel,finish,klarspüler|javel
 allzweckreiniger|🧽|Allzweckreiniger|l|1|3.50|putzmittel,reiniger,badreiniger,küchenreiniger,glasreiniger,entkalker
 wc_reiniger|🚽|WC-Reiniger|l|0.75|2.90|wc ente,toilettenreiniger,javel,wc frisch,wc-reiniger,wc reiniger
 schwaemme|🧽|Schwämme|stk|5|2.50|putzschwamm,schwamm,putzlappen,mikrofasertuch

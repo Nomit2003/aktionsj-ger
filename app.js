@@ -467,12 +467,15 @@ function liveSize(text, unit) {
   return null;
 }
 // Welches Produkt der Liste ist mit einer echten Aktion gemeint?
-function liveMatch(title) {
-  const n = norm(title), toks = n.split(" ");
+// head = true: nur der Hauptname vor dem ersten Komma zählt, und das zuletzt genannte Produkt gewinnt
+// (deutsch: "Kakao-Malz Crispy Müesli" ist ein Müesli; "Kuchenbackmischung, Zitrone" ist keine Zitrone)
+function liveMatch(title, head = false) {
+  const n = norm(head ? title.split(",")[0] : title), toks = n.split(" ");
   let best = null; // das zuerst genannte Produkt gewinnt ("Vollmilch Joghurt" ist trotzdem Joghurt dank not-Liste)
   for (const p of PRODUCTS) {
     const cfg = (window.LIVE_KEYS || {})[p.id]; if (!cfg) continue;
-    if ((cfg.not || []).some(w => n.includes(norm(w)))) continue;
+    const nAll = head ? norm(title) : n;
+    if ((cfg.not || []).some(w => nAll.includes(norm(w)))) continue;
     const cn = window.CAT_NOT || {};
     if ((cn[p.cat] || []).some(w => toks.includes(norm(w)) || n.includes(norm(w) + " ") && norm(w).length > 5)) continue;
     if (p.cat !== "Baby & Tier" && (cn["*"] || []).some(w => toks.some(t => t.startsWith(norm(w))))) continue;
@@ -481,7 +484,7 @@ function liveMatch(title) {
       let pos = -1;
       if (key.includes(" ")) { const i = (" " + n + " ").indexOf(" " + key + " "); if (i >= 0) pos = n.slice(0, i).split(" ").filter(Boolean).length; }
       else { const i = toks.findIndex((k, j) => (k === key || (pre && k.startsWith(key))) && !["mit", "im", "in", "und"].includes(toks[j - 1])); pos = i; }
-      if (pos >= 0 && (!best || pos < best.pos || (pos === best.pos && key.length > best.len))) best = { p, pos, len: key.length };
+      if (pos >= 0 && (!best || (head ? pos > best.pos : pos < best.pos) || (pos === best.pos && key.length > best.len))) best = { p, pos, len: key.length };
     }
   }
   return best ? best.p : null;
@@ -590,7 +593,7 @@ async function loadNormal() {
   const best = {};
   for (const it of NORMAL.items) {
     if (!STORES[it.store] || /nur (im|in der) (tessin|romandie|westschweiz)/i.test(it.title)) continue;
-    const p = liveMatch(it.title); if (!p) continue;
+    const p = liveMatch(it.title, true); if (!p) continue;
     const size = liveSize(`${it.size} ${it.title}`, p.unit); if (!size) continue;
     const sample = p.offers.filter(o => !o[5]).map(o => o[2]), ref = sample.length ? sample.sort((x, y) => x - y)[Math.floor(sample.length / 2)] : size;
     if (size < ref / 6 || size > ref * 6) continue; // ganz andere Packungsgrösse (z.B. Probierpackung, Grosspackung)
