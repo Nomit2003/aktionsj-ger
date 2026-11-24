@@ -20,6 +20,7 @@ const state = {
   forceStore: store.get("forceStore", null),     // "Alles in einem Laden"-Modus
   favs: store.get("favs", []),                   // Produkt-IDs der Favoriten (= Aktionsalarm)
   history: store.get("history", []),             // abgeschlossene Einkäufe
+  own: store.get("own", []),                     // selbst eingetragene Aktionen [{id, store, productId, title, size, price, regular, validTo}]
 };
 const save = () => { store.set("items", state.items); store.set("activeStores", state.activeStores);
   store.set("region", state.region); store.set("maxStores", state.maxStores); store.set("forceStore", state.forceStore);
@@ -97,7 +98,7 @@ const withSize = (p, name, size) => /\d/.test(name) ? name : `${name} ${fmtPack(
 function offersFor(p, stores, amount = refAmount(p)) {
   return p.offers.filter(o => stores.includes(o[0])).map(([s, name, size, price, regular, meta]) => {
     const packs = Math.max(1, Math.ceil(amount / size - 1e-9));
-    return { store: s, live: !!meta, validTo: meta?.validTo, url: meta?.url, name: meta ? name : withSize(p, name, size), size, price, regular, promo: regular != null, unitPrice: price / size, packs, cost: packs * price,
+    return { store: s, live: !!meta && !meta.own, own: !!meta?.own, validTo: meta?.validTo, url: meta?.url, name: meta ? name : withSize(p, name, size), size, price, regular, promo: regular != null, unitPrice: price / size, packs, cost: packs * price,
       regCost: regular != null ? packs * regular : null };
   }).sort((a, b) => a.cost - b.cost || a.unitPrice - b.unitPrice);
 }
@@ -258,7 +259,7 @@ function renderPlan() {
       rows.map(({ it, p, o }) => `<div class="row ${it.done ? "done" : ""}" data-id="${it.id}">
         <div class="row-main">
           <label><input type="checkbox" ${it.done ? "checked" : ""}>
-            <span><span class="pname">${pic(p)}${fmtAmount(p, amt(it))} ${esc(p.label)}</span>${o.promo ? ' <span class="badge">AKTION' + (o.validTo || !o.live ? " bis " + fmtDate(o.validTo || DATA_INFO.aktionBis) : "") + "</span>" : ""}${o.live ? ' <span class="badge live">ECHT</span>' : ""}
+            <span><span class="pname">${pic(p)}${fmtAmount(p, amt(it))} ${esc(p.label)}</span>${o.promo ? ' <span class="badge">AKTION' + (o.validTo || !o.live ? " bis " + fmtDate(o.validTo || DATA_INFO.aktionBis) : "") + "</span>" : ""}${o.live ? ' <span class="badge live">ECHT</span>' : ""}${o.own ? ' <span class="badge own">EIGENE</span>' : ""}
             <span class="pdesc">${o.packs > 1 ? o.packs + " × " : ""}${esc(o.name)} · ${CHF(o.unitPrice)}/${UNIT_LABEL[p.unit]}</span>${vsMain(main, p, o, amt(it))}</span>
           </label>
           <div class="price-col"><span class="now">${CHF(o.cost)}</span>${o.promo ? `<span class="was">${CHF(o.regCost)}</span>` : ""}</div>
@@ -487,20 +488,97 @@ async function loadLive() {
   }
 }
 
+
+// ---------- Selbst eingetragene Aktionen (z.B. Coop/Migros aus dem Prospekt) ----------
+const todayIso = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; };
+const ownActive = () => state.own.filter(o => o.validTo >= todayIso() && productById(o.productId) && STORES[o.store]);
+const ownName = o => { const p = productById(o.productId); const t = o.title || p.label; return `${t}${/\d/.test(t) ? "" : " " + fmtPack(p, o.size)}`; };
+// Fügt die eigenen Aktionen in die Angebote der Produkte ein (vorher alte entfernen)
+function applyOwn() {
+  for (const p of PRODUCTS) p.offers = p.offers.filter(o => !o[5]?.own);
+  for (const o of ownActive()) productById(o.productId).offers.push([o.store, ownName(o), o.size, o.price, o.regular, { validTo: o.validTo, own: true }]);
+}
+// Für die Aktionsliste im gleichen Format wie aktionen.json
+const ownDeals = () => ownActive().map(o => { const p = productById(o.productId); return { own: true, store: o.store, productId: o.productId, title: ownName(o), size: fmtPack(p, o.size),
+  price: o.price, regular: o.regular, validTo: o.validTo, discount: o.regular ? Math.round((1 - o.price / o.regular) * 100) : 0 }; });
+const nextMonday = () => { const d = new Date(); d.setDate(d.getDate() + ((8 - d.getDay()) % 7 || 7)); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; };
+const num = s => { const n = parseFloat(String(s).replace(",", ".").replace(/[^\d.]/g, "")); return n > 0 ? n : null; };
+let ownEditing = null;
+function ownUnitSync() {
+  const p = productById($("#ownProduct").value); if (!p) return;
+  $("#ownUnit").textContent = { kg: "Gramm", l: "dl", stk: "Stück" }[p.unit];
+  $("#ownSize").placeholder = { kg: "500", l: "10", stk: "6" }[p.unit];
+}
+// Eingabe "500" → 0.5 kg; "1.5 kg" → 1.5; "10" dl → 1 l; "1.5 l" → 1.5
+function ownSize(p, text) {
+  const { n, u } = parseAmount(String(text)); if (!(n > 0)) return null;
+  if (p.unit === "stk") return Math.round(n);
+  if (u) { const a = toAmount(p, n, u); return u === "x" ? null : a; }
+  return p.unit === "kg" ? r3(n / 1000) : r3(n / 10);
+}
+function renderOwn() {
+  const sel = $("#ownStore");
+  if (!sel.options.length) {
+    sel.innerHTML = Object.keys(STORES).map(s => `<option value="${s}">${STORES[s].name}</option>`).join("");
+    sel.value = state.activeStores.includes("coop") ? "coop" : state.activeStores.find(s => !LIVE_STORES().includes(s)) || "coop";
+    $("#ownProduct").innerHTML = [...PRODUCTS].sort((a, b) => a.label.localeCompare(b.label, "de")).map(p => `<option value="${p.id}">${p.icon || ""} ${esc(p.label)}</option>`).join("");
+    $("#ownValid").value = nextMonday(); ownUnitSync();
+  }
+  const list = [...state.own].sort((a, b) => b.validTo.localeCompare(a.validTo));
+  $("#ownList").innerHTML = list.length ? `<ul class="items card-list">${list.map(o => { const p = productById(o.productId); if (!p) return "";
+    const old = o.validTo < todayIso();
+    return `<li class="deal ${old ? "done" : ""}">
+      <div class="dot" style="--c:${STORES[o.store]?.color || "#888"}">${initials(o.store)}</div>
+      <div class="dname">${pic(p)}${esc(ownName(o))}</div>
+      <div class="dprice">${o.regular ? `<span class="pct">−${Math.round((1 - o.price / o.regular) * 100)}%</span> ` : ""}<b>${CHF(o.price)}</b>${o.regular ? `<s>${CHF(o.regular)}</s>` : ""}</div>
+      <div class="dsub">${STORES[o.store]?.name || o.store} · ${old ? "abgelaufen am " : "bis "}${fmtDate(o.validTo)}${o.validTo.slice(0, 4)}</div>
+      <div class="dact"><button type="button" class="add-btn" data-own-edit="${o.id}">Ändern</button><button type="button" class="icon-btn" data-own-del="${o.id}" aria-label="Löschen">✕</button></div>
+    </li>`; }).join("")}</ul>` : `<div class="empty"><span class="big">✏️</span>Noch keine eigenen Aktionen.<br>Trag oben ein, was du im Prospekt siehst.</div>`;
+}
+function ownSubmit(e) {
+  e.preventDefault();
+  const p = productById($("#ownProduct").value), st = $("#ownStatus");
+  const size = ownSize(p, $("#ownSize").value), price = num($("#ownPrice").value), regular = num($("#ownRegular").value), validTo = $("#ownValid").value;
+  const err = !size ? "Bitte die Packungsgrösse angeben." : !price ? "Bitte den Aktionspreis angeben." : regular && regular <= price ? "Der Normalpreis muss höher sein als der Aktionspreis." : !validTo ? "Bitte angeben, bis wann die Aktion gilt." : validTo < todayIso() ? "Dieses Datum ist schon vorbei." : "";
+  st.className = "status" + (err ? " err" : "");
+  if (err) { st.textContent = err; return; }
+  const entry = { id: ownEditing || Date.now(), store: $("#ownStore").value, productId: p.id, title: $("#ownTitle").value.trim(), size, price, regular: regular || null, validTo };
+  state.own = state.own.filter(o => o.id !== entry.id).concat(entry);
+  store.set("own", state.own); applyOwn();
+  st.textContent = `✓ Gespeichert: ${ownName(entry)} bei ${STORES[entry.store].name} für ${CHF(price)}.`;
+  ownEditing = null; $("#ownForm").querySelector("[type=submit]").textContent = "Aktion speichern";
+  for (const id of ["#ownTitle", "#ownSize", "#ownPrice", "#ownRegular"]) $(id).value = "";
+  renderOwn();
+}
+function ownClick(e) {
+  const ed = e.target.closest("[data-own-edit]"), del = e.target.closest("[data-own-del]");
+  if (del) { state.own = state.own.filter(o => String(o.id) !== del.dataset.ownDel); store.set("own", state.own); applyOwn(); renderOwn(); }
+  if (ed) {
+    const o = state.own.find(o => String(o.id) === ed.dataset.ownEdit); if (!o) return; const p = productById(o.productId);
+    ownEditing = o.id;
+    $("#ownStore").value = o.store; $("#ownProduct").value = o.productId; ownUnitSync(); $("#ownTitle").value = o.title || "";
+    $("#ownSize").value = p.unit === "kg" ? (o.size < 1 ? Math.round(o.size * 1000) : o.size + " kg") : p.unit === "l" ? (o.size < 1 ? r3(o.size * 10) : o.size + " l") : o.size;
+    $("#ownPrice").value = o.price.toFixed(2); $("#ownRegular").value = o.regular ? o.regular.toFixed(2) : ""; $("#ownValid").value = o.validTo < todayIso() ? nextMonday() : o.validTo;
+    $("#ownForm").querySelector("[type=submit]").textContent = "Änderung speichern"; $("#ownStatus").textContent = "";
+    window.scrollTo(0, 0);
+  }
+}
+
 // ---------- Aktionen ----------
 let dealStore = "alle";
 let dealQuery = "";
 function renderDealsLive() {
-  const stores = LIVE_STORES().filter(s => state.activeStores.includes(s));
+  const own = ownDeals();
+  const stores = [...new Set([...LIVE_STORES(), ...own.map(o => o.store)])].filter(s => state.activeStores.includes(s));
   if (dealStore !== "alle" && !stores.includes(dealStore)) dealStore = "alle";
   $("#dealFilter").innerHTML = [["alle", "Alle"], ...stores.map(s => [s, STORES[s].name])]
     .map(([k, l]) => `<button type="button" data-s="${k}" class="${dealStore === k ? "on" : ""}">${l}</button>`).join("");
-  const missing = Object.keys(STORES).filter(s => state.activeStores.includes(s) && !LIVE_STORES().includes(s)).map(s => STORES[s].name);
+  const missing = Object.keys(STORES).filter(s => state.activeStores.includes(s) && !LIVE_STORES().includes(s) && !own.some(o => o.store === s)).map(s => STORES[s].name);
   $("#dealsSub").innerHTML = `Echte Wochenaktionen, Stand ${fmtDate(LIVE.updated.slice(0, 10))}${LIVE.updated.slice(0, 4)}.${missing.length ? ` Für ${missing.join(", ")} gibt es noch keine echten Daten.` : ""}`;
   $("#favDeals").innerHTML = alarmCard(true) + `<input id="dealSearch" class="deal-search" type="search" placeholder="Aktionen durchsuchen …" value="${esc(dealQuery)}">`;
   const q = norm(dealQuery);
-  const shown = LIVE.offers.filter(o => stores.includes(o.store) && (dealStore === "alle" || o.store === dealStore) && (!q || norm(o.title + " " + o.size).includes(q)))
-    .sort((a, b) => (b.discount || 0) - (a.discount || 0)).slice(0, 150);
+  const shown = [...own, ...LIVE.offers].filter(o => stores.includes(o.store) && (dealStore === "alle" || o.store === dealStore) && (!q || norm(o.title + " " + o.size).includes(q)))
+    .sort((a, b) => (b.own ? 1 : 0) - (a.own ? 1 : 0) || (b.discount || 0) - (a.discount || 0)).slice(0, 150);
   if (!shown.length) { $("#dealList").innerHTML = `<div class="empty"><span class="big">🏷️</span>Keine passenden Aktionen gefunden.</div>`; return; }
   $("#dealList").innerHTML = `<ul class="items card-list">${shown.map(o => {
     const p = productById(o.productId), onList = p && state.items.some(i => i.productId === p.id);
@@ -508,7 +586,7 @@ function renderDealsLive() {
       ${o.image ? `<img class="dimg" src="${esc(o.image)}" alt="" loading="lazy">` : `<div class="dot" style="--c:${STORES[o.store].color}">${initials(o.store)}</div>`}
       <div class="dname">${esc(o.title)}</div>
       <div class="dprice">${o.discount ? `<span class="pct">−${o.discount}%</span> ` : ""}<b>${CHF(o.price)}</b>${o.regular ? `<s>${CHF(o.regular)}</s>` : ""}</div>
-      <div class="dsub"><span class="sdot" style="--c:${STORES[o.store].color}"></span>${STORES[o.store].name}${o.size ? " · " + esc(o.size.slice(0, 70)) : ""}${o.validTo ? " · bis " + fmtDate(o.validTo) : ""}</div>
+      <div class="dsub"><span class="sdot" style="--c:${STORES[o.store].color}"></span>${STORES[o.store].name}${o.size ? " · " + esc(o.size.slice(0, 70)) : ""}${o.validTo ? " · bis " + fmtDate(o.validTo) : ""}${o.own ? ' · <span class="badge own">EIGENE</span>' : ""}</div>
       <div class="dact">${p ? `<button type="button" class="icon-btn star ${isFav(p.id) ? "on" : ""}" data-fav="${p.id}" aria-label="Favorit">${isFav(p.id) ? "★" : "☆"}</button><button type="button" class="add-btn ${onList ? "added" : ""}" data-add="${p.id}">${onList ? "✓ auf Liste" : "+ Liste"}</button>` : o.url ? `<a class="add-btn" href="${esc(o.url)}" target="_blank" rel="noopener">Ansehen ↗</a>` : ""}</div>
     </li>`; }).join("")}</ul>`;
   const inp = $("#dealSearch");
@@ -518,7 +596,7 @@ function renderDeals() {
   if (LIVE) return renderDealsLive();
   const deals = [];
   for (const p of PRODUCTS) for (const [s, name, size, price, regular, meta] of p.offers)
-    if (!meta && regular != null && state.activeStores.includes(s)) deals.push({ p, s, name: withSize(p, name, size), price, regular, size, pct: Math.round((1 - price / regular) * 100) });
+    if ((!meta || meta.own) && regular != null && state.activeStores.includes(s)) deals.push({ p, s, own: !!meta, name: meta ? name : withSize(p, name, size), price, regular, size, pct: Math.round((1 - price / regular) * 100) });
   deals.sort((a, b) => b.pct - a.pct);
   const stores = [...new Set(deals.map(d => d.s))];
   if (dealStore !== "alle" && !stores.includes(dealStore)) dealStore = "alle";
@@ -534,7 +612,7 @@ function renderDeals() {
       <div class="dot" style="--c:${STORES[d.s].color}">${initials(d.s)}</div>
       <div class="dname">${pic(d.p)}${esc(d.name)}</div>
       <div class="dprice"><span class="pct">−${d.pct}%</span> <b>${CHF(d.price)}</b><s>${CHF(d.regular)}</s></div>
-      <div class="dsub">${STORES[d.s].name} · ${CHF(d.price / d.size)}/${UNIT_LABEL[d.p.unit]}</div>
+      <div class="dsub">${STORES[d.s].name} · ${CHF(d.price / d.size)}/${UNIT_LABEL[d.p.unit]}${d.own ? ' · <span class="badge own">EIGENE</span>' : ""}</div>
       <div class="dact"><button type="button" class="icon-btn star ${isFav(d.p.id) ? "on" : ""}" data-fav="${d.p.id}" aria-label="Favorit">${isFav(d.p.id) ? "★" : "☆"}</button><button type="button" class="add-btn ${onList ? "added" : ""}" data-add="${d.p.id}">${onList ? "✓ auf Liste" : "+ Liste"}</button></div>
     </li>`; }).join("")}</ul>`;
 }
@@ -557,7 +635,7 @@ function alarmCard(always) {
       ${always ? "" : `<button type="button" class="icon-btn" data-alarm-close aria-label="ausblenden">✕</button>`}</div>
     ${hits.map(({ p, o, pct }) => {
       const on = state.items.some(i => i.productId === p.id);
-      return `<div class="alarm-row">${pic(p)}<span class="a-txt"><b>${esc(p.label)}</b> bei ${STORES[o.store].name}: ${CHF(o.price)} statt ${CHF(o.regular)} <span class="pct">−${pct}%</span><span class="pdesc">${esc(o.name)} · bis ${fmtDate(o.validTo || DATA_INFO.aktionBis)}${o.live ? " · echte Aktion" : ""}</span></span>
+      return `<div class="alarm-row">${pic(p)}<span class="a-txt"><b>${esc(p.label)}</b> bei ${STORES[o.store].name}: ${CHF(o.price)} statt ${CHF(o.regular)} <span class="pct">−${pct}%</span><span class="pdesc">${esc(o.name)} · bis ${fmtDate(o.validTo || DATA_INFO.aktionBis)}${o.live ? " · echte Aktion" : ""}${o.own ? " · selbst eingetragen" : ""}</span></span>
       <button type="button" class="add-btn ${on ? "added" : ""}" data-add="${p.id}">${on ? "✓ auf Liste" : "+ Liste"}</button></div>`; }).join("")}</div>`;
 }
 
@@ -621,13 +699,14 @@ function renderHistory() {
 
 // ---------- Navigation ----------
 function show(view) {
-  for (const v of ["einkaufen", "liste", "aktionen", "region", "verlauf"]) $("#view-" + v).hidden = v !== view;
-  const tab = view === "region" || view === "verlauf" ? "einkaufen" : view;
+  for (const v of ["einkaufen", "liste", "aktionen", "region", "verlauf", "eintragen"]) $("#view-" + v).hidden = v !== view;
+  const tab = view === "region" || view === "verlauf" ? "einkaufen" : view === "eintragen" ? "aktionen" : view;
   document.querySelectorAll(".tabs button").forEach(b => b.classList.toggle("active", b.dataset.view === tab));
   if (view === "einkaufen") renderPlan();
   if (view === "liste") renderList();
   if (view === "aktionen") renderDeals();
   if (view === "verlauf") renderHistory();
+  if (view === "eintragen") renderOwn();
   window.scrollTo(0, 0);
   if (location.hash.slice(1) !== view) try { history.replaceState(null, "", "#" + view); } catch {}
 }
@@ -636,6 +715,10 @@ function show(view) {
 async function init() {
   loadFilialen(); // im Hintergrund vorladen
   await loadLive();
+  applyOwn();
+  $("#ownForm").addEventListener("submit", ownSubmit);
+  $("#ownProduct").addEventListener("change", ownUnitSync);
+  $("#ownList").addEventListener("click", ownClick);
   $("#standDate").textContent = fmtDate(DATA_INFO.stand) + DATA_INFO.stand.slice(0, 4);
   if (LIVE) $("#sampleNoteText").textContent = `Echte Aktionen von ${LIVE_STORES().map(s => STORES[s].name).join(", ")} (Stand ${fmtDate(LIVE.updated.slice(0, 10))}). Normalpreise und die anderen Läden sind noch Beispieldaten.`;
   $("#sampleBanner").hidden = !DATA_INFO.isSample || store.get("noteHidden", false);
@@ -701,7 +784,7 @@ async function init() {
       () => rej(new Error("Standort nicht freigegeben")), { timeout: 10000 }) : rej(new Error("kein GPS")))));
 
   renderRegion(); renderList();
-  const startView = () => { const h = location.hash.slice(1); return ["einkaufen", "liste", "aktionen", "region", "verlauf"].includes(h) ? h : "einkaufen"; };
+  const startView = () => { const h = location.hash.slice(1); return ["einkaufen", "liste", "aktionen", "region", "verlauf", "eintragen"].includes(h) ? h : "einkaufen"; };
   show(startView());
   window.addEventListener("hashchange", () => show(startView()));
   if ("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("sw.js").catch(() => {});

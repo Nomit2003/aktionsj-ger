@@ -61,9 +61,32 @@
   <section class="view" id="view-aktionen" hidden>
     <div class="view-title">Aktionen</div>
     <p class="view-sub" id="dealsSub">Die besten Rabatte in deinen Läden diese Woche.</p>
+    <button class="btn ghost block own-open" type="button" data-go="eintragen">✏️ Aktion selbst eintragen</button>
     <div id="favDeals"></div>
     <div class="chips" id="dealFilter"></div>
     <div id="dealList"></div>
+  </section>
+
+  <!-- AKTION EINTRAGEN (Unterseite von Aktionen) -->
+  <section class="view" id="view-eintragen" hidden>
+    <button class="back" type="button" data-go="aktionen">← Zurück</button>
+    <div class="view-title">Aktion eintragen</div>
+    <p class="view-sub">Für Aktionen aus dem Prospekt, z.B. von Coop oder Migros. Sie zählen danach beim Preisvergleich mit, bis sie ablaufen.</p>
+    <form class="region-card own-form" id="ownForm" autocomplete="off">
+      <label>Laden<select id="ownStore"></select></label>
+      <label>Produkt<select id="ownProduct"></select></label>
+      <label><span>Bezeichnung <span class="muted">(freiwillig)</span></span><input id="ownTitle" type="text" placeholder="z.B. Naturafarm Pouletbrust"></label>
+      <label>Packung<span class="own-pack"><input id="ownSize" type="text" inputmode="decimal" placeholder="500"><span id="ownUnit" class="muted"></span></span></label>
+      <div class="own-two">
+        <label><span>Aktionspreis</span><input id="ownPrice" type="text" inputmode="decimal" placeholder="7.95"></label>
+        <label><span>Normalpreis <span class="muted">(freiwillig)</span></span><input id="ownRegular" type="text" inputmode="decimal" placeholder="11.50"></label>
+      </div>
+      <label>Gültig bis<input id="ownValid" type="date"></label>
+      <p class="status" id="ownStatus"></p>
+      <button class="btn primary block" type="submit">Aktion speichern</button>
+    </form>
+    <h3>Deine eingetragenen Aktionen</h3>
+    <div id="ownList"></div>
   </section>
 
   <!-- VERLAUF (Unterseite vom Home) -->

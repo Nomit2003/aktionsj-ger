@@ -15,7 +15,7 @@
 |---|---|
 | Filialen in deiner Region | **Echt** (OpenStreetMap, live abgefragt) |
 | Aktionen Volg, Denner, Lidl, Aldi | **Echt**, täglich automatisch geladen (`scripts/aktionen.py` → `aktionen.json`) |
-| Aktionen Migros, Coop, Spar | noch Beispieldaten: Coop sperrt automatische Abrufe, Migros verbietet die Aktionsseiten in robots.txt, Spar hat keine Aktionsliste |
+| Aktionen Migros, Coop, Spar | noch Beispieldaten: Coop sperrt automatische Abrufe, Migros verbietet die Aktionsseiten in robots.txt, Spar hat keine Aktionsliste. Dafür gibt es unter „Aktionen“ den Knopf **„Aktion selbst eintragen“**: Aktionen aus dem Prospekt werden im Browser gespeichert und zählen beim Vergleich mit, bis sie ablaufen. |
 | Normalpreise | **Beispieldaten**, von Hand geschätzt (`data.js`) |
 
 ## Mögliche echte Datenquellen (Recherche)
