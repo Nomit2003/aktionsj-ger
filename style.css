@@ -283,3 +283,5 @@ a.add-btn{text-decoration:none;display:inline-block}
 .switch-row input:checked + .switch{background:var(--accent)}
 .switch-row input:checked + .switch::after{transform:translateX(18px)}
 .switch-row input:focus-visible + .switch{outline:2px solid var(--accent);outline-offset:2px}
+.est{color:var(--muted);font-weight:600;margin-right:2px}
+.est-note{margin:6px 0 0}

@@ -35,6 +35,8 @@ def statt_prices():
             continue  # Konkurrenzvergleich oder unbekannt
         if o.get("cat") and o["cat"] != "Food":
             continue
+        if re.search(r"nur (im|in der) (Tessin|Romandie|Westschweiz)", o["title"], re.I):
+            continue  # regionale Preise
         out.append({"store": o["store"], "title": o["title"], "size": o.get("size", ""), "price": o["regular"], "date": TODAY, "src": "statt"})
     return out
 
@@ -56,6 +58,9 @@ def aldi_sortiment():
             links = page.eval_on_selector_all("a[href*='/de/produkte/']", "as => as.map(a => a.href)")
             lists += [l.split("?")[0] for l in links if re.search(r"/k/\d+$", l.split("?")[0])]
         lists = list(dict.fromkeys(lists))
+        # Unterkategorien weglassen, wenn die Oberkategorie schon dabei ist (enthält dieselben Produkte)
+        path = lambda u: u.split("/de/produkte/")[1].rsplit("/k/", 1)[0]
+        lists = [l for l in lists if not any(path(l) != path(o) and path(l).startswith(path(o) + "/") for o in lists)]
         print("Aldi Produktlisten:", len(lists))
         for base in lists:
             for pg in range(1, 15):  # robots.txt erlaubt ?page=

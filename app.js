@@ -104,7 +104,7 @@ const withSize = (p, name, size) => /\d/.test(name) ? name : `${name} ${fmtPack(
 function offersFor(p, stores, amount = refAmount(p)) {
   return p.offers.filter(o => stores.includes(o[0])).map(([s, name, size, price, regular, meta]) => {
     const packs = Math.max(1, Math.ceil(amount / size - 1e-9));
-    return { store: s, live: !!meta && !meta.own, own: !!meta?.own, validTo: meta?.validTo, url: meta?.url, name: meta ? name : withSize(p, name, size), size, price, regular, promo: regular != null, unitPrice: price / size, packs, cost: packs * price,
+    return { store: s, live: !!meta && !meta.own && !meta.real, own: !!meta?.own, real: !!meta?.real, est: !meta, validTo: meta?.validTo, url: meta?.url, name: meta ? name : withSize(p, name, size), size, price, regular, promo: regular != null, unitPrice: price / size, packs, cost: packs * price,
       regCost: regular != null ? packs * regular : null };
   }).sort((a, b) => a.cost - b.cost || a.unitPrice - b.unitPrice);
 }
@@ -270,7 +270,7 @@ function renderPlan() {
             <span><span class="pname">${pic(p)}${fmtAmount(p, amt(it))} ${esc(p.label)}</span>${o.promo ? ' <span class="badge">AKTION' + (o.validTo || !o.live ? " bis " + fmtDate(o.validTo || DATA_INFO.aktionBis) : "") + "</span>" : ""}${o.live ? ' <span class="badge live">ECHT</span>' : ""}${o.own ? ' <span class="badge own">EIGENE</span>' : ""}
             <span class="pdesc">${o.packs > 1 ? o.packs + " × " : ""}${esc(o.name)} · ${CHF(o.unitPrice)}/${UNIT_LABEL[p.unit]}</span>${vsMain(main, p, o, amt(it))}</span>
           </label>
-          <div class="price-col"><span class="now">${CHF(o.cost)}</span>${o.promo ? `<span class="was">${CHF(o.regCost)}</span>` : ""}</div>
+          <div class="price-col"><span class="now">${o.est ? '<span class="est" title="geschätzt">≈</span>' : ""}${CHF(o.cost)}</span>${o.promo ? `<span class="was">${CHF(o.regCost)}</span>` : ""}</div>
         </div>
         ${compareTable(p, amt(it))}
       </div>`).join("");
@@ -320,13 +320,13 @@ function hintCard(plan, main) {
     <button class="btn primary small" type="button" data-force="${main}">Nur ${m}</button></div>`;
 }
 function compareTable(p, amount) {
-  const all = offersFor(p, Object.keys(STORES), amount).map(o => ({ s: o.store, name: (o.packs > 1 ? o.packs + " × " : "") + o.name, price: o.cost, regular: o.regular, up: o.unitPrice }));
+  const all = offersFor(p, Object.keys(STORES), amount).map(o => ({ s: o.store, name: (o.packs > 1 ? o.packs + " × " : "") + o.name, price: o.cost, regular: o.regular, up: o.unitPrice, est: o.est }));
   const bestActive = all.find(o => state.activeStores.includes(o.s));
   return `<details class="compare"><summary>Alle Preise für ${fmtAmount(p, amount)} vergleichen</summary><table>${all.map(o => {
     const active = state.activeStores.includes(o.s);
     return `<tr class="${active ? (o === bestActive ? "best" : "") : "na"}"><td>${STORES[o.s].name}${active ? "" : " (nicht in Region)"}<br><span class="muted">${esc(o.name)}</span></td>
-      <td>${CHF(o.price)}${o.regular ? ' <span class="badge">AKTION</span>' : ""}<br><span class="muted">${CHF(o.up)}/${UNIT_LABEL[p.unit]}</span></td></tr>`;
-  }).join("")}</table></details>`;
+      <td>${o.est ? '<span class="est" title="geschätzt">≈</span>' : ""}${CHF(o.price)}${o.regular ? ' <span class="badge">AKTION</span>' : ""}<br><span class="muted">${CHF(o.up)}/${UNIT_LABEL[p.unit]}</span></td></tr>`;
+  }).join("")}</table>${all.some(o => o.est) ? ESTIMATED_NOTE : ""}</details>`;
 }
 function nearestText(s) {
   const f = state.region?.found?.[s]; if (!f || !f.length) return "";
@@ -456,7 +456,9 @@ const LIVE_STORES = () => LIVE ? Object.keys(LIVE.stores).filter(s => LIVE.store
 function liveSize(text, unit) {
   const t = text.toLowerCase().replace(/(\d),(\d)/g, "$1.$2").replace(/(\d|\b)\s*liter\b/g, "$1 l").replace(/(\d|\b)\s*gramm\b/g, "$1 g").replace(/\bkilo(gramm)?\b/g, "kg");
   const conv = { kg: ["kg", 1], g: ["kg", 0.001], l: ["l", 1], dl: ["l", 0.1], cl: ["l", 0.01], ml: ["l", 0.001] };
-  let m = t.match(/(\d+)\s*[x×]\s*(\d+(?:\.\d+)?)\s*(kg|g|l|dl|cl|ml)\b/);
+  let m = t.match(/(?:pro|per|je|für)\s*(\d+)\s*(g|ml|cl|dl)\b/); // Preis "per 100 g"
+  if (m && conv[m[2]][0] === unit) return +m[1] * conv[m[2]][1];
+  m = t.match(/(\d+)\s*[x×]\s*(\d+(?:\.\d+)?)\s*(kg|g|l|dl|cl|ml)\b/);
   if (m && conv[m[3]][0] === unit) return +m[1] * +m[2] * conv[m[3]][1];
   m = t.match(/(\d+(?:\.\d+)?)\s*(kg|g|l|dl|cl|ml)\b/);
   if (m && conv[m[2]][0] === unit) return +m[1] * conv[m[2]][1];
@@ -576,6 +578,32 @@ function ownClick(e) {
     window.scrollTo(0, 0);
   }
 }
+
+// ---------- Echte Normalpreise (normalpreise.json: Aldi-Sortiment + statt-Preise aus Aktionen) ----------
+let NORMAL = null; const NORMAL_STATS = {};
+async function loadNormal() {
+  try {
+    const ctl = new AbortController(); setTimeout(() => ctl.abort(), 6000);
+    const r = await fetch("normalpreise.json", { cache: "no-cache", signal: ctl.signal }); if (!r.ok) return;
+    NORMAL = await r.json();
+  } catch { return; }
+  const best = {};
+  for (const it of NORMAL.items) {
+    if (!STORES[it.store] || /nur (im|in der) (tessin|romandie|westschweiz)/i.test(it.title)) continue;
+    const p = liveMatch(it.title); if (!p) continue;
+    const size = liveSize(`${it.size} ${it.title}`, p.unit); if (!size) continue;
+    const sample = p.offers.filter(o => !o[5]).map(o => o[2]), ref = sample.length ? sample.sort((x, y) => x - y)[Math.floor(sample.length / 2)] : size;
+    if (size < ref / 6 || size > ref * 6) continue; // ganz andere Packungsgrösse (z.B. Probierpackung, Grosspackung)
+    const k = p.id + "|" + it.store, up = it.price / size;
+    if (!best[k] || up < best[k].up) best[k] = { p, it, size, up };
+  }
+  for (const { p, it, size } of Object.values(best)) {
+    p.offers = p.offers.filter(o => o[0] !== it.store || o[5]); // geschätzten Preis dieses Ladens ersetzen
+    p.offers.push([it.store, `${it.title}${/\d\s*(g|kg|l|dl|cl|ml|stk|stück)\b/i.test(it.title) ? "" : " " + fmtPack(p, size)}`, size, it.price, null, { real: true, date: it.date, src: it.src, url: it.url }]);
+    NORMAL_STATS[it.store] = (NORMAL_STATS[it.store] || 0) + 1;
+  }
+}
+const ESTIMATED_NOTE = `<p class="muted small est-note">≈ = geschätzter Preis. Für diesen Laden gibt es (noch) keinen echten Preis.</p>`;
 
 // ---------- Aktionen ----------
 let dealStore = "alle";
@@ -743,16 +771,19 @@ function show(view) {
 // ---------- Start ----------
 async function init() {
   loadFilialen(); // im Hintergrund vorladen
-  await loadLive();
+  await Promise.all([loadLive(), loadNormal()]);
   applyOwn();
   $("#ownForm").addEventListener("submit", ownSubmit);
   $("#ownProduct").addEventListener("change", ownUnitSync);
   $("#ownList").addEventListener("click", ownClick);
   $("#standDate").textContent = fmtDate(DATA_INFO.stand) + DATA_INFO.stand.slice(0, 4);
   if (LIVE) { const rest = Object.keys(STORES).filter(s => !LIVE_STORES().includes(s)).map(s => STORES[s].name);
-    $("#sampleNoteText").textContent = `Echte Aktionen von ${LIVE_STORES().map(s => STORES[s].name).join(", ")} (Stand ${fmtDate(LIVE.updated.slice(0, 10))}). Für ${rest.join(", ")} sind es Beispielpreise, ihre Aktionen kannst du unter „Aktionen“ selbst eintragen.`; }
-  $("#sampleBanner").hidden = !DATA_INFO.isSample || store.get("noteHidden", false);
-  $("#hideNote").addEventListener("click", () => { $("#sampleBanner").hidden = true; store.set("noteHidden", true); });
+    const real = Object.keys(NORMAL_STATS).map(s => STORES[s].name), noReal = Object.keys(STORES).filter(s => !NORMAL_STATS[s]).map(s => STORES[s].name);
+    $("#sampleNoteText").textContent = `Echte Aktionen von ${LIVE_STORES().map(s => STORES[s].name).join(", ")} (Stand ${fmtDate(LIVE.updated.slice(0, 10))}).`
+      + (real.length ? ` Echte Normalpreise: ${real.join(", ")}${NORMAL_STATS.aldi ? " (Aldi ganzes Sortiment, die anderen teilweise)" : " (teilweise)"}.` : "")
+      + ` Mit ≈ markierte Preise sind geschätzt${noReal.length ? `, bei ${noReal.join(", ")} immer` : ""}. Aktionen von ${rest.join(", ")} kannst du selbst eintragen.`; }
+  $("#sampleBanner").hidden = !DATA_INFO.isSample || store.get("noteHidden2", false);
+  $("#hideNote").addEventListener("click", () => { $("#sampleBanner").hidden = true; store.set("noteHidden2", true); });
   document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => show(b.dataset.view)));
   $("#regionChip").addEventListener("click", () => show("region"));
   $("#toPlan").addEventListener("click", () => show("einkaufen"));
