@@ -130,26 +130,30 @@ def aldi():
         br = pw.chromium.launch()
         page = br.new_page(user_agent=UA, locale="de-CH", viewport={"width": 1280, "height": 900})
         for k in keys:
-            url = f"https://www.aldi-suisse.ch/de/aktionen-und-angebote/{k.isoformat()}"
-            page.goto(url, wait_until="domcontentloaded", timeout=60000)
-            page.wait_for_timeout(6000)
-            for _ in range(12):  # weiterscrollen, bis alle Produkte geladen sind
-                page.mouse.wheel(0, 4000); page.wait_for_timeout(800)
-            tiles = page.eval_on_selector_all("a[href]", """els => els.filter(e => /CHF/.test(e.innerText) && e.innerText.length < 400)
-                .map(e => ({href: e.href, text: e.innerText, img: (e.querySelector('img') || {}).src || null}))""")
-            for t in tiles:
-                if t["href"] in seen: continue
-                seen.add(t["href"])
-                lines = [l.strip() for l in t["text"].splitlines() if l.strip() and not l.strip().startswith("verfügbar")]
-                pm = re.search(r"CHF\s*([\d.]+)", t["text"])
-                if not pm or not lines: continue
-                name_lines = [l for l in lines if "CHF" not in l and not re.match(r"^\(.*\)$", l)]
-                title = " ".join(name_lines[:2])[:120]
-                size = " ".join(l for l in lines if re.search(r"\d\s*(g|kg|ml|l|Stück)\b", l) and "CHF" in l)[:80]
-                o = offer("aldi", title, size, chf(pm.group(1)), None, k.isoformat(), (k + timedelta(days=6)).isoformat(),
-                          t["img"], t["href"])
-                if o: out.append(o)
-            print(f"aldi {k}: {len(tiles)} Kacheln")
+            for pg in range(1, 6):  # robots.txt erlaubt ?page=
+                url = f"https://www.aldi-suisse.ch/de/aktionen-und-angebote/{k.isoformat()}" + (f"?page={pg}" if pg > 1 else "")
+                page.goto(url, wait_until="domcontentloaded", timeout=60000)
+                page.wait_for_timeout(5000)
+                for _ in range(10):  # weiterscrollen, bis alle Produkte geladen sind
+                    page.mouse.wheel(0, 4000); page.wait_for_timeout(700)
+                tiles = page.eval_on_selector_all("a[href*='/produkt/']", """els => els.filter(e => /CHF/.test(e.innerText) && e.innerText.length < 400)
+                    .map(e => ({href: e.href, text: e.innerText, img: (e.querySelector('img') || {}).src || null}))""")
+                new = 0
+                for t in tiles:
+                    if t["href"] in seen: continue
+                    seen.add(t["href"]); new += 1
+                    text = t["text"].replace("\xa0", " ")
+                    lines = [l.strip() for l in text.splitlines() if l.strip() and not l.strip().lower().startswith("verfügbar")]
+                    prices = re.findall(r"CHF\s*(\d+(?:\.\d+)?)(?!\d|\.\d|\s*/)", text)  # ohne Grundpreise wie "CHF 2.49/100 g"
+                    if not prices: continue
+                    sizes = [l for l in lines if re.match(r"^[\d.,]+\s*(x\s*[\d.,]+\s*)?(g|kg|ml|cl|dl|l|Stück|Stk\.?)\b", l)]
+                    unit = [l for l in lines if re.search(r"CHF\s*[\d.]+\s*/", l)]
+                    name_lines = [l for l in lines if "CHF" not in l and l not in sizes and not l.startswith("(") and not l.startswith("Gekühlt")]
+                    o = offer("aldi", " ".join(name_lines[:2])[:120], " ".join(sizes + unit)[:80], chf(prices[-1]), None,
+                              k.isoformat(), (k + timedelta(days=6)).isoformat(), t["img"], t["href"])
+                    if o: out.append(o)
+                print(f"aldi {k} Seite {pg}: {len(tiles)} Kacheln, {new} neu")
+                if len(tiles) < 60 or new == 0: break
         br.close()
     if out: print("ALDI BEISPIEL:", out[:3])
     return out
