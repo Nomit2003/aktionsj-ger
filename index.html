@@ -41,6 +41,7 @@
   <section class="view" id="view-liste" hidden>
     <div class="view-title">Einkaufsliste</div>
     <p class="view-sub">Schreib auf, was du brauchst. Unter „Einkaufen“ siehst du dann, wo du es am günstigsten bekommst.</p>
+    <div id="shareIn"></div>
     <form class="add-row" id="addForm" autocomplete="off">
       <div class="add-input-wrap">
         <input id="addInput" type="text" placeholder="z.B. 500 g Pouletbrust, 6 l Milch …" aria-label="Produkt hinzufügen">
@@ -48,6 +49,10 @@
       </div>
       <button class="btn primary" type="submit">OK</button>
     </form>
+    <div class="list-tools">
+      <button class="btn ghost small" type="button" data-go="scan">📷 Strichcode scannen</button>
+      <button class="btn ghost small share-chip" id="shareChip" type="button" data-go="teilen">👪 Teilen</button>
+    </div>
     <div id="favRow"></div>
     <div id="listEmpty" class="empty"><span class="big">📝</span>Deine Liste ist leer.<br>Tipp oben ein Produkt ein, z.B. Pouletbrust.</div>
     <div id="itemList"></div>
@@ -62,6 +67,7 @@
     <div class="view-title">Aktionen</div>
     <p class="view-sub" id="dealsSub">Die besten Rabatte in deinen Läden diese Woche.</p>
     <button class="btn ghost block own-open" type="button" data-go="eintragen">✏️ Aktion selbst eintragen</button>
+    <div class="region-card notify-card" id="notifyBox"></div>
     <div id="favDeals"></div>
     <div class="chips" id="dealFilter"></div>
     <div id="dealList"></div>
@@ -99,6 +105,31 @@
     </form>
     <h3>Deine eingetragenen Aktionen</h3>
     <div id="ownList"></div>
+  </section>
+
+  <!-- STRICHCODE (Unterseite der Einkaufsliste) -->
+  <section class="view" id="view-scan" hidden>
+    <button class="back" type="button" data-go="liste">← Zurück</button>
+    <div class="view-title">Strichcode scannen</div>
+    <p class="view-sub">Scanne ein Produkt im Laden und sieh sofort, wo es in deiner Region günstiger ist.</p>
+    <button class="btn primary block" id="scanStart" type="button">📷 Kamera starten</button>
+    <div class="scan-box" id="scanBox" hidden><video id="scanVideo" playsinline muted></video><div class="scan-frame"></div>
+      <button class="btn ghost small scan-stop" id="scanStop" type="button">Stopp</button></div>
+    <form class="add-row ean-form" id="eanForm" autocomplete="off">
+      <input id="eanInput" type="text" inputmode="numeric" placeholder="oder Nummer eintippen, z.B. 7610200…" aria-label="Strichcode-Nummer">
+      <button class="btn ghost" type="submit">Suchen</button>
+    </form>
+    <p class="status" id="scanMsg"></p>
+    <div id="scanOut"></div>
+  </section>
+
+  <!-- TEILEN (Unterseite der Einkaufsliste) -->
+  <section class="view" id="view-teilen" hidden>
+    <button class="back" type="button" data-go="liste">← Zurück</button>
+    <div class="view-title">Liste teilen</div>
+    <p class="view-sub">Gemeinsam einkaufen mit Familie oder WG.</p>
+    <div id="shareBox"></div>
+    <p class="status" id="shareStatus"></p>
   </section>
 
   <!-- VERLAUF (Unterseite vom Home) -->
@@ -146,7 +177,9 @@
 
 <script src="data.js"></script>
 <script src="catalog.js"></script>
+<script src="firebase-config.js"></script>
 <script src="app.js"></script>
 <script src="prospekt.js"></script>
+<script src="extras.js"></script>
 </body>
 </html>

@@ -32,3 +32,15 @@ Der Workflow `.github/workflows/aktionen.yml` läuft jeden Morgen und übernimmt
 - `data.js`: Produkte und Preise (später automatisch wöchentlich erzeugt)
 - `catalog.js`: ganzes Supermarkt-Sortiment (Gemüse, Früchte, Fleisch, Käse, Getränke, Haushalt, Hygiene …) mit Suchwörtern und Kategorien
 - `manifest.json`, `sw.js`, `icon.svg`: damit sie wie eine Handy-App installierbar ist und offline startet
+
+## Gemeinsame Liste (Firebase einrichten)
+Die Live-Liste nutzt die kostenlose Firebase Realtime Database. Einmalig:
+1. https://console.firebase.google.com → Projekt hinzufügen (z.B. „aktionsjaeger“), Google Analytics aus.
+2. Links „Build → Realtime Database“ → Datenbank erstellen → Standort **Belgien (europe-west1)** → „Im gesperrten Modus starten“.
+3. Tab „Regeln“ → Folgendes einfügen → Veröffentlichen:
+```json
+{ "rules": { "lists": { "$id": { ".read": "$id.length >= 20", ".write": "$id.length >= 20" } } } }
+```
+4. Zahnrad → Projekteinstellungen → „Meine Apps“ → Web-App `</>` hinzufügen → den `firebaseConfig`-Block in `firebase-config.js` als `window.FIREBASE_CONFIG = {...}` eintragen.
+
+Weitere Funktionen: Strichcode-Scan (ZXing, `lib/zxing/`, Produktdaten von Open Food Facts), Mitteilungen bei Aktionen für Favoriten (nur wenn eingeschaltet, beim Öffnen der App).

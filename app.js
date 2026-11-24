@@ -24,7 +24,7 @@ const state = {
 };
 const save = () => { store.set("items", state.items); store.set("activeStores", state.activeStores);
   store.set("region", state.region); store.set("maxStores", state.maxStores); store.set("forceStore", state.forceStore);
-  store.set("favs", state.favs); store.set("history", state.history); };
+  store.set("favs", state.favs); store.set("history", state.history); window.onItemsSaved?.(); };
 const isFav = id => state.favs.includes(id);
 function toggleFav(id) { state.favs = isFav(id) ? state.favs.filter(x => x !== id) : [...state.favs, id]; save(); }
 const pic = p => `<span class="pic" aria-hidden="true">${p?.icon || "🛒"}</span>`;
@@ -726,14 +726,16 @@ function renderHistory() {
 
 // ---------- Navigation ----------
 function show(view) {
-  for (const v of ["einkaufen", "liste", "aktionen", "region", "verlauf", "eintragen"]) $("#view-" + v).hidden = v !== view;
-  const tab = view === "region" || view === "verlauf" ? "einkaufen" : view === "eintragen" ? "aktionen" : view;
+  if (view !== "scan" && typeof stopScan === "function" && !$("#view-scan").hidden) stopScan();
+  for (const v of ["einkaufen", "liste", "aktionen", "region", "verlauf", "eintragen", "scan", "teilen"]) $("#view-" + v).hidden = v !== view;
+  const tab = view === "region" || view === "verlauf" ? "einkaufen" : view === "eintragen" ? "aktionen" : view === "scan" || view === "teilen" ? "liste" : view;
   document.querySelectorAll(".tabs button").forEach(b => b.classList.toggle("active", b.dataset.view === tab));
   if (view === "einkaufen") renderPlan();
   if (view === "liste") renderList();
   if (view === "aktionen") renderDeals();
   if (view === "verlauf") renderHistory();
   if (view === "eintragen") renderOwn();
+  if (view === "teilen") renderShare();
   window.scrollTo(0, 0);
   if (location.hash.slice(1) !== view) try { history.replaceState(null, "", "#" + view); } catch {}
 }
@@ -817,8 +819,11 @@ async function init() {
       () => rej(new Error("Standort nicht freigegeben")), { timeout: 10000 }) : rej(new Error("kein GPS")))));
 
   renderRegion(); renderList();
-  const startView = () => { const h = location.hash.slice(1); return ["einkaufen", "liste", "aktionen", "region", "verlauf", "eintragen"].includes(h) ? h : "einkaufen"; };
-  show(startView());
+  const startView = () => { const h = location.hash.slice(1); if (/^(import|gruppe)=/.test(h)) return "liste"; return ["einkaufen", "liste", "aktionen", "region", "verlauf", "eintragen", "scan", "teilen"].includes(h) ? h : "einkaufen"; };
+  const first = startView();
+  if (window.initExtras) initExtras(); // liest #import / #gruppe, bevor die Adresse umgeschrieben wird
+  if (location.hash.startsWith("#import=")) { for (const v of document.querySelectorAll(".view")) v.hidden = v.id !== "view-liste"; document.querySelectorAll(".tabs button").forEach(b => b.classList.toggle("active", b.dataset.view === "liste")); renderList(); }
+  else show(first);
   window.addEventListener("hashchange", () => show(startView()));
   if ("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("sw.js").catch(() => {});
 }
