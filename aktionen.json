@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-24T12:37+01:00",
+ "updated": "2026-11-25T06:20+01:00",
  "stores": {
   "volg": {
    "ok": true,
    "count": 25,
-   "updated": "2026-11-24"
+   "updated": "2026-11-25"
   },
   "denner": {
    "ok": true,
    "count": 32,
-   "updated": "2026-11-24"
+   "updated": "2026-11-25"
   },
   "lidl": {
    "ok": true,
-   "count": 233,
-   "updated": "2026-11-24"
+   "count": 236,
+   "updated": "2026-11-25"
   },
   "aldi": {
    "ok": true,
-   "count": 207,
-   "updated": "2026-11-24"
+   "count": 208,
+   "updated": "2026-11-25"
   }
  },
  "offers": [
@@ -32,7 +32,7 @@
    "discount": 30,
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/8/7/csm_promo_77879_de_b57c4865f2.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/8/7/csm_promo_77879_de_e9e014f831.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -45,7 +45,7 @@
    "discount": 20,
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/d/7/csm_promo_77876_de_c74b009cc0.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/d/7/csm_promo_77876_de_3d5b01aea3.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -58,7 +58,7 @@
    "discount": 20,
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/d/d/csm_promo_77844_de_f8a9f73905.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/d/d/csm_promo_77844_de_f316c32425.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -71,7 +71,7 @@
    "discount": 21,
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/6/d/csm_promo_77895_de_56a08d55a6.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/6/d/csm_promo_77895_de_a25eb42792.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -84,7 +84,7 @@
    "discount": 23,
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/0/1/csm_promo_77890_de_eb28cc22ce.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/0/1/csm_promo_77890_de_8321e90d57.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -97,7 +97,7 @@
    "discount": 31,
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/6/a/csm_promo_77833_de_d6d89dc26c.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/6/a/csm_promo_77833_de_d375ed158f.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -110,7 +110,7 @@
    "discount": 22,
    "validFrom": "2026-11-25",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/5/1/csm_promo_77830_de_7454a68818.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/5/1/csm_promo_77830_de_abb5fceb65.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -123,7 +123,7 @@
    "discount": 26,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/3/1/csm_promo_77825_de_b5b0066c5d.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/3/1/csm_promo_77825_de_b3db1f3c86.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -136,7 +136,7 @@
    "discount": 24,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/8/2/csm_promo_77810_de_af8d97e317.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/8/2/csm_promo_77810_de_eb337588f0.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -149,7 +149,7 @@
    "discount": 39,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/b/5/csm_promo_78097_de_c477fe511a.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/b/5/csm_promo_78097_de_421e9c84cd.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -162,7 +162,7 @@
    "discount": 41,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/b/c/csm_promo_77796_de_df05a723fc.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/b/c/csm_promo_77796_de_44bd68aec0.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -175,7 +175,7 @@
    "discount": 20,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/c/9/csm_promo_77785_de_d3b971e9a0.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/c/9/csm_promo_77785_de_021caa3c86.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -188,7 +188,7 @@
    "discount": 24,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/8/4/csm_promo_77788_de_7c00c524b0.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/8/4/csm_promo_77788_de_b495a1b343.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -201,7 +201,7 @@
    "discount": 20,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/d/b/csm_promo_77792_de_6b60b8096a.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/d/b/csm_promo_77792_de_e41f4adb10.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -214,7 +214,7 @@
    "discount": 20,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/1/3/csm_promo_77889_de_9cfae1605d.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/1/3/csm_promo_77889_de_5d1207a008.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -227,7 +227,7 @@
    "discount": 22,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/2/2/csm_promo_77762_de_9aca53fa61.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/2/2/csm_promo_77762_de_d571514131.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -240,7 +240,7 @@
    "discount": 20,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-28",
-   "image": "https://www.volg.ch/fileadmin/_processed_/0/5/csm_promo_77781_de_a4f6ba5b77.jpg",
+   "image": "https://www.volg.ch/fileadmin/_processed_/0/5/csm_promo_77781_de_21a2741989.jpg",
    "url": "https://www.volg.ch/sortiment/wochenaktionen/",
    "cat": null
   },
@@ -3294,6 +3294,45 @@
   },
   {
    "store": "lidl",
+   "title": "GORDON'S London Dry Gin",
+   "size": "Teilweise nicht lieferbar 37,5% Vol. Pro 1 l",
+   "price": 22.45,
+   "regular": null,
+   "discount": null,
+   "validFrom": "2026-11-26",
+   "validTo": null,
+   "image": "https://imgproxy-retcat.assets.schwarz/8CWHSdzXC41InP21FswersqDcD4ieVbBhnitjsPC32o/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS80QzIwNjY0OTExMjUxM0M0OEM3OTQ1QkU/0NDc5QTg5RDQwQUFCODVBNzdEM0MwQzkwNjcxNjEzNUJBRjRDMDhDLnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/gordon-s-london-dry-gin/p10062540",
+   "cat": "Food"
+  },
+  {
+   "store": "lidl",
+   "title": "JOHNNIE WALKER Red Label",
+   "size": "Teilweise nicht lieferbar 40% Vol. Pro 1 l",
+   "price": 22.45,
+   "regular": null,
+   "discount": null,
+   "validFrom": "2026-11-26",
+   "validTo": null,
+   "image": "https://imgproxy-retcat.assets.schwarz/avK8q6HGTFXEkntieu_ZxpsBGTX88a29pBPIQ4hU6es/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9FRjZDNjBEODQ3NEU0Mjc1Q0EzQkM1MEM/5QzI2QUU1RTgwNUQ0M0U0OTU3NjkyNEQ0MDdCRTc0MUVFRDk1NTZGLnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/johnnie-walker-red-label/p10062541",
+   "cat": "Food"
+  },
+  {
+   "store": "lidl",
+   "title": "BAILEYS Original",
+   "size": "Teilweise nicht lieferbar 17% Vol. Pro 1 l",
+   "price": 21.49,
+   "regular": null,
+   "discount": null,
+   "validFrom": "2026-11-26",
+   "validTo": null,
+   "image": "https://imgproxy-retcat.assets.schwarz/JS1Bac4zTGakEKMOgfJyH9xg1DMDmBfZwpED1Z286HQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9ENkM0MkZDQ0NEODhGMEFGOTFGMjA4OTQ/xMTczM0U4RDg5NjZDREE1OUI0NzI2NUM3MzMzNzY3NjhGMDQxOTYyLnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/baileys-original/p10062542",
+   "cat": "Food"
+  },
+  {
+   "store": "lidl",
    "title": "VARTA Longlife Batterien Big Box",
    "size": "AAA und AA Pro 12 Stück 1 Stück = 0.83",
    "price": 9.99,
@@ -4984,14 +5023,14 @@
   },
   {
    "store": "aldi",
-   "title": "NEUTROGENA Handcreme, unparfümiert",
+   "title": "NEUTROGENA Handcrème, unparfümiert",
    "size": "",
    "price": 5.99,
    "regular": null,
    "discount": null,
    "validFrom": "2026-11-23",
    "validTo": "2026-11-29",
-   "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/232/19ddd218-2c30-434f-96d3-c48e4a0ea5f6/Handcreme%20unparfmiert",
+   "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/232/19ddd218-2c30-434f-96d3-c48e4a0ea5f6/Handcrme%20unparfmiert",
    "url": "https://www.aldi-suisse.ch/de/produkt/neutrogena-handcreme-unparfuemiert-000000000000710483",
    "cat": null
   },
@@ -5227,6 +5266,19 @@
    "validTo": "2026-11-29",
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/232/e672c2df-3549-4490-bdf0-d13dce2fbe56/Toastbrtchen%20Mehrkorn",
    "url": "https://www.aldi-suisse.ch/de/produkt/goldaehren-toastbroetchen-mehrkorn-000000000188405002",
+   "cat": null
+  },
+  {
+   "store": "aldi",
+   "title": "Vegan GOLDÄHREN",
+   "size": "335 g (CHF 0.47/100 g)",
+   "price": 1.59,
+   "regular": null,
+   "discount": null,
+   "validFrom": "2026-11-23",
+   "validTo": "2026-11-29",
+   "image": "https://dm.emea.cms.aldi.cx/is/content/aldiprodeu/brandsymbol-grey_new-2",
+   "url": "https://www.aldi-suisse.ch/de/produkt/goldaehren-toastbroetchen-dinkel-000000000188405003",
    "cat": null
   },
   {
